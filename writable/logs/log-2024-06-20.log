@@ -1,0 +1,54 @@
+INFO - 2024-06-20 00:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 00:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 00:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 00:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 00:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 00:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 00:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 00:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 00:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 00:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 00:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-20 00:23:05 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionDispositivosController.php on line 363.
+ 1 APPPATH\Controllers\GestionDispositivosController.php(363): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionDispositivosController.php(106): App\Controllers\GestionDispositivosController->datatables('[{"id":"1","marca":"Samsung","modelo":"Galaxy S1","placa":"4548LZY","descripcion":"Dispositivo GPS integrado en smartphone","detalles":"GPS de alta precision\\r\\n ","created_at":"2024-06-06 11:15:43"},{"id":"2","marca":"Samsung","modelo":"GalaxyS1","placa":"4357XLA","descripcion":"Dispositivo GPS integrado en smartphone","detalles":"Gps de Dispositivo movil integrado","created_at":"2024-06-06 11:26:41"},{"id":"3","marca":"Xiaomi","modelo":"Redmi 11","placa":"2589WQZ","descripcion":"Dispositivo GPS integrado en smartphone","detalles":"Dispositivo integrado ","created_at":"2024-06-06 11:27:20"},{"id":"4","marca":"Xiaomi","modelo":"Redmi 10","placa":"6843WQP","descripcion":"Dispositivo GPS integrado en smartphone","detalles":"Dispositivo GPS del dispositivo","created_at":"2024-06-06 11:28:03"},{"id":"5","marca":"Xiaomi","modelo":"Redmi 10Pro","placa":"965PQC","descripcion":"Dispositivo GPS integrado en smartphone","detalles":"Dispostivo intregrado en el movil","created_at":"2024-06-06 11:28:50"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionDispositivosController->DatosDispositivoGPSView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionDispositivosController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-20 00:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 00:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-20 00:23:13 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionDispositivosController.php on line 363.
+ 1 APPPATH\Controllers\GestionDispositivosController.php(363): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionDispositivosController.php(106): App\Controllers\GestionDispositivosController->datatables('[{"id":"1","marca":"Samsung","modelo":"Galaxy S1","placa":"4548LZY","descripcion":"Dispositivo GPS integrado en smartphone","detalles":"GPS de alta precision\\r\\n ","created_at":"2024-06-06 11:15:43"},{"id":"2","marca":"Samsung","modelo":"GalaxyS1","placa":"4357XLA","descripcion":"Dispositivo GPS integrado en smartphone","detalles":"Gps de Dispositivo movil integrado","created_at":"2024-06-06 11:26:41"},{"id":"3","marca":"Xiaomi","modelo":"Redmi 11","placa":"2589WQZ","descripcion":"Dispositivo GPS integrado en smartphone","detalles":"Dispositivo integrado ","created_at":"2024-06-06 11:27:20"},{"id":"4","marca":"Xiaomi","modelo":"Redmi 10","placa":"6843WQP","descripcion":"Dispositivo GPS integrado en smartphone","detalles":"Dispositivo GPS del dispositivo","created_at":"2024-06-06 11:28:03"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionDispositivosController->DatosDispositivoGPSView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionDispositivosController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-20 00:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 00:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-20 00:24:25 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionDispositivosController.php on line 363.
+ 1 APPPATH\Controllers\GestionDispositivosController.php(363): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionDispositivosController.php(106): App\Controllers\GestionDispositivosController->datatables('[{"id":"1","marca":"Samsung","modelo":"Galaxy S1","placa":"4548LZY","descripcion":"Dispositivo GPS integrado en smartphone","detalles":"GPS de alta precision\\r\\n ","created_at":"2024-06-06 11:15:43"},{"id":"2","marca":"Samsung","modelo":"GalaxyS1","placa":"4357XLA","descripcion":"Dispositivo GPS integrado en smartphone","detalles":"Gps de Dispositivo movil integrado","created_at":"2024-06-06 11:26:41"},{"id":"3","marca":"Xiaomi","modelo":"Redmi 11","placa":"2589WQZ","descripcion":"Dispositivo GPS integrado en smartphone","detalles":"Dispositivo integrado ","created_at":"2024-06-06 11:27:20"},{"id":"4","marca":"Xiaomi","modelo":"Redmi 10","placa":"6843WQP","descripcion":"Dispositivo GPS integrado en smartphone","detalles":"Dispositivo GPS del dispositivo","created_at":"2024-06-06 11:28:03"},{"id":"5","marca":"Xiaomi","modelo":"Redmi 10Pro","placa":"965PQC","descripcion":"Dispositivo GPS integrado en smartphone","detalles":"Dispostivo intregrado en el movil","created_at":"2024-06-06 11:28:50"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionDispositivosController->DatosDispositivoGPSView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionDispositivosController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-20 00:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 00:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-20 00:26:45 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionDispositivosController.php on line 363.
+ 1 APPPATH\Controllers\GestionDispositivosController.php(363): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionDispositivosController.php(106): App\Controllers\GestionDispositivosController->datatables('[{"id":"1","marca":"Samsung","modelo":"Galaxy S1","placa":"4548LZY","descripcion":"Dispositivo GPS integrado en smartphone","detalles":"GPS de alta precision\\r\\n ","created_at":"2024-06-06 11:15:43"},{"id":"2","marca":"Samsung","modelo":"GalaxyS1","placa":"4357XLA","descripcion":"Dispositivo GPS integrado en smartphone","detalles":"Gps de Dispositivo movil integrado","created_at":"2024-06-06 11:26:41"},{"id":"3","marca":"Xiaomi","modelo":"Redmi 11","placa":"2589WQZ","descripcion":"Dispositivo GPS integrado en smartphone","detalles":"Dispositivo integrado ","created_at":"2024-06-06 11:27:20"},{"id":"4","marca":"Xiaomi","modelo":"Redmi 10","placa":"6843WQP","descripcion":"Dispositivo GPS integrado en smartphone","detalles":"Dispositivo GPS del dispositivo","created_at":"2024-06-06 11:28:03"},{"id":"5","marca":"Xiaomi","modelo":"Redmi 10Pro","placa":"965PQC","descripcion":"Dispositivo GPS integrado en smartphone","detalles":"Dispostivo intregrado en el movil","created_at":"2024-06-06 11:28:50"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionDispositivosController->DatosDispositivoGPSView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionDispositivosController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-20 00:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 00:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 00:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 00:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 00:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

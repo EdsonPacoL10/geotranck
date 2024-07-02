@@ -1,0 +1,237 @@
+INFO - 2024-06-01 00:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 00:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 00:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 00:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 00:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 00:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 00:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 00:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 00:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 00:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 00:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 00:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-01 00:29:20 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 615.
+ 1 APPPATH\Controllers\GestionTransporteController.php(615): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(500): App\Controllers\GestionTransporteController->datatables('[{"id":"1","nombre":"Juan P\\u00e9rez","cargo":"Director","correoelectronico":"juan.perez@example.com","telefono":"712345678","direccion":"Calle 123","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"2","nombre":"Mar\\u00eda Garc\\u00eda","cargo":"Profesora","correoelectronico":"maria.garcia@example.com","telefono":"613456789","direccion":"Avenida 456","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"3","nombre":"Pedro Rodr\\u00edguez","cargo":"Secretario","correoelectronico":"pedro.rodriguez@example.com","telefono":"714567890","direccion":"Boulevard 789","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"4","nombre":"Luisa Mart\\u00ednez","cargo":"Conserje","correoelectronico":"luisa.martinez@example.com","telefono":"615678901","direccion":"Calle 987","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"5","nombre":"Carlos S\\u00e1nchez","cargo":"Administrativo","correoelectronico":"carlos.sanchez@example.com","telefono":"716789012","direccion":"Avenida 654","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"6","nombre":"Ana L\\u00f3pez","cargo":"Enfermera","correoelectronico":"ana.lopez@example.com","telefono":"617890123","direccion":"Calle 321","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"7","nombre":"Jorge Fern\\u00e1ndez","cargo":"Consejero","correoelectronico":"jorge.fernandez@example.com","telefono":"717890234","direccion":"Avenida 012","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"8","nombre":"Laura Torres","cargo":"Recepcionista","correoelectronico":"laura.torres@example.com","telefono":"618901234","direccion":"Boulevard 345","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"9","nombre":"Diego G\\u00f3mez","cargo":"Entrenador","correoelectronico":"diego.gomez@example.com","telefono":"719012345","direccion":"Calle 678","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"11","nombre":"Roberto Gonz\\u00e1lez","cargo":"Profesor","correoelectronico":"roberto.gonzalez@example.com","telefono":"712345678","direccion":"Calle 123","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"12","nombre":"Isabel Ram\\u00edrez","cargo":"Directora","correoelectronico":"isabel.ramirez@example.com","telefono":"613456789","direccion":"Avenida 456","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"13","nombre":"Fernando Ruiz","cargo":"Secretario","correoelectronico":"fernando.ruiz@example.com","telefono":"714567890","direccion":"Boulevard 789","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"14","nombre":"Silvia Jim\\u00e9nez","cargo":"Conserje","correoelectronico":"silvia.jimenez@example.com","telefono":"615678901","direccion":"Calle 987","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"15","nombre":"Miguel Rodr\\u00edguez","cargo":"Administrativo","correoelectronico":"miguel.rodriguez@example.com","telefono":"716789012","direccion":"Avenida 654","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"16","nombre":"Carmen Garc\\u00eda","cargo":"Enfermera","correoelectronico":"carmen.garcia@example.com","telefono":"617890123","direccion":"Calle 321","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"18","nombre":"Patricia Mart\\u00ednez","cargo":"Recepcionista","correoelectronico":"patricia.martinez@example.com","telefono":"618901234","direccion":"Boulevard 345","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"19","nombre":"Ricardo S\\u00e1nchez","cargo":"Entrenador","correoelectronico":"ricardo.sanchez@example.com","telefono":"719012345","direccion":"Calle 678","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"20","nombre":"Gloria Fern\\u00e1ndez","cargo":"Psic\\u00f3loga","correoelectronico":"gloria.fernandez@example.com","telefono":"619123456","direccion":"Avenida 567","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"21","nombre":"Ana Perez","cargo":"Profesor","correoelectronico":"ana@perez.con","telefono":"756843388","direccion":"Calle A","estado":"1","created_at":"2024-05-24 00:55:04"},{"id":"10","nombre":"Maria","cargo":"Mercado","correoelectronico":"sofia.hernandez@example.com","telefono":"619123456","direccion":"Avenida 567","estado":"1","created_at":"2024-05-24 04:27:39.450734"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosTelefonoView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-01 00:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 00:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-01 00:29:24 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 615.
+ 1 APPPATH\Controllers\GestionTransporteController.php(615): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(500): App\Controllers\GestionTransporteController->datatables('[{"id":"1","nombre":"Juan P\\u00e9rez","cargo":"Director","correoelectronico":"juan.perez@example.com","telefono":"712345678","direccion":"Calle 123","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"2","nombre":"Mar\\u00eda Garc\\u00eda","cargo":"Profesora","correoelectronico":"maria.garcia@example.com","telefono":"613456789","direccion":"Avenida 456","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"3","nombre":"Pedro Rodr\\u00edguez","cargo":"Secretario","correoelectronico":"pedro.rodriguez@example.com","telefono":"714567890","direccion":"Boulevard 789","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"4","nombre":"Luisa Mart\\u00ednez","cargo":"Conserje","correoelectronico":"luisa.martinez@example.com","telefono":"615678901","direccion":"Calle 987","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"5","nombre":"Carlos S\\u00e1nchez","cargo":"Administrativo","correoelectronico":"carlos.sanchez@example.com","telefono":"716789012","direccion":"Avenida 654","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"7","nombre":"Jorge Fern\\u00e1ndez","cargo":"Consejero","correoelectronico":"jorge.fernandez@example.com","telefono":"717890234","direccion":"Avenida 012","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"8","nombre":"Laura Torres","cargo":"Recepcionista","correoelectronico":"laura.torres@example.com","telefono":"618901234","direccion":"Boulevard 345","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"9","nombre":"Diego G\\u00f3mez","cargo":"Entrenador","correoelectronico":"diego.gomez@example.com","telefono":"719012345","direccion":"Calle 678","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"11","nombre":"Roberto Gonz\\u00e1lez","cargo":"Profesor","correoelectronico":"roberto.gonzalez@example.com","telefono":"712345678","direccion":"Calle 123","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"12","nombre":"Isabel Ram\\u00edrez","cargo":"Directora","correoelectronico":"isabel.ramirez@example.com","telefono":"613456789","direccion":"Avenida 456","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"13","nombre":"Fernando Ruiz","cargo":"Secretario","correoelectronico":"fernando.ruiz@example.com","telefono":"714567890","direccion":"Boulevard 789","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"14","nombre":"Silvia Jim\\u00e9nez","cargo":"Conserje","correoelectronico":"silvia.jimenez@example.com","telefono":"615678901","direccion":"Calle 987","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"15","nombre":"Miguel Rodr\\u00edguez","cargo":"Administrativo","correoelectronico":"miguel.rodriguez@example.com","telefono":"716789012","direccion":"Avenida 654","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"16","nombre":"Carmen Garc\\u00eda","cargo":"Enfermera","correoelectronico":"carmen.garcia@example.com","telefono":"617890123","direccion":"Calle 321","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"18","nombre":"Patricia Mart\\u00ednez","cargo":"Recepcionista","correoelectronico":"patricia.martinez@example.com","telefono":"618901234","direccion":"Boulevard 345","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"19","nombre":"Ricardo S\\u00e1nchez","cargo":"Entrenador","correoelectronico":"ricardo.sanchez@example.com","telefono":"719012345","direccion":"Calle 678","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"20","nombre":"Gloria Fern\\u00e1ndez","cargo":"Psic\\u00f3loga","correoelectronico":"gloria.fernandez@example.com","telefono":"619123456","direccion":"Avenida 567","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"21","nombre":"Ana Perez","cargo":"Profesor","correoelectronico":"ana@perez.con","telefono":"756843388","direccion":"Calle A","estado":"1","created_at":"2024-05-24 00:55:04"},{"id":"10","nombre":"Maria","cargo":"Mercado","correoelectronico":"sofia.hernandez@example.com","telefono":"619123456","direccion":"Avenida 567","estado":"1","created_at":"2024-05-24 04:27:39.450734"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosTelefonoView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-01 00:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 00:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-01 00:34:56 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 615.
+ 1 APPPATH\Controllers\GestionTransporteController.php(615): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(500): App\Controllers\GestionTransporteController->datatables('[{"id":"1","nombre":"Juan P\\u00e9rez","cargo":"Director","correoelectronico":"juan.perez@example.com","telefono":"712345678","direccion":"Calle 123","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"2","nombre":"Mar\\u00eda Garc\\u00eda","cargo":"Profesora","correoelectronico":"maria.garcia@example.com","telefono":"613456789","direccion":"Avenida 456","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"3","nombre":"Pedro Rodr\\u00edguez","cargo":"Secretario","correoelectronico":"pedro.rodriguez@example.com","telefono":"714567890","direccion":"Boulevard 789","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"4","nombre":"Luisa Mart\\u00ednez","cargo":"Conserje","correoelectronico":"luisa.martinez@example.com","telefono":"615678901","direccion":"Calle 987","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"5","nombre":"Carlos S\\u00e1nchez","cargo":"Administrativo","correoelectronico":"carlos.sanchez@example.com","telefono":"716789012","direccion":"Avenida 654","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"7","nombre":"Jorge Fern\\u00e1ndez","cargo":"Consejero","correoelectronico":"jorge.fernandez@example.com","telefono":"717890234","direccion":"Avenida 012","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"8","nombre":"Laura Torres","cargo":"Recepcionista","correoelectronico":"laura.torres@example.com","telefono":"618901234","direccion":"Boulevard 345","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"9","nombre":"Diego G\\u00f3mez","cargo":"Entrenador","correoelectronico":"diego.gomez@example.com","telefono":"719012345","direccion":"Calle 678","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"11","nombre":"Roberto Gonz\\u00e1lez","cargo":"Profesor","correoelectronico":"roberto.gonzalez@example.com","telefono":"712345678","direccion":"Calle 123","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"12","nombre":"Isabel Ram\\u00edrez","cargo":"Directora","correoelectronico":"isabel.ramirez@example.com","telefono":"613456789","direccion":"Avenida 456","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"13","nombre":"Fernando Ruiz","cargo":"Secretario","correoelectronico":"fernando.ruiz@example.com","telefono":"714567890","direccion":"Boulevard 789","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"14","nombre":"Silvia Jim\\u00e9nez","cargo":"Conserje","correoelectronico":"silvia.jimenez@example.com","telefono":"615678901","direccion":"Calle 987","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"15","nombre":"Miguel Rodr\\u00edguez","cargo":"Administrativo","correoelectronico":"miguel.rodriguez@example.com","telefono":"716789012","direccion":"Avenida 654","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"16","nombre":"Carmen Garc\\u00eda","cargo":"Enfermera","correoelectronico":"carmen.garcia@example.com","telefono":"617890123","direccion":"Calle 321","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"18","nombre":"Patricia Mart\\u00ednez","cargo":"Recepcionista","correoelectronico":"patricia.martinez@example.com","telefono":"618901234","direccion":"Boulevard 345","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"19","nombre":"Ricardo S\\u00e1nchez","cargo":"Entrenador","correoelectronico":"ricardo.sanchez@example.com","telefono":"719012345","direccion":"Calle 678","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"20","nombre":"Gloria Fern\\u00e1ndez","cargo":"Psic\\u00f3loga","correoelectronico":"gloria.fernandez@example.com","telefono":"619123456","direccion":"Avenida 567","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"21","nombre":"Ana Perez","cargo":"Profesor","correoelectronico":"ana@perez.con","telefono":"756843388","direccion":"Calle A","estado":"1","created_at":"2024-05-24 00:55:04"},{"id":"10","nombre":"Maria","cargo":"Mercado","correoelectronico":"sofia.hernandez@example.com","telefono":"619123456","direccion":"Avenida 567","estado":"1","created_at":"2024-05-24 04:27:39.450734"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosTelefonoView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-01 00:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 00:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 00:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 00:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 00:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 00:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 00:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 00:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 00:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-01 01:02:37 --> ErrorException: Undefined array key "id"
+in APPPATH\Views\2_Administrador\4_aside_page_viewCon.php on line 197.
+ 1 APPPATH\Views\2_Administrador\4_aside_page_viewCon.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\geotranck-dev\\app\\Views\\2_Administrador\\4_aside_page_viewCon.php', 197)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\geotranck-dev\\app\\Views\\2_Administrador\\4_aside_page_viewCon.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('2_Administrador/4_aside_page_viewCon.php', [], true)
+ 5 APPPATH\Controllers\AdministradorController.php(91): view('2_Administrador/4_aside_page_viewCon.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdministradorController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministradorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-01 01:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-01 01:03:19 --> ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 1: select e.id e.imagenestudiante, e.nombre as nom_estudiante, ...
+                     ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'select e.id e.i...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select e.id e.i...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select e.id e.i...')
+#4 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Model.php(868): CodeIgniter\Database\BaseConnection->query('select e.id e.i...')
+#5 C:\laragon\www\geotranck-dev\app\Models\GestionEstudiantesAutos.php(50): CodeIgniter\Model->__call('query', Array)
+#6 C:\laragon\www\geotranck-dev\app\Controllers\AdministradorController.php(64): App\Models\GestionEstudiantesAutos->ListaEstudianteAuto('25')
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\AdministradorController->index()
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministradorController))
+#9 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-06-01 01:03:19 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 1: select e.id e.imagenestudiante, e.nombre as nom_estudiante, ...
+                     ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Model.php(868): CodeIgniter\Database\BaseConnection->query('select e.id e.imagenestudiante, e.nombre as nom_estudiante, e.apellido as ape_estudiante , e.curso,pa.nombretutor as nom_padre, pa.apellidotutor as ape_padre , pa.telefonotutor as tel_padre, pa.parentesco ,c.nombre as nom_conductor,c.apellido as ape_conductor,c.telefono as tel_conductor,a.marca ,a.modelo,a.color,a.placa
+        from automovilestudiante ae 
+        join automovil a on ae.automovil_id=a.id
+        join conductor c on a.conductorid=c.id
+        join perfilsistema ps on c.id=usuarioconductor_id
+        join estudiantes e on ae.estudiante_id=e.id 
+        join padre pa on e.tutor_id=pa.id
+        where ps.id=25 and ae.estado=1')
+ 2 APPPATH\Models\GestionEstudiantesAutos.php(50): CodeIgniter\Model->__call('query', [...])
+ 3 APPPATH\Controllers\AdministradorController.php(64): App\Models\GestionEstudiantesAutos->ListaEstudianteAuto('25')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdministradorController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministradorController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-01 01:03:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 1: select e.id e.imagenestudiante, e.nombre as nom_estudiante, ...
+                     ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select e.id e.imagenestudiante, e.nombre as nom_estudiante, e.apellido as ape_estudiante , e.curso,pa.nombretutor as nom_padre, pa.apellidotutor as ape_padre , pa.telefonotutor as tel_padre, pa.parentesco ,c.nombre as nom_conductor,c.apellido as ape_conductor,c.telefono as tel_conductor,a.marca ,a.modelo,a.color,a.placa
+        from automovilestudiante ae 
+        join automovil a on ae.automovil_id=a.id
+        join conductor c on a.conductorid=c.id
+        join perfilsistema ps on c.id=usuarioconductor_id
+        join estudiantes e on ae.estudiante_id=e.id 
+        join padre pa on e.tutor_id=pa.id
+        where ps.id=25 and ae.estado=1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select e.id e.imagenestudiante, e.nombre as nom_estudiante, e.apellido as ape_estudiante , e.curso,pa.nombretutor as nom_padre, pa.apellidotutor as ape_padre , pa.telefonotutor as tel_padre, pa.parentesco ,c.nombre as nom_conductor,c.apellido as ape_conductor,c.telefono as tel_conductor,a.marca ,a.modelo,a.color,a.placa
+        from automovilestudiante ae 
+        join automovil a on ae.automovil_id=a.id
+        join conductor c on a.conductorid=c.id
+        join perfilsistema ps on c.id=usuarioconductor_id
+        join estudiantes e on ae.estudiante_id=e.id 
+        join padre pa on e.tutor_id=pa.id
+        where ps.id=25 and ae.estado=1')
+ 3 SYSTEMPATH\Model.php(868): CodeIgniter\Database\BaseConnection->query('select e.id e.imagenestudiante, e.nombre as nom_estudiante, e.apellido as ape_estudiante , e.curso,pa.nombretutor as nom_padre, pa.apellidotutor as ape_padre , pa.telefonotutor as tel_padre, pa.parentesco ,c.nombre as nom_conductor,c.apellido as ape_conductor,c.telefono as tel_conductor,a.marca ,a.modelo,a.color,a.placa
+        from automovilestudiante ae 
+        join automovil a on ae.automovil_id=a.id
+        join conductor c on a.conductorid=c.id
+        join perfilsistema ps on c.id=usuarioconductor_id
+        join estudiantes e on ae.estudiante_id=e.id 
+        join padre pa on e.tutor_id=pa.id
+        where ps.id=25 and ae.estado=1')
+ 4 APPPATH\Models\GestionEstudiantesAutos.php(50): CodeIgniter\Model->__call('query', [...])
+ 5 APPPATH\Controllers\AdministradorController.php(64): App\Models\GestionEstudiantesAutos->ListaEstudianteAuto('25')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdministradorController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministradorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-01 01:03:19 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 1: select e.id e.imagenestudiante, e.nombre as nom_estudiante, ...
+                     ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 1: select e.id e.imagenestudiante, e.nombre as nom_estudiante, ...
+                     ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'select e.id e.imagenestudiante, e.nombre as nom_estudiante, e.apellido as ape_estudiante , e.curso,pa.nombretutor as nom_padre, pa.apellidotutor as ape_padre , pa.telefonotutor as tel_padre, pa.parentesco ,c.nombre as nom_conductor,c.apellido as ape_conductor,c.telefono as tel_conductor,a.marca ,a.modelo,a.color,a.placa
+        from automovilestudiante ae 
+        join automovil a on ae.automovil_id=a.id
+        join conductor c on a.conductorid=c.id
+        join perfilsistema ps on c.id=usuarioconductor_id
+        join estudiantes e on ae.estudiante_id=e.id 
+        join padre pa on e.tutor_id=pa.id
+        where ps.id=25 and ae.estado=1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select e.id e.imagenestudiante, e.nombre as nom_estudiante, e.apellido as ape_estudiante , e.curso,pa.nombretutor as nom_padre, pa.apellidotutor as ape_padre , pa.telefonotutor as tel_padre, pa.parentesco ,c.nombre as nom_conductor,c.apellido as ape_conductor,c.telefono as tel_conductor,a.marca ,a.modelo,a.color,a.placa
+        from automovilestudiante ae 
+        join automovil a on ae.automovil_id=a.id
+        join conductor c on a.conductorid=c.id
+        join perfilsistema ps on c.id=usuarioconductor_id
+        join estudiantes e on ae.estudiante_id=e.id 
+        join padre pa on e.tutor_id=pa.id
+        where ps.id=25 and ae.estado=1')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select e.id e.imagenestudiante, e.nombre as nom_estudiante, e.apellido as ape_estudiante , e.curso,pa.nombretutor as nom_padre, pa.apellidotutor as ape_padre , pa.telefonotutor as tel_padre, pa.parentesco ,c.nombre as nom_conductor,c.apellido as ape_conductor,c.telefono as tel_conductor,a.marca ,a.modelo,a.color,a.placa
+        from automovilestudiante ae 
+        join automovil a on ae.automovil_id=a.id
+        join conductor c on a.conductorid=c.id
+        join perfilsistema ps on c.id=usuarioconductor_id
+        join estudiantes e on ae.estudiante_id=e.id 
+        join padre pa on e.tutor_id=pa.id
+        where ps.id=25 and ae.estado=1')
+ 5 SYSTEMPATH\Model.php(868): CodeIgniter\Database\BaseConnection->query('select e.id e.imagenestudiante, e.nombre as nom_estudiante, e.apellido as ape_estudiante , e.curso,pa.nombretutor as nom_padre, pa.apellidotutor as ape_padre , pa.telefonotutor as tel_padre, pa.parentesco ,c.nombre as nom_conductor,c.apellido as ape_conductor,c.telefono as tel_conductor,a.marca ,a.modelo,a.color,a.placa
+        from automovilestudiante ae 
+        join automovil a on ae.automovil_id=a.id
+        join conductor c on a.conductorid=c.id
+        join perfilsistema ps on c.id=usuarioconductor_id
+        join estudiantes e on ae.estudiante_id=e.id 
+        join padre pa on e.tutor_id=pa.id
+        where ps.id=25 and ae.estado=1')
+ 6 APPPATH\Models\GestionEstudiantesAutos.php(50): CodeIgniter\Model->__call('query', [...])
+ 7 APPPATH\Controllers\AdministradorController.php(64): App\Models\GestionEstudiantesAutos->ListaEstudianteAuto('25')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdministradorController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministradorController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-01 01:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:30:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 01:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

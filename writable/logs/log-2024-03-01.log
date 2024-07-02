@@ -1,0 +1,902 @@
+ERROR - 2024-03-01 21:01:55 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\app\Controllers\LoginController.php(13): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\LoginController->index()
+#3 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Des...')
+#7 {main}
+CRITICAL - 2024-03-01 21:01:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 APPPATH\Controllers\LoginController.php(13): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+ERROR - 2024-03-01 21:02:18 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\app\Controllers\LoginController.php(13): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\LoginController->index()
+#3 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Des...')
+#7 {main}
+CRITICAL - 2024-03-01 21:02:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 APPPATH\Controllers\LoginController.php(13): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+ERROR - 2024-03-01 21:02:20 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\app\Controllers\LoginController.php(13): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\LoginController->index()
+#3 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Des...')
+#7 {main}
+CRITICAL - 2024-03-01 21:02:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 APPPATH\Controllers\LoginController.php(13): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+ERROR - 2024-03-01 21:02:23 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\app\Controllers\LoginController.php(13): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\LoginController->index()
+#3 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Des...')
+#7 {main}
+CRITICAL - 2024-03-01 21:02:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 APPPATH\Controllers\LoginController.php(13): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+ERROR - 2024-03-01 21:02:35 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\app\Controllers\LoginController.php(13): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\LoginController->index()
+#3 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Des...')
+#7 {main}
+CRITICAL - 2024-03-01 21:02:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 APPPATH\Controllers\LoginController.php(13): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+ERROR - 2024-03-01 21:03:28 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\app\Controllers\LoginController.php(13): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\LoginController->index()
+#3 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Des...')
+#7 {main}
+CRITICAL - 2024-03-01 21:03:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 APPPATH\Controllers\LoginController.php(13): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+ERROR - 2024-03-01 21:03:38 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\app\Controllers\LoginController.php(13): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\LoginController->index()
+#3 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Des...')
+#7 {main}
+CRITICAL - 2024-03-01 21:03:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 APPPATH\Controllers\LoginController.php(13): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+ERROR - 2024-03-01 21:09:36 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\app\Controllers\LoginController.php(13): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\LoginController->index()
+#3 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Des...')
+#7 {main}
+CRITICAL - 2024-03-01 21:09:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 APPPATH\Controllers\LoginController.php(13): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+ERROR - 2024-03-01 21:09:37 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\app\Controllers\LoginController.php(13): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\LoginController->index()
+#3 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Des...')
+#7 {main}
+CRITICAL - 2024-03-01 21:09:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 APPPATH\Controllers\LoginController.php(13): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+ERROR - 2024-03-01 21:09:38 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\app\Controllers\LoginController.php(13): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\LoginController->index()
+#3 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Des...')
+#7 {main}
+CRITICAL - 2024-03-01 21:09:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 APPPATH\Controllers\LoginController.php(13): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 21:10:06 --> ParseError: syntax error, unexpected token ")"
+in APPPATH\Controllers\LoginController.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\app\\Controllers\\LoginController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\LoginController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 21:10:07 --> ParseError: syntax error, unexpected token ")"
+in APPPATH\Controllers\LoginController.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\app\\Controllers\\LoginController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\LoginController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+ERROR - 2024-03-01 21:11:20 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\app\Controllers\LoginController.php(13): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\LoginController->index()
+#3 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Des...')
+#7 {main}
+CRITICAL - 2024-03-01 21:11:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 APPPATH\Controllers\LoginController.php(13): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+ERROR - 2024-03-01 21:11:43 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\app\Controllers\LoginController.php(13): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\LoginController->index()
+#3 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Des...')
+#7 {main}
+CRITICAL - 2024-03-01 21:11:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 APPPATH\Controllers\LoginController.php(13): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+ERROR - 2024-03-01 21:11:44 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\app\Controllers\LoginController.php(13): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\LoginController->index()
+#3 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Des...')
+#7 {main}
+CRITICAL - 2024-03-01 21:11:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 APPPATH\Controllers\LoginController.php(13): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+ERROR - 2024-03-01 21:11:46 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\app\Controllers\LoginController.php(13): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\LoginController->index()
+#3 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Des...')
+#7 {main}
+CRITICAL - 2024-03-01 21:11:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 APPPATH\Controllers\LoginController.php(13): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+ERROR - 2024-03-01 21:13:02 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\app\Controllers\LoginController.php(15): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\LoginController->index()
+#3 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Des...')
+#7 {main}
+CRITICAL - 2024-03-01 21:13:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 APPPATH\Controllers\LoginController.php(15): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+ERROR - 2024-03-01 21:13:27 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\app\Controllers\LoginController.php(14): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\LoginController->index()
+#3 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Des...')
+#7 {main}
+CRITICAL - 2024-03-01 21:13:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 APPPATH\Controllers\LoginController.php(14): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+ERROR - 2024-03-01 21:13:28 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\app\Controllers\LoginController.php(14): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\LoginController->index()
+#3 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Des...')
+#7 {main}
+CRITICAL - 2024-03-01 21:13:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 APPPATH\Controllers\LoginController.php(14): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+ERROR - 2024-03-01 21:25:19 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\app\Controllers\LoginController.php(14): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\LoginController->index()
+#3 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Des...')
+#7 {main}
+CRITICAL - 2024-03-01 21:25:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 APPPATH\Controllers\LoginController.php(14): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+ERROR - 2024-03-01 21:25:22 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\app\Controllers\LoginController.php(14): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\LoginController->index()
+#3 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Des...')
+#7 {main}
+CRITICAL - 2024-03-01 21:25:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 APPPATH\Controllers\LoginController.php(14): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+ERROR - 2024-03-01 21:25:23 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\app\Controllers\LoginController.php(14): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\LoginController->index()
+#3 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Des...')
+#7 {main}
+CRITICAL - 2024-03-01 21:25:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 APPPATH\Controllers\LoginController.php(14): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+ERROR - 2024-03-01 21:25:42 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\app\Controllers\LoginController.php(11): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\LoginController->index()
+#3 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Des...')
+#7 {main}
+CRITICAL - 2024-03-01 21:25:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+ERROR - 2024-03-01 21:25:43 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\app\Controllers\LoginController.php(11): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\LoginController->index()
+#3 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Des...')
+#7 {main}
+CRITICAL - 2024-03-01 21:25:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+ERROR - 2024-03-01 21:26:44 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\app\Controllers\LoginController.php(11): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\LoginController->index()
+#3 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Des...')
+#7 {main}
+CRITICAL - 2024-03-01 21:26:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+ERROR - 2024-03-01 21:26:45 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\app\Controllers\LoginController.php(11): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\LoginController->index()
+#3 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Des...')
+#7 {main}
+CRITICAL - 2024-03-01 21:26:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+ERROR - 2024-03-01 21:28:50 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\app\Controllers\LoginController.php(11): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\LoginController->index()
+#3 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Des...')
+#7 {main}
+CRITICAL - 2024-03-01 21:28:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+ERROR - 2024-03-01 21:29:47 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\app\Controllers\LoginController.php(11): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\LoginController->index()
+#3 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Des...')
+#7 {main}
+CRITICAL - 2024-03-01 21:29:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+ERROR - 2024-03-01 21:29:48 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\app\Controllers\LoginController.php(11): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\LoginController->index()
+#3 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\HP\Desktop\Proyecto Codineiter\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Des...')
+#7 {main}
+CRITICAL - 2024-03-01 21:29:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 21:36:12 --> Error: Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('pdo', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\LoginController.php(9): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 21:44:28 --> Error: Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('pdo', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\LoginController.php(9): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 21:44:29 --> Error: Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('pdo', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\LoginController.php(9): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 21:44:30 --> Error: Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('pdo', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\LoginController.php(9): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 21:44:46 --> Error: Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('pdo', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\LoginController.php(9): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 21:45:11 --> Error: Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('pdo', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\LoginController.php(9): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 22:02:27 --> Error: Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('pdo', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 22:03:56 --> Error: Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('pdo', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 22:03:58 --> Error: Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('pdo', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 22:05:12 --> Error: Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('pdo', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 22:05:13 --> Error: Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('pdo', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 22:05:14 --> Error: Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('pdo', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 22:06:40 --> Error: Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('pdo', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 22:06:41 --> Error: Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('pdo', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 22:06:42 --> Error: Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('pdo', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 22:06:45 --> Error: Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('pdo', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 22:10:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "listado.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('listado.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('listado', [], true)
+ 3 APPPATH\Controllers\LoginController.php(21): view('listado', [])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 22:11:14 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\LoginController.php on line 21.
+ 1 APPPATH\Controllers\LoginController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\app\\Controllers\\LoginController.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 22:11:15 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\LoginController.php on line 21.
+ 1 APPPATH\Controllers\LoginController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\app\\Controllers\\LoginController.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 22:11:15 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\LoginController.php on line 21.
+ 1 APPPATH\Controllers\LoginController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\app\\Controllers\\LoginController.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 22:11:44 --> Error: Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('pdo', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 22:12:17 --> Error: Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('pdo', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 22:12:18 --> Error: Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('pdo', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 22:15:39 --> Error: Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('pdo', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 22:15:55 --> Error: Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('pdo', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 22:15:55 --> Error: Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('pdo', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 22:16:03 --> Error: Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('pdo', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 22:16:04 --> Error: Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('pdo', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 22:21:07 --> Error: Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('pdo', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 22:21:10 --> Error: Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('pdo', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 22:21:11 --> Error: Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('pdo', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 22:22:56 --> Error: Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('pdo', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 22:23:48 --> Error: Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('pdo', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 22:23:53 --> Error: Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('pdo', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-01 22:23:54 --> Error: Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('pdo', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')

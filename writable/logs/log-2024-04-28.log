@@ -1,0 +1,420 @@
+WARNING - 2024-04-28 22:02:08 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 631.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(631): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(171): App\Controllers\GestionUsuarioController->datatables('[{"id":"12","nombre":"ded","descripcion":"dewdew","grupo_privilegio":"fe","estado":"1","created_at":"2024-04-21 21:19:28"},{"id":"4","nombre":"dwd","descripcion":"dw","grupo_privilegio":"dwdw24242151515","estado":"1","created_at":"2024-04-08 00:50:18"},{"id":"8","nombre":"xsxs","descripcion":"xs","grupo_privilegio":"dwdw24242151515","estado":"1","created_at":"2024-04-08 01:04:24"},{"id":"9","nombre":"xs","descripcion":"asx","grupo_privilegio":"79788921312378","estado":"1","created_at":"2024-04-08 01:06:01"},{"id":"10","nombre":"cr","descripcion":"hthtr","grupo_privilegio":"dwdwdw","estado":"1","created_at":"2024-04-08 01:09:17"},{"id":"11","nombre":"fe 123 213 dsfdsf","descripcion":"vd","grupo_privilegio":"fee","estado":"1","created_at":"2024-04-08 21:00:36"},{"id":"13","nombre":"sdc","descripcion":"vsdv","grupo_privilegio":"79788921312378","estado":"1","created_at":"2024-04-21 21:27:43"},{"id":"14","nombre":"sdf","descripcion":"sdf","grupo_privilegio":"dwdwdw","estado":"1","created_at":"2024-04-21 21:28:44"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->DatosRolesView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-04-28 22:02:13 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 631.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(631): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(171): App\Controllers\GestionUsuarioController->datatables('[{"id":"12","nombre":"ded","descripcion":"dewdew","grupo_privilegio":"fe","estado":"1","created_at":"2024-04-21 21:19:28"},{"id":"4","nombre":"dwd","descripcion":"dw","grupo_privilegio":"dwdw24242151515","estado":"1","created_at":"2024-04-08 00:50:18"},{"id":"8","nombre":"xsxs","descripcion":"xs","grupo_privilegio":"dwdw24242151515","estado":"1","created_at":"2024-04-08 01:04:24"},{"id":"9","nombre":"xs","descripcion":"asx","grupo_privilegio":"79788921312378","estado":"1","created_at":"2024-04-08 01:06:01"},{"id":"10","nombre":"cr","descripcion":"hthtr","grupo_privilegio":"dwdwdw","estado":"1","created_at":"2024-04-08 01:09:17"},{"id":"11","nombre":"fe 123 213 dsfdsf","descripcion":"vd","grupo_privilegio":"fee","estado":"1","created_at":"2024-04-08 21:00:36"},{"id":"13","nombre":"sdc","descripcion":"vsdv","grupo_privilegio":"79788921312378","estado":"1","created_at":"2024-04-21 21:27:43"},{"id":"14","nombre":"sdf","descripcion":"sdf","grupo_privilegio":"dwdwdw","estado":"1","created_at":"2024-04-21 21:28:44"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->DatosRolesView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-04-28 22:02:20 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 631.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(631): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(349): App\Controllers\GestionUsuarioController->datatables('[{"id":"9","nombre":"sadasdas","apellido":"adsasdasd","ci":"asdasd","telefono":null,"parentesco":"padre","correo":"123","direccion":"3","indicacion":"123","created_at":"2024-04-23 23:41:26"},{"id":"7","nombre":"tutorssdsada","apellido":"cas","ci":"cs","telefono":"1","parentesco":"tio","correo":"csc","direccion":"csc","indicacion":"scs","created_at":"2024-04-22 21:13:44"},{"id":"4","nombre":"vxcvx\\n","apellido":"xcvcxv","ci":"xcvxcv","telefono":null,"parentesco":"padre","correo":null,"direccion":null,"indicacion":null,"created_at":"2024-04-22 21:08:53"},{"id":"2","nombre":"sdsa","apellido":"wef","ci":"fwe","telefono":"123","parentesco":"padre","correo":"dsf","direccion":"dsa","indicacion":"asd","created_at":"2024-04-22 21:00:14"},{"id":"1","nombre":"asd","apellido":"sdasd","ci":"asdasd","telefono":"asdasd","parentesco":"padre","correo":"asdsad","direccion":"asdasd","indicacion":"sadasd","created_at":"2024-04-22 20:52:19"},{"id":"6","nombre":"mama","apellido":"dede","ci":"123","telefono":"123","parentesco":"madre","correo":null,"direccion":null,"indicacion":null,"created_at":"2024-04-22 21:12:38"},{"id":"5","nombre":"juansd","apellido":"sad","ci":"asd","telefono":"123","parentesco":"padre","correo":null,"direccion":null,"indicacion":null,"created_at":"2024-04-22 21:11:56"},{"id":"3","nombre":"sdsa","apellido":"wef","ci":"fwe","telefono":"123","parentesco":"padre","correo":"","direccion":"","indicacion":"","created_at":"2024-04-22 21:00:27"},{"id":"10","nombre":"sdfdsf","apellido":"dsfdsf","ci":"ewr","telefono":"342","parentesco":"sdfdsf","correo":null,"direccion":null,"indicacion":null,"created_at":"2024-04-24 00:22:50"},{"id":"12","nombre":"fdsfdsdfds","apellido":"sdfdsfsd","ci":"dsfdsf","telefono":"2312312","parentesco":"padre","correo":null,"direccion":null,"indicacion":null,"created_at":"2024-04-24 00:25:25"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->DatosPadresView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-04-28 22:02:26 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 631.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(631): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(533): App\Controllers\GestionUsuarioController->datatables('[{"id":"1","nombre":"Juan","apellido":"Perez","correo":"juan@example.com","telefono":"1234567","direccion":"Calle 123","cargo":"Gerente","nombrerol":"Rol 1","created_at":"2024-04-30 12:00:00"},{"id":"2","nombre":"Maria","apellido":"Lopez","correo":"maria@example.com","telefono":"7654321","direccion":"Avenida 456","cargo":"Directora","nombrerol":"Rol 2dwdwdw","created_at":"2024-04-30 12:00:00"},{"id":"3","nombre":"dee","apellido":"de","correo":"de","telefono":"213","direccion":"fefew","cargo":"sc","nombrerol":"Rol 1","created_at":"2024-04-26 22:30:56"},{"id":"4","nombre":"kmkmk","apellido":"jnjnjn","correo":"kmkmk","telefono":"213","direccion":"m mm","cargo":"kmkmk","nombrerol":"fe 123 213 dsfdsf","created_at":"2024-04-27 00:11:54"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->datosAdministradorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-04-28 22:02:33 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 631.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(631): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(349): App\Controllers\GestionUsuarioController->datatables('[{"id":"9","nombre":"sadasdas","apellido":"adsasdasd","ci":"asdasd","telefono":null,"parentesco":"padre","correo":"123","direccion":"3","indicacion":"123","created_at":"2024-04-23 23:41:26"},{"id":"7","nombre":"tutorssdsada","apellido":"cas","ci":"cs","telefono":"1","parentesco":"tio","correo":"csc","direccion":"csc","indicacion":"scs","created_at":"2024-04-22 21:13:44"},{"id":"4","nombre":"vxcvx\\n","apellido":"xcvcxv","ci":"xcvxcv","telefono":null,"parentesco":"padre","correo":null,"direccion":null,"indicacion":null,"created_at":"2024-04-22 21:08:53"},{"id":"2","nombre":"sdsa","apellido":"wef","ci":"fwe","telefono":"123","parentesco":"padre","correo":"dsf","direccion":"dsa","indicacion":"asd","created_at":"2024-04-22 21:00:14"},{"id":"1","nombre":"asd","apellido":"sdasd","ci":"asdasd","telefono":"asdasd","parentesco":"padre","correo":"asdsad","direccion":"asdasd","indicacion":"sadasd","created_at":"2024-04-22 20:52:19"},{"id":"6","nombre":"mama","apellido":"dede","ci":"123","telefono":"123","parentesco":"madre","correo":null,"direccion":null,"indicacion":null,"created_at":"2024-04-22 21:12:38"},{"id":"5","nombre":"juansd","apellido":"sad","ci":"asd","telefono":"123","parentesco":"padre","correo":null,"direccion":null,"indicacion":null,"created_at":"2024-04-22 21:11:56"},{"id":"3","nombre":"sdsa","apellido":"wef","ci":"fwe","telefono":"123","parentesco":"padre","correo":"","direccion":"","indicacion":"","created_at":"2024-04-22 21:00:27"},{"id":"10","nombre":"sdfdsf","apellido":"dsfdsf","ci":"ewr","telefono":"342","parentesco":"sdfdsf","correo":null,"direccion":null,"indicacion":null,"created_at":"2024-04-24 00:22:50"},{"id":"12","nombre":"fdsfdsdfds","apellido":"sdfdsfsd","ci":"dsfdsf","telefono":"2312312","parentesco":"padre","correo":null,"direccion":null,"indicacion":null,"created_at":"2024-04-24 00:25:25"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->DatosPadresView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-04-28 22:03:00 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 631.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(631): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(533): App\Controllers\GestionUsuarioController->datatables('[{"id":"1","nombre":"Juan","apellido":"Perez","correo":"juan@example.com","telefono":"1234567","direccion":"Calle 123","cargo":"Gerente","nombrerol":"Rol 1","created_at":"2024-04-30 12:00:00"},{"id":"2","nombre":"Maria","apellido":"Lopez","correo":"maria@example.com","telefono":"7654321","direccion":"Avenida 456","cargo":"Directora","nombrerol":"Rol 2dwdwdw","created_at":"2024-04-30 12:00:00"},{"id":"3","nombre":"dee","apellido":"de","correo":"de","telefono":"213","direccion":"fefew","cargo":"sc","nombrerol":"Rol 1","created_at":"2024-04-26 22:30:56"},{"id":"4","nombre":"kmkmk","apellido":"jnjnjn","correo":"kmkmk","telefono":"213","direccion":"m mm","cargo":"kmkmk","nombrerol":"fe 123 213 dsfdsf","created_at":"2024-04-27 00:11:54"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->datosAdministradorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-04-28 22:03:03 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 631.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(631): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(171): App\Controllers\GestionUsuarioController->datatables('[{"id":"12","nombre":"ded","descripcion":"dewdew","grupo_privilegio":"fe","estado":"1","created_at":"2024-04-21 21:19:28"},{"id":"4","nombre":"dwd","descripcion":"dw","grupo_privilegio":"dwdw24242151515","estado":"1","created_at":"2024-04-08 00:50:18"},{"id":"8","nombre":"xsxs","descripcion":"xs","grupo_privilegio":"dwdw24242151515","estado":"1","created_at":"2024-04-08 01:04:24"},{"id":"9","nombre":"xs","descripcion":"asx","grupo_privilegio":"79788921312378","estado":"1","created_at":"2024-04-08 01:06:01"},{"id":"10","nombre":"cr","descripcion":"hthtr","grupo_privilegio":"dwdwdw","estado":"1","created_at":"2024-04-08 01:09:17"},{"id":"11","nombre":"fe 123 213 dsfdsf","descripcion":"vd","grupo_privilegio":"fee","estado":"1","created_at":"2024-04-08 21:00:36"},{"id":"13","nombre":"sdc","descripcion":"vsdv","grupo_privilegio":"79788921312378","estado":"1","created_at":"2024-04-21 21:27:43"},{"id":"14","nombre":"sdf","descripcion":"sdf","grupo_privilegio":"dwdwdw","estado":"1","created_at":"2024-04-21 21:28:44"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->DatosRolesView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-04-28 22:03:11 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 631.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(631): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(533): App\Controllers\GestionUsuarioController->datatables('[{"id":"1","nombre":"Juan","apellido":"Perez","correo":"juan@example.com","telefono":"1234567","direccion":"Calle 123","cargo":"Gerente","nombrerol":"Rol 1","created_at":"2024-04-30 12:00:00"},{"id":"2","nombre":"Maria","apellido":"Lopez","correo":"maria@example.com","telefono":"7654321","direccion":"Avenida 456","cargo":"Directora","nombrerol":"Rol 2dwdwdw","created_at":"2024-04-30 12:00:00"},{"id":"3","nombre":"dee","apellido":"de","correo":"de","telefono":"213","direccion":"fefew","cargo":"sc","nombrerol":"Rol 1","created_at":"2024-04-26 22:30:56"},{"id":"4","nombre":"kmkmk","apellido":"jnjnjn","correo":"kmkmk","telefono":"213","direccion":"m mm","cargo":"kmkmk","nombrerol":"fe 123 213 dsfdsf","created_at":"2024-04-27 00:11:54"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->datosAdministradorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-04-28 22:03:49 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 631.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(631): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(533): App\Controllers\GestionUsuarioController->datatables('[{"id":"1","nombre":"Juan","apellido":"Perez","correo":"juan@example.com","telefono":"1234567","direccion":"Calle 123","cargo":"Gerente","nombrerol":"Rol 1","created_at":"2024-04-30 12:00:00"},{"id":"2","nombre":"Maria","apellido":"Lopez","correo":"maria@example.com","telefono":"7654321","direccion":"Avenida 456","cargo":"Directora","nombrerol":"Rol 2dwdwdw","created_at":"2024-04-30 12:00:00"},{"id":"3","nombre":"dee","apellido":"de","correo":"de","telefono":"213","direccion":"fefew","cargo":"sc","nombrerol":"Rol 1","created_at":"2024-04-26 22:30:56"},{"id":"4","nombre":"kmkmk","apellido":"jnjnjn","correo":"kmkmk","telefono":"213","direccion":"m mm","cargo":"kmkmk","nombrerol":"fe 123 213 dsfdsf","created_at":"2024-04-27 00:11:54"},{"id":"5","nombre":"xasx","apellido":"ASX","correo":"asx","telefono":"123","direccion":"123","cargo":"qdw","nombrerol":"sdc","created_at":"2024-04-28 22:03:49"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->datosAdministradorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-04-28 22:04:10 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 631.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(631): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(533): App\Controllers\GestionUsuarioController->datatables('[{"id":"1","nombre":"Juan","apellido":"Perez","correo":"juan@example.com","telefono":"1234567","direccion":"Calle 123","cargo":"Gerente","nombrerol":"Rol 1","created_at":"2024-04-30 12:00:00"},{"id":"2","nombre":"Maria","apellido":"Lopez","correo":"maria@example.com","telefono":"7654321","direccion":"Avenida 456","cargo":"Directora","nombrerol":"Rol 2dwdwdw","created_at":"2024-04-30 12:00:00"},{"id":"3","nombre":"dee","apellido":"de","correo":"de","telefono":"213","direccion":"fefew","cargo":"sc","nombrerol":"Rol 1","created_at":"2024-04-26 22:30:56"},{"id":"4","nombre":"kmkmk","apellido":"jnjnjn","correo":"kmkmk","telefono":"213","direccion":"m mm","cargo":"kmkmk","nombrerol":"fe 123 213 dsfdsf","created_at":"2024-04-27 00:11:54"},{"id":"5","nombre":"xasx","apellido":"ASX","correo":"asx","telefono":"123","direccion":"123","cargo":"qdw","nombrerol":"sdc","created_at":"2024-04-28 22:03:49"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->datosAdministradorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-04-28 22:08:35 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 642.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(642): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(533): App\Controllers\GestionUsuarioController->datatables('[{"id":"1","nombre":"Juan","apellido":"Perez","correo":"juan@example.com","telefono":"1234567","direccion":"Calle 123","cargo":"Gerente","nombrerol":"Rol 1","created_at":"2024-04-30 12:00:00"},{"id":"2","nombre":"Maria","apellido":"Lopez","correo":"maria@example.com","telefono":"7654321","direccion":"Avenida 456","cargo":"Directora","nombrerol":"Rol 2dwdwdw","created_at":"2024-04-30 12:00:00"},{"id":"3","nombre":"dee","apellido":"de","correo":"de","telefono":"213","direccion":"fefew","cargo":"sc","nombrerol":"Rol 1","created_at":"2024-04-26 22:30:56"},{"id":"4","nombre":"kmkmk","apellido":"jnjnjn","correo":"kmkmk","telefono":"213","direccion":"m mm","cargo":"kmkmk","nombrerol":"fe 123 213 dsfdsf","created_at":"2024-04-27 00:11:54"},{"id":"5","nombre":"xasx","apellido":"ASX","correo":"asx","telefono":"123","direccion":"123","cargo":"qdw","nombrerol":"sdc","created_at":"2024-04-28 22:03:49"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->datosAdministradorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-04-28 22:08:39 --> BadMethodCallException: Call to undefined method App\Models\GestionUsuarioPadreModel::eliminar_administrador
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(582): CodeIgniter\Model->__call('eliminar_administrador', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->eliminar_administrador()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-04-28 22:08:39 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 642.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(642): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(533): App\Controllers\GestionUsuarioController->datatables('[{"id":"1","nombre":"Juan","apellido":"Perez","correo":"juan@example.com","telefono":"1234567","direccion":"Calle 123","cargo":"Gerente","nombrerol":"Rol 1","created_at":"2024-04-30 12:00:00"},{"id":"2","nombre":"Maria","apellido":"Lopez","correo":"maria@example.com","telefono":"7654321","direccion":"Avenida 456","cargo":"Directora","nombrerol":"Rol 2dwdwdw","created_at":"2024-04-30 12:00:00"},{"id":"3","nombre":"dee","apellido":"de","correo":"de","telefono":"213","direccion":"fefew","cargo":"sc","nombrerol":"Rol 1","created_at":"2024-04-26 22:30:56"},{"id":"4","nombre":"kmkmk","apellido":"jnjnjn","correo":"kmkmk","telefono":"213","direccion":"m mm","cargo":"kmkmk","nombrerol":"fe 123 213 dsfdsf","created_at":"2024-04-27 00:11:54"},{"id":"5","nombre":"xasx","apellido":"ASX","correo":"asx","telefono":"123","direccion":"123","cargo":"qdw","nombrerol":"sdc","created_at":"2024-04-28 22:03:49"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->datosAdministradorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-04-28 22:09:16 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 642.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(642): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(533): App\Controllers\GestionUsuarioController->datatables('[{"id":"1","nombre":"Juan","apellido":"Perez","correo":"juan@example.com","telefono":"1234567","direccion":"Calle 123","cargo":"Gerente","nombrerol":"Rol 1","created_at":"2024-04-30 12:00:00"},{"id":"2","nombre":"Maria","apellido":"Lopez","correo":"maria@example.com","telefono":"7654321","direccion":"Avenida 456","cargo":"Directora","nombrerol":"Rol 2dwdwdw","created_at":"2024-04-30 12:00:00"},{"id":"3","nombre":"dee","apellido":"de","correo":"de","telefono":"213","direccion":"fefew","cargo":"sc","nombrerol":"Rol 1","created_at":"2024-04-26 22:30:56"},{"id":"4","nombre":"kmkmk","apellido":"jnjnjn","correo":"kmkmk","telefono":"213","direccion":"m mm","cargo":"kmkmk","nombrerol":"fe 123 213 dsfdsf","created_at":"2024-04-27 00:11:54"},{"id":"5","nombre":"xasx","apellido":"ASX","correo":"asx","telefono":"123","direccion":"123","cargo":"qdw","nombrerol":"sdc","created_at":"2024-04-28 22:03:49"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->datosAdministradorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-04-28 22:09:20 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 642.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(642): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(533): App\Controllers\GestionUsuarioController->datatables('[{"id":"2","nombre":"Maria","apellido":"Lopez","correo":"maria@example.com","telefono":"7654321","direccion":"Avenida 456","cargo":"Directora","nombrerol":"Rol 2dwdwdw","created_at":"2024-04-30 12:00:00"},{"id":"3","nombre":"dee","apellido":"de","correo":"de","telefono":"213","direccion":"fefew","cargo":"sc","nombrerol":"Rol 1","created_at":"2024-04-26 22:30:56"},{"id":"4","nombre":"kmkmk","apellido":"jnjnjn","correo":"kmkmk","telefono":"213","direccion":"m mm","cargo":"kmkmk","nombrerol":"fe 123 213 dsfdsf","created_at":"2024-04-27 00:11:54"},{"id":"5","nombre":"xasx","apellido":"ASX","correo":"asx","telefono":"123","direccion":"123","cargo":"qdw","nombrerol":"sdc","created_at":"2024-04-28 22:03:49"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->datosAdministradorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-04-28 22:09:27 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 642.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(642): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(533): App\Controllers\GestionUsuarioController->datatables('[{"id":"2","nombre":"Maria","apellido":"Lopez","correo":"maria@example.com","telefono":"7654321","direccion":"Avenida 456","cargo":"Directora","nombrerol":"Rol 2dwdwdw","created_at":"2024-04-30 12:00:00"},{"id":"3","nombre":"dee","apellido":"de","correo":"de","telefono":"213","direccion":"fefew","cargo":"sc","nombrerol":"Rol 1","created_at":"2024-04-26 22:30:56"},{"id":"5","nombre":"xasx","apellido":"ASX","correo":"asx","telefono":"123","direccion":"123","cargo":"qdw","nombrerol":"sdc","created_at":"2024-04-28 22:03:49"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->datosAdministradorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-04-28 22:11:43 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 641.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(641): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(533): App\Controllers\GestionUsuarioController->datatables('[{"id":"2","nombre":"Maria","apellido":"Lopez","correo":"maria@example.com","telefono":"7654321","direccion":"Avenida 456","cargo":"Directora","nombrerol":"Rol 2dwdwdw","created_at":"2024-04-30 12:00:00"},{"id":"3","nombre":"dee","apellido":"de","correo":"de","telefono":"213","direccion":"fefew","cargo":"sc","nombrerol":"Rol 1","created_at":"2024-04-26 22:30:56"},{"id":"5","nombre":"xasx","apellido":"ASX","correo":"asx","telefono":"123","direccion":"123","cargo":"qdw","nombrerol":"sdc","created_at":"2024-04-28 22:03:49"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->datosAdministradorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-04-28 22:23:07 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 657.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(657): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(533): App\Controllers\GestionUsuarioController->datatables('[{"id":"2","nombre":"Maria","apellido":"Lopez","correo":"maria@example.com","telefono":"7654321","direccion":"Avenida 456","cargo":"Directora","nombrerol":"Rol 2dwdwdw","created_at":"2024-04-30 12:00:00"},{"id":"3","nombre":"dee","apellido":"de","correo":"de","telefono":"213","direccion":"fefew","cargo":"sc","nombrerol":"Rol 1","created_at":"2024-04-26 22:30:56"},{"id":"5","nombre":"xasx","apellido":"ASX","correo":"asx","telefono":"123","direccion":"123","cargo":"qdw","nombrerol":"sdc","created_at":"2024-04-28 22:03:49"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->datosAdministradorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-04-28 22:27:54 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 657.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(657): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(533): App\Controllers\GestionUsuarioController->datatables('[{"id":"2","nombre":"Maria","apellido":"Lopez","correo":"maria@example.com","telefono":"7654321","direccion":"Avenida 456","cargo":"Directora","nombrerol":"Rol 2dwdwdw","created_at":"2024-04-30 12:00:00"},{"id":"3","nombre":"dee","apellido":"de","correo":"de","telefono":"213","direccion":"fefew","cargo":"sc","nombrerol":"Rol 1","created_at":"2024-04-26 22:30:56"},{"id":"5","nombre":"xasx","apellido":"ASX","correo":"asx","telefono":"123","direccion":"123","cargo":"qdw","nombrerol":"sdc","created_at":"2024-04-28 22:03:49"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->datosAdministradorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+ERROR - 2024-04-28 22:27:57 --> ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 1: SELECT a.* r.nombre as nombrerol FROM administrador a
+                    ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'SELECT a.* r.no...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT a.* r.no...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.* r.no...')
+#4 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Model.php(868): CodeIgniter\Database\BaseConnection->query('SELECT a.* r.no...')
+#5 C:\laragon\www\geotranck-dev\app\Models\GestionUsuarioModel.php(141): CodeIgniter\Model->__call('query', Array)
+#6 C:\laragon\www\geotranck-dev\app\Controllers\GestionUsuarioController.php(592): App\Models\GestionUsuarioModel->extracion_Datos_administrador('2')
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->ExtracionAdministradorView()
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+#9 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-04-28 22:27:57 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 1: SELECT a.* r.nombre as nombrerol FROM administrador a
+                    ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Model.php(868): CodeIgniter\Database\BaseConnection->query('SELECT a.* r.nombre as nombrerol FROM administrador a
+                        JOIN rol r ON a.rol = r.id
+                        WHERE a.estado = 1 and  a.id=2;')
+ 2 APPPATH\Models\GestionUsuarioModel.php(141): CodeIgniter\Model->__call('query', [...])
+ 3 APPPATH\Controllers\GestionUsuarioController.php(592): App\Models\GestionUsuarioModel->extracion_Datos_administrador('2')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->ExtracionAdministradorView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-04-28 22:27:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 1: SELECT a.* r.nombre as nombrerol FROM administrador a
+                    ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT a.* r.nombre as nombrerol FROM administrador a
+                        JOIN rol r ON a.rol = r.id
+                        WHERE a.estado = 1 and  a.id=2;')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.* r.nombre as nombrerol FROM administrador a
+                        JOIN rol r ON a.rol = r.id
+                        WHERE a.estado = 1 and  a.id=2;')
+ 3 SYSTEMPATH\Model.php(868): CodeIgniter\Database\BaseConnection->query('SELECT a.* r.nombre as nombrerol FROM administrador a
+                        JOIN rol r ON a.rol = r.id
+                        WHERE a.estado = 1 and  a.id=2;')
+ 4 APPPATH\Models\GestionUsuarioModel.php(141): CodeIgniter\Model->__call('query', [...])
+ 5 APPPATH\Controllers\GestionUsuarioController.php(592): App\Models\GestionUsuarioModel->extracion_Datos_administrador('2')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->ExtracionAdministradorView()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-04-28 22:27:57 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 1: SELECT a.* r.nombre as nombrerol FROM administrador a
+                    ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 1: SELECT a.* r.nombre as nombrerol FROM administrador a
+                    ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'SELECT a.* r.nombre as nombrerol FROM administrador a
+                        JOIN rol r ON a.rol = r.id
+                        WHERE a.estado = 1 and  a.id=2;')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT a.* r.nombre as nombrerol FROM administrador a
+                        JOIN rol r ON a.rol = r.id
+                        WHERE a.estado = 1 and  a.id=2;')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.* r.nombre as nombrerol FROM administrador a
+                        JOIN rol r ON a.rol = r.id
+                        WHERE a.estado = 1 and  a.id=2;')
+ 5 SYSTEMPATH\Model.php(868): CodeIgniter\Database\BaseConnection->query('SELECT a.* r.nombre as nombrerol FROM administrador a
+                        JOIN rol r ON a.rol = r.id
+                        WHERE a.estado = 1 and  a.id=2;')
+ 6 APPPATH\Models\GestionUsuarioModel.php(141): CodeIgniter\Model->__call('query', [...])
+ 7 APPPATH\Controllers\GestionUsuarioController.php(592): App\Models\GestionUsuarioModel->extracion_Datos_administrador('2')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->ExtracionAdministradorView()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-04-28 22:28:00 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 657.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(657): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(533): App\Controllers\GestionUsuarioController->datatables('[{"id":"2","nombre":"Maria","apellido":"Lopez","correo":"maria@example.com","telefono":"7654321","direccion":"Avenida 456","cargo":"Directora","nombrerol":"Rol 2dwdwdw","created_at":"2024-04-30 12:00:00"},{"id":"3","nombre":"dee","apellido":"de","correo":"de","telefono":"213","direccion":"fefew","cargo":"sc","nombrerol":"Rol 1","created_at":"2024-04-26 22:30:56"},{"id":"5","nombre":"xasx","apellido":"ASX","correo":"asx","telefono":"123","direccion":"123","cargo":"qdw","nombrerol":"sdc","created_at":"2024-04-28 22:03:49"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->datosAdministradorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+ERROR - 2024-04-28 22:28:15 --> ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 1: SELECT a.* r.nombre as nombrerol FROM administrador a
+                    ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'SELECT a.* r.no...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT a.* r.no...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.* r.no...')
+#4 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Model.php(868): CodeIgniter\Database\BaseConnection->query('SELECT a.* r.no...')
+#5 C:\laragon\www\geotranck-dev\app\Models\GestionUsuarioModel.php(141): CodeIgniter\Model->__call('query', Array)
+#6 C:\laragon\www\geotranck-dev\app\Controllers\GestionUsuarioController.php(592): App\Models\GestionUsuarioModel->extracion_Datos_administrador('3')
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->ExtracionAdministradorView()
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+#9 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-04-28 22:28:15 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 1: SELECT a.* r.nombre as nombrerol FROM administrador a
+                    ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Model.php(868): CodeIgniter\Database\BaseConnection->query('SELECT a.* r.nombre as nombrerol FROM administrador a
+                        JOIN rol r ON a.rol = r.id
+                        WHERE a.estado = 1 and  a.id=3;')
+ 2 APPPATH\Models\GestionUsuarioModel.php(141): CodeIgniter\Model->__call('query', [...])
+ 3 APPPATH\Controllers\GestionUsuarioController.php(592): App\Models\GestionUsuarioModel->extracion_Datos_administrador('3')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->ExtracionAdministradorView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-04-28 22:28:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 1: SELECT a.* r.nombre as nombrerol FROM administrador a
+                    ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT a.* r.nombre as nombrerol FROM administrador a
+                        JOIN rol r ON a.rol = r.id
+                        WHERE a.estado = 1 and  a.id=3;')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.* r.nombre as nombrerol FROM administrador a
+                        JOIN rol r ON a.rol = r.id
+                        WHERE a.estado = 1 and  a.id=3;')
+ 3 SYSTEMPATH\Model.php(868): CodeIgniter\Database\BaseConnection->query('SELECT a.* r.nombre as nombrerol FROM administrador a
+                        JOIN rol r ON a.rol = r.id
+                        WHERE a.estado = 1 and  a.id=3;')
+ 4 APPPATH\Models\GestionUsuarioModel.php(141): CodeIgniter\Model->__call('query', [...])
+ 5 APPPATH\Controllers\GestionUsuarioController.php(592): App\Models\GestionUsuarioModel->extracion_Datos_administrador('3')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->ExtracionAdministradorView()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-04-28 22:28:15 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 1: SELECT a.* r.nombre as nombrerol FROM administrador a
+                    ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 1: SELECT a.* r.nombre as nombrerol FROM administrador a
+                    ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'SELECT a.* r.nombre as nombrerol FROM administrador a
+                        JOIN rol r ON a.rol = r.id
+                        WHERE a.estado = 1 and  a.id=3;')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT a.* r.nombre as nombrerol FROM administrador a
+                        JOIN rol r ON a.rol = r.id
+                        WHERE a.estado = 1 and  a.id=3;')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.* r.nombre as nombrerol FROM administrador a
+                        JOIN rol r ON a.rol = r.id
+                        WHERE a.estado = 1 and  a.id=3;')
+ 5 SYSTEMPATH\Model.php(868): CodeIgniter\Database\BaseConnection->query('SELECT a.* r.nombre as nombrerol FROM administrador a
+                        JOIN rol r ON a.rol = r.id
+                        WHERE a.estado = 1 and  a.id=3;')
+ 6 APPPATH\Models\GestionUsuarioModel.php(141): CodeIgniter\Model->__call('query', [...])
+ 7 APPPATH\Controllers\GestionUsuarioController.php(592): App\Models\GestionUsuarioModel->extracion_Datos_administrador('3')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->ExtracionAdministradorView()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-04-28 22:28:37 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 657.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(657): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(533): App\Controllers\GestionUsuarioController->datatables('[{"id":"2","nombre":"Maria","apellido":"Lopez","correo":"maria@example.com","telefono":"7654321","direccion":"Avenida 456","cargo":"Directora","nombrerol":"Rol 2dwdwdw","created_at":"2024-04-30 12:00:00"},{"id":"3","nombre":"dee","apellido":"de","correo":"de","telefono":"213","direccion":"fefew","cargo":"sc","nombrerol":"Rol 1","created_at":"2024-04-26 22:30:56"},{"id":"5","nombre":"xasx","apellido":"ASX","correo":"asx","telefono":"123","direccion":"123","cargo":"qdw","nombrerol":"sdc","created_at":"2024-04-28 22:03:49"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->datosAdministradorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-04-28 22:34:28 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 657.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(657): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(533): App\Controllers\GestionUsuarioController->datatables('[{"id":"2","nombre":"Maria","apellido":"Lopez","correo":"maria@example.com","telefono":"7654321","direccion":"Avenida 456","cargo":"Directora","nombrerol":"Rol 2dwdwdw","created_at":"2024-04-30 12:00:00"},{"id":"3","nombre":"dee","apellido":"de","correo":"de","telefono":"213","direccion":"fefew","cargo":"sc","nombrerol":"Rol 1","created_at":"2024-04-26 22:30:56"},{"id":"5","nombre":"xasx","apellido":"ASX","correo":"asx","telefono":"123","direccion":"123","cargo":"qdw","nombrerol":"sdc","created_at":"2024-04-28 22:03:49"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->datosAdministradorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-04-28 22:38:45 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 657.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(657): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(533): App\Controllers\GestionUsuarioController->datatables('[{"id":"2","nombre":"Maria","apellido":"Lopez","correo":"maria@example.com","telefono":"7654321","direccion":"Avenida 456","cargo":"Directora","nombrerol":"Rol 2dwdwdw","created_at":"2024-04-30 12:00:00"},{"id":"3","nombre":"dee","apellido":"de","correo":"de","telefono":"213","direccion":"fefew","cargo":"sc","nombrerol":"Rol 1","created_at":"2024-04-26 22:30:56"},{"id":"5","nombre":"xasx","apellido":"ASX","correo":"asx","telefono":"123","direccion":"123","cargo":"qdw","nombrerol":"sdc","created_at":"2024-04-28 22:03:49"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->datosAdministradorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-04-28 22:41:01 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 657.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(657): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(533): App\Controllers\GestionUsuarioController->datatables('[{"id":"2","nombre":"Maria","apellido":"Lopez","correo":"maria@example.com","telefono":"7654321","direccion":"Avenida 456","cargo":"Directora","nombrerol":"Rol 2dwdwdw","created_at":"2024-04-30 12:00:00"},{"id":"3","nombre":"dee","apellido":"de","correo":"de","telefono":"213","direccion":"fefew","cargo":"sc","nombrerol":"Rol 1","created_at":"2024-04-26 22:30:56"},{"id":"5","nombre":"xasx","apellido":"ASX","correo":"asx","telefono":"123","direccion":"123","cargo":"qdw","nombrerol":"sdc","created_at":"2024-04-28 22:03:49"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->datosAdministradorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-04-28 22:42:55 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 657.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(657): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(533): App\Controllers\GestionUsuarioController->datatables('[{"id":"2","nombre":"Maria","apellido":"Lopez","correo":"maria@example.com","telefono":"7654321","direccion":"Avenida 456","cargo":"Directora","nombrerol":"Rol 2dwdwdw","created_at":"2024-04-30 12:00:00"},{"id":"3","nombre":"dee","apellido":"de","correo":"de","telefono":"213","direccion":"fefew","cargo":"sc","nombrerol":"Rol 1","created_at":"2024-04-26 22:30:56"},{"id":"5","nombre":"xasx","apellido":"ASX","correo":"asx","telefono":"123","direccion":"123","cargo":"qdw","nombrerol":"sdc","created_at":"2024-04-28 22:03:49"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->datosAdministradorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-04-28 22:45:01 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 657.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(657): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(533): App\Controllers\GestionUsuarioController->datatables('[{"id":"2","nombre":"Maria","apellido":"Lopez","correo":"maria@example.com","telefono":"7654321","direccion":"Avenida 456","cargo":"Directora","nombrerol":"Rol 2dwdwdw","created_at":"2024-04-30 12:00:00"},{"id":"3","nombre":"dee","apellido":"de","correo":"de","telefono":"213","direccion":"fefew","cargo":"sc","nombrerol":"Rol 1","created_at":"2024-04-26 22:30:56"},{"id":"5","nombre":"xasx","apellido":"ASX","correo":"asx","telefono":"123","direccion":"123","cargo":"qdw","nombrerol":"sdc","created_at":"2024-04-28 22:03:49"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->datosAdministradorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-04-28 22:47:35 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 657.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(657): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(533): App\Controllers\GestionUsuarioController->datatables('[{"id":"2","nombre":"Maria","apellido":"Lopez","correo":"maria@example.com","telefono":"7654321","direccion":"Avenida 456","cargo":"Directora","nombrerol":"Rol 2dwdwdw","created_at":"2024-04-30 12:00:00"},{"id":"3","nombre":"dee","apellido":"de","correo":"de","telefono":"213","direccion":"fefew","cargo":"sc","nombrerol":"Rol 1","created_at":"2024-04-26 22:30:56"},{"id":"5","nombre":"xasx","apellido":"ASX","correo":"asx","telefono":"123","direccion":"123","cargo":"qdw","nombrerol":"sdc","created_at":"2024-04-28 22:03:49"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->datosAdministradorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-04-28 22:48:11 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 657.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(657): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(533): App\Controllers\GestionUsuarioController->datatables('[{"id":"2","nombre":"Maria","apellido":"Lopez","correo":"maria@example.com","telefono":"7654321","direccion":"Avenida 456","cargo":"Directora","nombrerol":"Rol 2dwdwdw","created_at":"2024-04-30 12:00:00"},{"id":"3","nombre":"dee","apellido":"de","correo":"de","telefono":"213","direccion":"fefew","cargo":"sc","nombrerol":"Rol 1","created_at":"2024-04-26 22:30:56"},{"id":"5","nombre":"xasx","apellido":"ASX","correo":"asx","telefono":"123","direccion":"123","cargo":"qdw","nombrerol":"sdc","created_at":"2024-04-28 22:03:49"},{"id":"6","nombre":"bdfb","apellido":"fb","correo":"dfb","telefono":"324","direccion":"sdv","cargo":"dsv","nombrerol":"fe 123 213 dsfdsf","created_at":"2024-04-28 22:48:10"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->datosAdministradorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-04-28 23:29:08 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 657.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(657): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(533): App\Controllers\GestionUsuarioController->datatables('[{"id":"2","nombre":"Maria","apellido":"Lopez","correo":"maria@example.com","telefono":"7654321","direccion":"Avenida 456","cargo":"Directora","nombrerol":"Rol 2dwdwdw","created_at":"2024-04-30 12:00:00"},{"id":"3","nombre":"dee","apellido":"de","correo":"de","telefono":"213","direccion":"fefew","cargo":"sc","nombrerol":"Rol 1","created_at":"2024-04-26 22:30:56"},{"id":"5","nombre":"xasx","apellido":"ASX","correo":"asx","telefono":"123","direccion":"123","cargo":"qdw","nombrerol":"sdc","created_at":"2024-04-28 22:03:49"},{"id":"6","nombre":"bdfb","apellido":"fb","correo":"dfb","telefono":"324","direccion":"sdv","cargo":"dsv","nombrerol":"fe 123 213 dsfdsf","created_at":"2024-04-28 22:48:10"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->datosAdministradorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-04-28 23:29:37 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 657.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(657): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(533): App\Controllers\GestionUsuarioController->datatables('[{"id":"2","nombre":"Maria","apellido":"Lopez","correo":"maria@example.com","telefono":"7654321","direccion":"Avenida 456","cargo":"Directora","nombrerol":"Rol 2dwdwdw","created_at":"2024-04-30 12:00:00"},{"id":"3","nombre":"dee","apellido":"de","correo":"de","telefono":"213","direccion":"fefew","cargo":"sc","nombrerol":"Rol 1","created_at":"2024-04-26 22:30:56"},{"id":"5","nombre":"xasx","apellido":"ASX","correo":"asx","telefono":"123","direccion":"123","cargo":"qdw","nombrerol":"sdc","created_at":"2024-04-28 22:03:49"},{"id":"6","nombre":"bdfb","apellido":"fb","correo":"dfb","telefono":"324","direccion":"sdv","cargo":"dsv","nombrerol":"fe 123 213 dsfdsf","created_at":"2024-04-28 22:48:10"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->datosAdministradorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-04-28 23:57:10 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 698.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(698): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(533): App\Controllers\GestionUsuarioController->datatables('[{"id":"2","nombre":"Maria","apellido":"Lopez","correo":"maria@example.com","telefono":"7654321","direccion":"Avenida 456","cargo":"Directora","nombrerol":"Rol 2dwdwdw","created_at":"2024-04-30 12:00:00"},{"id":"3","nombre":"dee","apellido":"de","correo":"de","telefono":"213","direccion":"fefew","cargo":"sc","nombrerol":"Rol 1","created_at":"2024-04-26 22:30:56"},{"id":"5","nombre":"xasx","apellido":"ASX","correo":"asx","telefono":"123","direccion":"123","cargo":"qdw","nombrerol":"sdc","created_at":"2024-04-28 22:03:49"},{"id":"6","nombre":"bdfb","apellido":"fb","correo":"dfb","telefono":"324","direccion":"sdv","cargo":"dsv","nombrerol":"fe 123 213 dsfdsf","created_at":"2024-04-28 22:48:10"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->datosAdministradorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-04-28 23:57:22 --> ErrorException: Undefined array key "estado"
+in APPPATH\Models\GestionUsuarioModel.php on line 177.
+ 1 APPPATH\Models\GestionUsuarioModel.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "estado"', 'C:\\laragon\\www\\geotranck-dev\\app\\Models\\GestionUsuarioModel.php', 177)
+ 2 APPPATH\Controllers\GestionUsuarioController.php(635): App\Models\GestionUsuarioModel->editar_administrador([...], '5')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->editarAdministrador()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-04-28 23:59:38 --> ErrorException: Undefined array key "estado"
+in APPPATH\Models\GestionUsuarioModel.php on line 177.
+ 1 APPPATH\Models\GestionUsuarioModel.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "estado"', 'C:\\laragon\\www\\geotranck-dev\\app\\Models\\GestionUsuarioModel.php', 177)
+ 2 APPPATH\Controllers\GestionUsuarioController.php(633): App\Models\GestionUsuarioModel->editar_administrador([...], '5')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->editarAdministrador()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')

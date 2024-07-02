@@ -1,0 +1,597 @@
+WARNING - 2024-05-14 00:19:42 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 769.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(769): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(420): App\Controllers\GestionUsuarioController->datatables('[{"id":"7","nombre":"tutorssdsada","apellido":"cas","ci":"cs","telefono":"1","parentesco":"tio","correo":"csc","direccion":"csc","indicacion":"scs","created_at":"2024-04-22 21:13:44"},{"id":"4","nombre":"vxcvx\\n","apellido":"xcvcxv","ci":"xcvxcv","telefono":null,"parentesco":"padre","correo":null,"direccion":null,"indicacion":null,"created_at":"2024-04-22 21:08:53"},{"id":"2","nombre":"sdsa","apellido":"wef","ci":"fwe","telefono":"123","parentesco":"padre","correo":"dsf","direccion":"dsa","indicacion":"asd","created_at":"2024-04-22 21:00:14"},{"id":"1","nombre":"asd","apellido":"sdasd","ci":"asdasd","telefono":"asdasd","parentesco":"padre","correo":"asdsad","direccion":"asdasd","indicacion":"sadasd","created_at":"2024-04-22 20:52:19"},{"id":"6","nombre":"mama","apellido":"dede","ci":"123","telefono":"123","parentesco":"madre","correo":null,"direccion":null,"indicacion":null,"created_at":"2024-04-22 21:12:38"},{"id":"5","nombre":"juansd","apellido":"sad","ci":"asd","telefono":"123","parentesco":"padre","correo":null,"direccion":null,"indicacion":null,"created_at":"2024-04-22 21:11:56"},{"id":"3","nombre":"sdsa","apellido":"wef","ci":"fwe","telefono":"123","parentesco":"padre","correo":"","direccion":"","indicacion":"","created_at":"2024-04-22 21:00:27"},{"id":"10","nombre":"sdfdsf","apellido":"dsfdsf","ci":"ewr","telefono":"342","parentesco":"sdfdsf","correo":null,"direccion":null,"indicacion":null,"created_at":"2024-04-24 00:22:50"},{"id":"12","nombre":"fdsfdsdfds","apellido":"sdfdsfsd","ci":"dsfdsf","telefono":"2312312","parentesco":"padre","correo":null,"direccion":null,"indicacion":null,"created_at":"2024-04-24 00:25:25"},{"id":"9","nombre":"dfdfg","apellido":"dfg","ci":"asdsadasd","telefono":"12","parentesco":"3","correo":"123","direccion":"3","indicacion":"123","created_at":"2024-04-23 23:41:26"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->DatosPadresView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-14 00:20:00 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 769.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(769): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(604): App\Controllers\GestionUsuarioController->datatables('[{"id":"2","nombre":"Maria","apellido":"Lopez","correo":"maria@example.com","telefono":"7654321","direccion":"Avenida 456","cargo":"Directora","nombrerol":"Rol 2dwdwdw","created_at":"2024-04-30 12:00:00"},{"id":"5","nombre":"xasx","apellido":"ASX","correo":"asx","telefono":"123","direccion":"123","cargo":"qdw","nombrerol":"sdc","created_at":"2024-04-28 22:03:49"},{"id":"6","nombre":"bdfb","apellido":"fb","correo":"dfb","telefono":"324","direccion":"sdv","cargo":"dsv","nombrerol":"fe 123 213 dsfdsf","created_at":"2024-04-28 22:48:10"},{"id":"3","nombre":"mimierror","apellido":"de","correo":"de","telefono":"213","direccion":"fefew","cargo":"sc","nombrerol":"sdc","created_at":"2024-04-26 22:30:56"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->datosAdministradorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-14 00:20:43 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 564.
+ 1 APPPATH\Controllers\GestionTransporteController.php(564): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(64): App\Controllers\GestionTransporteController->datatables('[{"id":"6","nombre":"sd","apellido":"asc","ci":"31232131","numlicencia":"13212312","fechalicencia":"2024-05-16","licencia":"1","catlic":"Cat.C","correoelectronico":"ascsacas","telefono":"21312","direccion":"cassa","cargo":"scasc","genero":"Femenino","fechainiciocontrato":"2024-05-17","fechafincontrato":"2024-05-17","estado":"1","created_at":"2024-05-04 22:43:05","updated_at":"2024-05-05 21:28:12"},{"id":"3","nombre":"asd","apellido":"asd","ci":"asd","numlicencia":"213","fechalicencia":"2024-05-02","licencia":"1","catlic":"Cat.A","correoelectronico":"asd","telefono":"342423","direccion":"sacascsa","cargo":"ascascsacas","genero":"Masculino","fechainiciocontrato":"2024-05-16","fechafincontrato":"2024-05-25","estado":"1","created_at":"2024-05-04 22:35:40","updated_at":"2024-05-05 21:34:36"},{"id":"4","nombre":"ascsceditado","apellido":"asc","ci":"acsasc","numlicencia":"as","fechalicencia":"2024-05-08","licencia":"1","catlic":"Cat.P","correoelectronico":"asc","telefono":"3432","direccion":"csac","cargo":"asc","genero":"Femenino","fechainiciocontrato":"2024-05-15","fechafincontrato":"2024-05-16","estado":"1","created_at":"2024-05-04 22:36:20","updated_at":"2024-05-05 21:34:59"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->datosConductorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-14 00:50:42 --> ErrorException: Cannot redeclare App\Controllers\GestionUsuarioController::agregar_Padres()
+in APPPATH\Controllers\GestionUsuarioController.php on line 509.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2024-05-14 00:52:23 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «asd»
+LINE 1: ...a.png', 'as', 'asd', 'asd', 'asas', 'asd', 'asd', 'asd', 'M'...
+                                                             ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'INSERT INTO "es...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "es...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "es...')
+#4 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "es...', Array, false)
+#5 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\laragon\www\geotranck-dev\app\Models\GestionEstudianteModel.php(80): CodeIgniter\Model->insert(Array)
+#9 C:\laragon\www\geotranck-dev\app\Controllers\GestionUsuarioController.php(328): App\Models\GestionEstudianteModel->insertar_estudiante(Array)
+#10 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+#11 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+#12 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#15 {main}
+CRITICAL - 2024-05-14 00:52:23 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «asd»
+LINE 1: ...a.png', 'as', 'asd', 'asd', 'asas', 'asd', 'asd', 'asd', 'M'...
+                                                             ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (:imagenestudiante:, :nombre:, :nombre2:, :apellido:, :apellido2:, :ci:, :telefono:, :edad:, :genero:, :curso:, :fechainscripcion:, :fechanacimiento:, :padre_id:, :madre_id:, :tutor_id:, :automovil_id:, :rfid_id:, :codigo:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\GestionEstudianteModel.php(80): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\GestionUsuarioController.php(328): App\Models\GestionEstudianteModel->insertar_estudiante([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-14 00:52:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «asd»
+LINE 1: ...a.png', 'as', 'asd', 'asd', 'asas', 'asd', 'asd', 'asd', 'M'...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (\'Captura de pantalla 2023-06-18 160650 - copia.png\', \'as\', \'asd\', \'asd\', \'asas\', \'asd\', \'asd\', \'asd\', \'M\', \'asd\', \'2024-05-24\', \'2024-05-16\', \'5\', \'1\', \'7\', \'8\', \'8\', \'asd\', 1, \'2024-05-14 00:52:23\', \'2024-05-14 00:52:23\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (\'Captura de pantalla 2023-06-18 160650 - copia.png\', \'as\', \'asd\', \'asd\', \'asas\', \'asd\', \'asd\', \'asd\', \'M\', \'asd\', \'2024-05-24\', \'2024-05-16\', \'5\', \'1\', \'7\', \'8\', \'8\', \'asd\', 1, \'2024-05-14 00:52:23\', \'2024-05-14 00:52:23\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (:imagenestudiante:, :nombre:, :nombre2:, :apellido:, :apellido2:, :ci:, :telefono:, :edad:, :genero:, :curso:, :fechainscripcion:, :fechanacimiento:, :padre_id:, :madre_id:, :tutor_id:, :automovil_id:, :rfid_id:, :codigo:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Models\GestionEstudianteModel.php(80): CodeIgniter\Model->insert([...])
+ 8 APPPATH\Controllers\GestionUsuarioController.php(328): App\Models\GestionEstudianteModel->insertar_estudiante([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-14 00:52:23 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «asd»
+LINE 1: ...a.png', 'as', 'asd', 'asd', 'asas', 'asd', 'asd', 'asd', 'M'...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «asd»
+LINE 1: ...a.png\', \'as\', \'asd\', \'asd\', \'asas\', \'asd\', \'asd\', \'asd\', \'M\'...
+                                                             ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (\'Captura de pantalla 2023-06-18 160650 - copia.png\', \'as\', \'asd\', \'asd\', \'asas\', \'asd\', \'asd\', \'asd\', \'M\', \'asd\', \'2024-05-24\', \'2024-05-16\', \'5\', \'1\', \'7\', \'8\', \'8\', \'asd\', 1, \'2024-05-14 00:52:23\', \'2024-05-14 00:52:23\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (\'Captura de pantalla 2023-06-18 160650 - copia.png\', \'as\', \'asd\', \'asd\', \'asas\', \'asd\', \'asd\', \'asd\', \'M\', \'asd\', \'2024-05-24\', \'2024-05-16\', \'5\', \'1\', \'7\', \'8\', \'8\', \'asd\', 1, \'2024-05-14 00:52:23\', \'2024-05-14 00:52:23\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (\'Captura de pantalla 2023-06-18 160650 - copia.png\', \'as\', \'asd\', \'asd\', \'asas\', \'asd\', \'asd\', \'asd\', \'M\', \'asd\', \'2024-05-24\', \'2024-05-16\', \'5\', \'1\', \'7\', \'8\', \'8\', \'asd\', 1, \'2024-05-14 00:52:23\', \'2024-05-14 00:52:23\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (:imagenestudiante:, :nombre:, :nombre2:, :apellido:, :apellido2:, :ci:, :telefono:, :edad:, :genero:, :curso:, :fechainscripcion:, :fechanacimiento:, :padre_id:, :madre_id:, :tutor_id:, :automovil_id:, :rfid_id:, :codigo:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 6 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Models\GestionEstudianteModel.php(80): CodeIgniter\Model->insert([...])
+10 APPPATH\Controllers\GestionUsuarioController.php(328): App\Models\GestionEstudianteModel->insertar_estudiante([...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-14 00:55:05 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\GestionUsuarioController.php on line 276.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+ERROR - 2024-05-14 01:04:17 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «d»
+LINE 1: ...2838.png', 'sdvds', 'dsv', 'sdv', 'sd', 'd', 'd', 'd', 'M', ...
+                                                             ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'INSERT INTO "es...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "es...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "es...')
+#4 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "es...', Array, false)
+#5 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\laragon\www\geotranck-dev\app\Models\GestionEstudianteModel.php(80): CodeIgniter\Model->insert(Array)
+#9 C:\laragon\www\geotranck-dev\app\Controllers\GestionUsuarioController.php(328): App\Models\GestionEstudianteModel->insertar_estudiante(Array)
+#10 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+#11 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+#12 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#15 {main}
+CRITICAL - 2024-05-14 01:04:17 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «d»
+LINE 1: ...2838.png', 'sdvds', 'dsv', 'sdv', 'sd', 'd', 'd', 'd', 'M', ...
+                                                             ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (:imagenestudiante:, :nombre:, :nombre2:, :apellido:, :apellido2:, :ci:, :telefono:, :edad:, :genero:, :curso:, :fechainscripcion:, :fechanacimiento:, :padre_id:, :madre_id:, :tutor_id:, :automovil_id:, :rfid_id:, :codigo:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\GestionEstudianteModel.php(80): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\GestionUsuarioController.php(328): App\Models\GestionEstudianteModel->insertar_estudiante([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-14 01:04:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «d»
+LINE 1: ...2838.png', 'sdvds', 'dsv', 'sdv', 'sd', 'd', 'd', 'd', 'M', ...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (\'Captura de pantalla 2023-04-28 122838.png\', \'sdvds\', \'dsv\', \'sdv\', \'sd\', \'d\', \'d\', \'d\', \'M\', \'sd\', \'2024-05-18\', \'2024-05-26\', \'3\', \'2\', \'1\', \'8\', \'8\', \'sd\', 1, \'2024-05-14 01:04:17\', \'2024-05-14 01:04:17\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (\'Captura de pantalla 2023-04-28 122838.png\', \'sdvds\', \'dsv\', \'sdv\', \'sd\', \'d\', \'d\', \'d\', \'M\', \'sd\', \'2024-05-18\', \'2024-05-26\', \'3\', \'2\', \'1\', \'8\', \'8\', \'sd\', 1, \'2024-05-14 01:04:17\', \'2024-05-14 01:04:17\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (:imagenestudiante:, :nombre:, :nombre2:, :apellido:, :apellido2:, :ci:, :telefono:, :edad:, :genero:, :curso:, :fechainscripcion:, :fechanacimiento:, :padre_id:, :madre_id:, :tutor_id:, :automovil_id:, :rfid_id:, :codigo:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Models\GestionEstudianteModel.php(80): CodeIgniter\Model->insert([...])
+ 8 APPPATH\Controllers\GestionUsuarioController.php(328): App\Models\GestionEstudianteModel->insertar_estudiante([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-14 01:04:17 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «d»
+LINE 1: ...2838.png', 'sdvds', 'dsv', 'sdv', 'sd', 'd', 'd', 'd', 'M', ...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «d»
+LINE 1: ...2838.png\', \'sdvds\', \'dsv\', \'sdv\', \'sd\', \'d\', \'d\', \'d\', \'M\', ...
+                                                             ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (\'Captura de pantalla 2023-04-28 122838.png\', \'sdvds\', \'dsv\', \'sdv\', \'sd\', \'d\', \'d\', \'d\', \'M\', \'sd\', \'2024-05-18\', \'2024-05-26\', \'3\', \'2\', \'1\', \'8\', \'8\', \'sd\', 1, \'2024-05-14 01:04:17\', \'2024-05-14 01:04:17\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (\'Captura de pantalla 2023-04-28 122838.png\', \'sdvds\', \'dsv\', \'sdv\', \'sd\', \'d\', \'d\', \'d\', \'M\', \'sd\', \'2024-05-18\', \'2024-05-26\', \'3\', \'2\', \'1\', \'8\', \'8\', \'sd\', 1, \'2024-05-14 01:04:17\', \'2024-05-14 01:04:17\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (\'Captura de pantalla 2023-04-28 122838.png\', \'sdvds\', \'dsv\', \'sdv\', \'sd\', \'d\', \'d\', \'d\', \'M\', \'sd\', \'2024-05-18\', \'2024-05-26\', \'3\', \'2\', \'1\', \'8\', \'8\', \'sd\', 1, \'2024-05-14 01:04:17\', \'2024-05-14 01:04:17\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (:imagenestudiante:, :nombre:, :nombre2:, :apellido:, :apellido2:, :ci:, :telefono:, :edad:, :genero:, :curso:, :fechainscripcion:, :fechanacimiento:, :padre_id:, :madre_id:, :tutor_id:, :automovil_id:, :rfid_id:, :codigo:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 6 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Models\GestionEstudianteModel.php(80): CodeIgniter\Model->insert([...])
+10 APPPATH\Controllers\GestionUsuarioController.php(328): App\Models\GestionEstudianteModel->insertar_estudiante([...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+ERROR - 2024-05-14 01:14:33 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «asd»
+LINE 1: ...a (2).png', 'nom', 'nom1', 'ar', 'ar', 'as', '3', 'asd', 'M'...
+                                                             ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'INSERT INTO "es...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "es...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "es...')
+#4 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "es...', Array, false)
+#5 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\laragon\www\geotranck-dev\app\Models\GestionEstudianteModel.php(80): CodeIgniter\Model->insert(Array)
+#9 C:\laragon\www\geotranck-dev\app\Controllers\GestionUsuarioController.php(328): App\Models\GestionEstudianteModel->insertar_estudiante(Array)
+#10 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+#11 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+#12 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#15 {main}
+CRITICAL - 2024-05-14 01:14:33 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «asd»
+LINE 1: ...a (2).png', 'nom', 'nom1', 'ar', 'ar', 'as', '3', 'asd', 'M'...
+                                                             ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (:imagenestudiante:, :nombre:, :nombre2:, :apellido:, :apellido2:, :ci:, :telefono:, :edad:, :genero:, :curso:, :fechainscripcion:, :fechanacimiento:, :padre_id:, :madre_id:, :tutor_id:, :automovil_id:, :rfid_id:, :codigo:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\GestionEstudianteModel.php(80): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\GestionUsuarioController.php(328): App\Models\GestionEstudianteModel->insertar_estudiante([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-14 01:14:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «asd»
+LINE 1: ...a (2).png', 'nom', 'nom1', 'ar', 'ar', 'as', '3', 'asd', 'M'...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (\'Captura de pantalla 2023-06-18 160825 - copia (2).png\', \'nom\', \'nom1\', \'ar\', \'ar\', \'as\', \'3\', \'asd\', \'M\', \'asd\', \'2024-05-18\', \'2024-05-26\', \'10\', \'6\', \'2\', \'8\', \'8\', \'sd\', 1, \'2024-05-14 01:14:32\', \'2024-05-14 01:14:32\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (\'Captura de pantalla 2023-06-18 160825 - copia (2).png\', \'nom\', \'nom1\', \'ar\', \'ar\', \'as\', \'3\', \'asd\', \'M\', \'asd\', \'2024-05-18\', \'2024-05-26\', \'10\', \'6\', \'2\', \'8\', \'8\', \'sd\', 1, \'2024-05-14 01:14:32\', \'2024-05-14 01:14:32\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (:imagenestudiante:, :nombre:, :nombre2:, :apellido:, :apellido2:, :ci:, :telefono:, :edad:, :genero:, :curso:, :fechainscripcion:, :fechanacimiento:, :padre_id:, :madre_id:, :tutor_id:, :automovil_id:, :rfid_id:, :codigo:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Models\GestionEstudianteModel.php(80): CodeIgniter\Model->insert([...])
+ 8 APPPATH\Controllers\GestionUsuarioController.php(328): App\Models\GestionEstudianteModel->insertar_estudiante([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-14 01:14:33 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «asd»
+LINE 1: ...a (2).png', 'nom', 'nom1', 'ar', 'ar', 'as', '3', 'asd', 'M'...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «asd»
+LINE 1: ...a (2).png\', \'nom\', \'nom1\', \'ar\', \'ar\', \'as\', \'3\', \'asd\', \'M\'...
+                                                             ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (\'Captura de pantalla 2023-06-18 160825 - copia (2).png\', \'nom\', \'nom1\', \'ar\', \'ar\', \'as\', \'3\', \'asd\', \'M\', \'asd\', \'2024-05-18\', \'2024-05-26\', \'10\', \'6\', \'2\', \'8\', \'8\', \'sd\', 1, \'2024-05-14 01:14:32\', \'2024-05-14 01:14:32\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (\'Captura de pantalla 2023-06-18 160825 - copia (2).png\', \'nom\', \'nom1\', \'ar\', \'ar\', \'as\', \'3\', \'asd\', \'M\', \'asd\', \'2024-05-18\', \'2024-05-26\', \'10\', \'6\', \'2\', \'8\', \'8\', \'sd\', 1, \'2024-05-14 01:14:32\', \'2024-05-14 01:14:32\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (\'Captura de pantalla 2023-06-18 160825 - copia (2).png\', \'nom\', \'nom1\', \'ar\', \'ar\', \'as\', \'3\', \'asd\', \'M\', \'asd\', \'2024-05-18\', \'2024-05-26\', \'10\', \'6\', \'2\', \'8\', \'8\', \'sd\', 1, \'2024-05-14 01:14:32\', \'2024-05-14 01:14:32\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (:imagenestudiante:, :nombre:, :nombre2:, :apellido:, :apellido2:, :ci:, :telefono:, :edad:, :genero:, :curso:, :fechainscripcion:, :fechanacimiento:, :padre_id:, :madre_id:, :tutor_id:, :automovil_id:, :rfid_id:, :codigo:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 6 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Models\GestionEstudianteModel.php(80): CodeIgniter\Model->insert([...])
+10 APPPATH\Controllers\GestionUsuarioController.php(328): App\Models\GestionEstudianteModel->insertar_estudiante([...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+ERROR - 2024-05-14 01:25:55 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «fe»
+LINE 1: ...160825.png', 'efe', 'fe', 'fe', 'ef', 'ef', 'fe', 'fe', 'M',...
+                                                             ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'INSERT INTO "es...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "es...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "es...')
+#4 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "es...', Array, false)
+#5 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\laragon\www\geotranck-dev\app\Models\GestionEstudianteModel.php(81): CodeIgniter\Model->insert(Array)
+#9 C:\laragon\www\geotranck-dev\app\Controllers\GestionUsuarioController.php(306): App\Models\GestionEstudianteModel->insertar_estudiante(Array)
+#10 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+#11 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+#12 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#15 {main}
+CRITICAL - 2024-05-14 01:25:55 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «fe»
+LINE 1: ...160825.png', 'efe', 'fe', 'fe', 'ef', 'ef', 'fe', 'fe', 'M',...
+                                                             ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (:imagenestudiante:, :nombre:, :nombre2:, :apellido:, :apellido2:, :ci:, :telefono:, :edad:, :genero:, :curso:, :fechainscripcion:, :fechanacimiento:, :padre_id:, :madre_id:, :tutor_id:, :automovil_id:, :rfid_id:, :codigo:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\GestionEstudianteModel.php(81): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\GestionUsuarioController.php(306): App\Models\GestionEstudianteModel->insertar_estudiante([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-14 01:25:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «fe»
+LINE 1: ...160825.png', 'efe', 'fe', 'fe', 'ef', 'ef', 'fe', 'fe', 'M',...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (\'Captura de pantalla 2023-06-18 160825.png\', \'efe\', \'fe\', \'fe\', \'ef\', \'ef\', \'fe\', \'fe\', \'M\', \'fe\', \'2024-05-18\', \'2024-05-07\', \'3\', \'1\', \'1\', \'8\', \'8\', \'fe\', 1, \'2024-05-14 01:25:55\', \'2024-05-14 01:25:55\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (\'Captura de pantalla 2023-06-18 160825.png\', \'efe\', \'fe\', \'fe\', \'ef\', \'ef\', \'fe\', \'fe\', \'M\', \'fe\', \'2024-05-18\', \'2024-05-07\', \'3\', \'1\', \'1\', \'8\', \'8\', \'fe\', 1, \'2024-05-14 01:25:55\', \'2024-05-14 01:25:55\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (:imagenestudiante:, :nombre:, :nombre2:, :apellido:, :apellido2:, :ci:, :telefono:, :edad:, :genero:, :curso:, :fechainscripcion:, :fechanacimiento:, :padre_id:, :madre_id:, :tutor_id:, :automovil_id:, :rfid_id:, :codigo:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Models\GestionEstudianteModel.php(81): CodeIgniter\Model->insert([...])
+ 8 APPPATH\Controllers\GestionUsuarioController.php(306): App\Models\GestionEstudianteModel->insertar_estudiante([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-14 01:25:55 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «fe»
+LINE 1: ...160825.png', 'efe', 'fe', 'fe', 'ef', 'ef', 'fe', 'fe', 'M',...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «fe»
+LINE 1: ...160825.png\', \'efe\', \'fe\', \'fe\', \'ef\', \'ef\', \'fe\', \'fe\', \'M\',...
+                                                             ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (\'Captura de pantalla 2023-06-18 160825.png\', \'efe\', \'fe\', \'fe\', \'ef\', \'ef\', \'fe\', \'fe\', \'M\', \'fe\', \'2024-05-18\', \'2024-05-07\', \'3\', \'1\', \'1\', \'8\', \'8\', \'fe\', 1, \'2024-05-14 01:25:55\', \'2024-05-14 01:25:55\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (\'Captura de pantalla 2023-06-18 160825.png\', \'efe\', \'fe\', \'fe\', \'ef\', \'ef\', \'fe\', \'fe\', \'M\', \'fe\', \'2024-05-18\', \'2024-05-07\', \'3\', \'1\', \'1\', \'8\', \'8\', \'fe\', 1, \'2024-05-14 01:25:55\', \'2024-05-14 01:25:55\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (\'Captura de pantalla 2023-06-18 160825.png\', \'efe\', \'fe\', \'fe\', \'ef\', \'ef\', \'fe\', \'fe\', \'M\', \'fe\', \'2024-05-18\', \'2024-05-07\', \'3\', \'1\', \'1\', \'8\', \'8\', \'fe\', 1, \'2024-05-14 01:25:55\', \'2024-05-14 01:25:55\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (:imagenestudiante:, :nombre:, :nombre2:, :apellido:, :apellido2:, :ci:, :telefono:, :edad:, :genero:, :curso:, :fechainscripcion:, :fechanacimiento:, :padre_id:, :madre_id:, :tutor_id:, :automovil_id:, :rfid_id:, :codigo:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 6 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Models\GestionEstudianteModel.php(81): CodeIgniter\Model->insert([...])
+10 APPPATH\Controllers\GestionUsuarioController.php(306): App\Models\GestionEstudianteModel->insertar_estudiante([...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+ERROR - 2024-05-14 01:33:34 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «jnjn»
+LINE 1: ...png', 'wef', 'wef', 'jnjn', 'jnj', 'jnjn', 'njn', 'jnjn', 'F...
+                                                             ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'INSERT INTO "es...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "es...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "es...')
+#4 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "es...', Array, false)
+#5 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\laragon\www\geotranck-dev\app\Models\GestionEstudianteModel.php(81): CodeIgniter\Model->insert(Array)
+#9 C:\laragon\www\geotranck-dev\app\Controllers\GestionUsuarioController.php(306): App\Models\GestionEstudianteModel->insertar_estudiante(Array)
+#10 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+#11 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+#12 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#15 {main}
+CRITICAL - 2024-05-14 01:33:34 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «jnjn»
+LINE 1: ...png', 'wef', 'wef', 'jnjn', 'jnj', 'jnjn', 'njn', 'jnjn', 'F...
+                                                             ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (:imagenestudiante:, :nombre:, :nombre2:, :apellido:, :apellido2:, :ci:, :telefono:, :edad:, :genero:, :curso:, :fechainscripcion:, :fechanacimiento:, :padre_id:, :madre_id:, :tutor_id:, :automovil_id:, :rfid_id:, :codigo:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\GestionEstudianteModel.php(81): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\GestionUsuarioController.php(306): App\Models\GestionEstudianteModel->insertar_estudiante([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-14 01:33:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «jnjn»
+LINE 1: ...png', 'wef', 'wef', 'jnjn', 'jnj', 'jnjn', 'njn', 'jnjn', 'F...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (\'Captura de pantalla 2023-06-18 160825_1.png\', \'wef\', \'wef\', \'jnjn\', \'jnj\', \'jnjn\', \'njn\', \'jnjn\', \'F\', \'jjj\', \'2024-05-15\', \'2024-05-08\', \'3\', \'6\', \'7\', \'8\', \'8\', \'s\', 1, \'2024-05-14 01:33:34\', \'2024-05-14 01:33:34\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (\'Captura de pantalla 2023-06-18 160825_1.png\', \'wef\', \'wef\', \'jnjn\', \'jnj\', \'jnjn\', \'njn\', \'jnjn\', \'F\', \'jjj\', \'2024-05-15\', \'2024-05-08\', \'3\', \'6\', \'7\', \'8\', \'8\', \'s\', 1, \'2024-05-14 01:33:34\', \'2024-05-14 01:33:34\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (:imagenestudiante:, :nombre:, :nombre2:, :apellido:, :apellido2:, :ci:, :telefono:, :edad:, :genero:, :curso:, :fechainscripcion:, :fechanacimiento:, :padre_id:, :madre_id:, :tutor_id:, :automovil_id:, :rfid_id:, :codigo:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Models\GestionEstudianteModel.php(81): CodeIgniter\Model->insert([...])
+ 8 APPPATH\Controllers\GestionUsuarioController.php(306): App\Models\GestionEstudianteModel->insertar_estudiante([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-14 01:33:34 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «jnjn»
+LINE 1: ...png', 'wef', 'wef', 'jnjn', 'jnj', 'jnjn', 'njn', 'jnjn', 'F...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo integer: «jnjn»
+LINE 1: ...png\', \'wef\', \'wef\', \'jnjn\', \'jnj\', \'jnjn\', \'njn\', \'jnjn\', \'F...
+                                                             ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (\'Captura de pantalla 2023-06-18 160825_1.png\', \'wef\', \'wef\', \'jnjn\', \'jnj\', \'jnjn\', \'njn\', \'jnjn\', \'F\', \'jjj\', \'2024-05-15\', \'2024-05-08\', \'3\', \'6\', \'7\', \'8\', \'8\', \'s\', 1, \'2024-05-14 01:33:34\', \'2024-05-14 01:33:34\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (\'Captura de pantalla 2023-06-18 160825_1.png\', \'wef\', \'wef\', \'jnjn\', \'jnj\', \'jnjn\', \'njn\', \'jnjn\', \'F\', \'jjj\', \'2024-05-15\', \'2024-05-08\', \'3\', \'6\', \'7\', \'8\', \'8\', \'s\', 1, \'2024-05-14 01:33:34\', \'2024-05-14 01:33:34\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (\'Captura de pantalla 2023-06-18 160825_1.png\', \'wef\', \'wef\', \'jnjn\', \'jnj\', \'jnjn\', \'njn\', \'jnjn\', \'F\', \'jjj\', \'2024-05-15\', \'2024-05-08\', \'3\', \'6\', \'7\', \'8\', \'8\', \'s\', 1, \'2024-05-14 01:33:34\', \'2024-05-14 01:33:34\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "estudiantes" ("imagenestudiante", "nombre", "nombre2", "apellido", "apellido2", "ci", "telefono", "edad", "genero", "curso", "fechainscripcion", "fechanacimiento", "padre_id", "madre_id", "tutor_id", "automovil_id", "rfid_id", "codigo", "estado", "created_at", "updated_at") VALUES (:imagenestudiante:, :nombre:, :nombre2:, :apellido:, :apellido2:, :ci:, :telefono:, :edad:, :genero:, :curso:, :fechainscripcion:, :fechanacimiento:, :padre_id:, :madre_id:, :tutor_id:, :automovil_id:, :rfid_id:, :codigo:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 6 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Models\GestionEstudianteModel.php(81): CodeIgniter\Model->insert([...])
+10 APPPATH\Controllers\GestionUsuarioController.php(306): App\Models\GestionEstudianteModel->insertar_estudiante([...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+ERROR - 2024-05-14 01:35:11 --> ErrorException: pg_query(): Query failed: ERROR:  parse error - invalid geometry
+LINE 1: ..._at&quot;) VALUES (1, 'Alquiler', '123', '213', '123', 'POINT(-17...
+                                                             ^
+HINT:  &quot;POINT(-17.209935342945467,-6&quot; &lt;-- parse error at position 28 within geometry in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'INSERT INTO "ho...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ho...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ho...')
+#4 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ho...', Array, false)
+#5 C:\laragon\www\geotranck-dev\app\Models\GestionEstudianteModel.php(94): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 C:\laragon\www\geotranck-dev\app\Controllers\GestionUsuarioController.php(320): App\Models\GestionEstudianteModel->insertar_ubicacion(Array)
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+#9 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-05-14 01:35:11 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  parse error - invalid geometry
+LINE 1: ..._at&quot;) VALUES (1, 'Alquiler', '123', '213', '123', 'POINT(-17...
+                                                             ^
+HINT:  &quot;POINT(-17.209935342945467,-6&quot; &lt;-- parse error at position 28 within geometry
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "hogar_estudiante" ("estudiante_id", "tipo", "descripcion", "avenida", "puerta", "ubicacion", "estado", "created_at", "updated_at") VALUES (:estudiante_id:, :tipo:, :descripcion:, :avenida:, :puerta:, :ubicacion:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 2 APPPATH\Models\GestionEstudianteModel.php(94): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\GestionUsuarioController.php(320): App\Models\GestionEstudianteModel->insertar_ubicacion([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-14 01:35:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  parse error - invalid geometry
+LINE 1: ..._at&quot;) VALUES (1, 'Alquiler', '123', '213', '123', 'POINT(-17...
+                                                             ^
+HINT:  &quot;POINT(-17.209935342945467,-6&quot; &lt;-- parse error at position 28 within geometry
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "hogar_estudiante" ("estudiante_id", "tipo", "descripcion", "avenida", "puerta", "ubicacion", "estado", "created_at", "updated_at") VALUES (1, \'Alquiler\', \'123\', \'213\', \'123\', \'POINT(-17.209935342945467,-66.95566618727405)\', 1, \'2024-05-14 01:35:11\', \'2024-05-14 01:35:11\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "hogar_estudiante" ("estudiante_id", "tipo", "descripcion", "avenida", "puerta", "ubicacion", "estado", "created_at", "updated_at") VALUES (1, \'Alquiler\', \'123\', \'213\', \'123\', \'POINT(-17.209935342945467,-66.95566618727405)\', 1, \'2024-05-14 01:35:11\', \'2024-05-14 01:35:11\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "hogar_estudiante" ("estudiante_id", "tipo", "descripcion", "avenida", "puerta", "ubicacion", "estado", "created_at", "updated_at") VALUES (:estudiante_id:, :tipo:, :descripcion:, :avenida:, :puerta:, :ubicacion:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 4 APPPATH\Models\GestionEstudianteModel.php(94): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\GestionUsuarioController.php(320): App\Models\GestionEstudianteModel->insertar_ubicacion([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-14 01:35:11 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  parse error - invalid geometry
+LINE 1: ..._at&quot;) VALUES (1, 'Alquiler', '123', '213', '123', 'POINT(-17...
+                                                             ^
+HINT:  &quot;POINT(-17.209935342945467,-6&quot; &lt;-- parse error at position 28 within geometry
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  parse error - invalid geometry
+LINE 1: ..._at&quot;) VALUES (1, \'Alquiler\', \'123\', \'213\', \'123\', \'POINT(-17...
+                                                             ^
+HINT:  &quot;POINT(-17.209935342945467,-6&quot; &lt;-- parse error at position 28 within geometry', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'INSERT INTO "hogar_estudiante" ("estudiante_id", "tipo", "descripcion", "avenida", "puerta", "ubicacion", "estado", "created_at", "updated_at") VALUES (1, \'Alquiler\', \'123\', \'213\', \'123\', \'POINT(-17.209935342945467,-66.95566618727405)\', 1, \'2024-05-14 01:35:11\', \'2024-05-14 01:35:11\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "hogar_estudiante" ("estudiante_id", "tipo", "descripcion", "avenida", "puerta", "ubicacion", "estado", "created_at", "updated_at") VALUES (1, \'Alquiler\', \'123\', \'213\', \'123\', \'POINT(-17.209935342945467,-66.95566618727405)\', 1, \'2024-05-14 01:35:11\', \'2024-05-14 01:35:11\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "hogar_estudiante" ("estudiante_id", "tipo", "descripcion", "avenida", "puerta", "ubicacion", "estado", "created_at", "updated_at") VALUES (1, \'Alquiler\', \'123\', \'213\', \'123\', \'POINT(-17.209935342945467,-66.95566618727405)\', 1, \'2024-05-14 01:35:11\', \'2024-05-14 01:35:11\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "hogar_estudiante" ("estudiante_id", "tipo", "descripcion", "avenida", "puerta", "ubicacion", "estado", "created_at", "updated_at") VALUES (:estudiante_id:, :tipo:, :descripcion:, :avenida:, :puerta:, :ubicacion:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 6 APPPATH\Models\GestionEstudianteModel.php(94): CodeIgniter\Database\BaseBuilder->insert([...])
+ 7 APPPATH\Controllers\GestionUsuarioController.php(320): App\Models\GestionEstudianteModel->insertar_ubicacion([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+ERROR - 2024-05-14 01:40:20 --> ErrorException: pg_query(): Query failed: ERROR:  parse error - invalid geometry
+LINE 1: ...ed_at&quot;) VALUES (1, 'Casa', 'dw123', '123', '123', 'POINT(-18...
+                                                             ^
+HINT:  &quot;POINT(-18.412648527472705,-6&quot; &lt;-- parse error at position 28 within geometry in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'INSERT INTO "ho...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ho...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ho...')
+#4 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ho...', Array, false)
+#5 C:\laragon\www\geotranck-dev\app\Models\GestionEstudianteModel.php(89): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 C:\laragon\www\geotranck-dev\app\Controllers\GestionUsuarioController.php(320): App\Models\GestionEstudianteModel->insertar_ubicacion(Array)
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+#9 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-05-14 01:40:20 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  parse error - invalid geometry
+LINE 1: ...ed_at&quot;) VALUES (1, 'Casa', 'dw123', '123', '123', 'POINT(-18...
+                                                             ^
+HINT:  &quot;POINT(-18.412648527472705,-6&quot; &lt;-- parse error at position 28 within geometry
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "hogar_estudiante" ("estudiante_id", "tipo", "descripcion", "avenida", "puerta", "ubicacion", "estado", "created_at", "updated_at") VALUES (:estudiante_id:, :tipo:, :descripcion:, :avenida:, :puerta:, :ubicacion:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 2 APPPATH\Models\GestionEstudianteModel.php(89): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\GestionUsuarioController.php(320): App\Models\GestionEstudianteModel->insertar_ubicacion([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-14 01:40:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  parse error - invalid geometry
+LINE 1: ...ed_at&quot;) VALUES (1, 'Casa', 'dw123', '123', '123', 'POINT(-18...
+                                                             ^
+HINT:  &quot;POINT(-18.412648527472705,-6&quot; &lt;-- parse error at position 28 within geometry
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "hogar_estudiante" ("estudiante_id", "tipo", "descripcion", "avenida", "puerta", "ubicacion", "estado", "created_at", "updated_at") VALUES (1, \'Casa\', \'dw123\', \'123\', \'123\', \'POINT(-18.412648527472705,-62.98225644176958)\', 1, \'2024-05-14 01:40:20\', \'2024-05-14 01:40:20\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "hogar_estudiante" ("estudiante_id", "tipo", "descripcion", "avenida", "puerta", "ubicacion", "estado", "created_at", "updated_at") VALUES (1, \'Casa\', \'dw123\', \'123\', \'123\', \'POINT(-18.412648527472705,-62.98225644176958)\', 1, \'2024-05-14 01:40:20\', \'2024-05-14 01:40:20\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "hogar_estudiante" ("estudiante_id", "tipo", "descripcion", "avenida", "puerta", "ubicacion", "estado", "created_at", "updated_at") VALUES (:estudiante_id:, :tipo:, :descripcion:, :avenida:, :puerta:, :ubicacion:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 4 APPPATH\Models\GestionEstudianteModel.php(89): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\GestionUsuarioController.php(320): App\Models\GestionEstudianteModel->insertar_ubicacion([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-14 01:40:20 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  parse error - invalid geometry
+LINE 1: ...ed_at&quot;) VALUES (1, 'Casa', 'dw123', '123', '123', 'POINT(-18...
+                                                             ^
+HINT:  &quot;POINT(-18.412648527472705,-6&quot; &lt;-- parse error at position 28 within geometry
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  parse error - invalid geometry
+LINE 1: ...ed_at&quot;) VALUES (1, \'Casa\', \'dw123\', \'123\', \'123\', \'POINT(-18...
+                                                             ^
+HINT:  &quot;POINT(-18.412648527472705,-6&quot; &lt;-- parse error at position 28 within geometry', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'INSERT INTO "hogar_estudiante" ("estudiante_id", "tipo", "descripcion", "avenida", "puerta", "ubicacion", "estado", "created_at", "updated_at") VALUES (1, \'Casa\', \'dw123\', \'123\', \'123\', \'POINT(-18.412648527472705,-62.98225644176958)\', 1, \'2024-05-14 01:40:20\', \'2024-05-14 01:40:20\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "hogar_estudiante" ("estudiante_id", "tipo", "descripcion", "avenida", "puerta", "ubicacion", "estado", "created_at", "updated_at") VALUES (1, \'Casa\', \'dw123\', \'123\', \'123\', \'POINT(-18.412648527472705,-62.98225644176958)\', 1, \'2024-05-14 01:40:20\', \'2024-05-14 01:40:20\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "hogar_estudiante" ("estudiante_id", "tipo", "descripcion", "avenida", "puerta", "ubicacion", "estado", "created_at", "updated_at") VALUES (1, \'Casa\', \'dw123\', \'123\', \'123\', \'POINT(-18.412648527472705,-62.98225644176958)\', 1, \'2024-05-14 01:40:20\', \'2024-05-14 01:40:20\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "hogar_estudiante" ("estudiante_id", "tipo", "descripcion", "avenida", "puerta", "ubicacion", "estado", "created_at", "updated_at") VALUES (:estudiante_id:, :tipo:, :descripcion:, :avenida:, :puerta:, :ubicacion:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 6 APPPATH\Models\GestionEstudianteModel.php(89): CodeIgniter\Database\BaseBuilder->insert([...])
+ 7 APPPATH\Controllers\GestionUsuarioController.php(320): App\Models\GestionEstudianteModel->insertar_ubicacion([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+ERROR - 2024-05-14 01:50:26 --> ErrorException: pg_query(): Query failed: ERROR:  parse error - invalid geometry
+LINE 1: ...&quot;) VALUES (1, 'Departamento', 'xa', '213', '123', 'ST_SetSRI...
+                                                             ^
+HINT:  &quot;ST&quot; &lt;-- parse error at position 2 within geometry in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'INSERT INTO "ho...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ho...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ho...')
+#4 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ho...', Array, false)
+#5 C:\laragon\www\geotranck-dev\app\Models\GestionEstudianteModel.php(89): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 C:\laragon\www\geotranck-dev\app\Controllers\GestionUsuarioController.php(319): App\Models\GestionEstudianteModel->insertar_ubicacion(Array)
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+#9 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-05-14 01:50:26 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  parse error - invalid geometry
+LINE 1: ...&quot;) VALUES (1, 'Departamento', 'xa', '213', '123', 'ST_SetSRI...
+                                                             ^
+HINT:  &quot;ST&quot; &lt;-- parse error at position 2 within geometry
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "hogar_estudiante" ("estudiante_id", "tipo", "descripcion", "avenida", "puerta", "ubicacion", "estado", "created_at", "updated_at") VALUES (:estudiante_id:, :tipo:, :descripcion:, :avenida:, :puerta:, :ubicacion:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 2 APPPATH\Models\GestionEstudianteModel.php(89): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\GestionUsuarioController.php(319): App\Models\GestionEstudianteModel->insertar_ubicacion([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-14 01:50:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  parse error - invalid geometry
+LINE 1: ...&quot;) VALUES (1, 'Departamento', 'xa', '213', '123', 'ST_SetSRI...
+                                                             ^
+HINT:  &quot;ST&quot; &lt;-- parse error at position 2 within geometry
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "hogar_estudiante" ("estudiante_id", "tipo", "descripcion", "avenida", "puerta", "ubicacion", "estado", "created_at", "updated_at") VALUES (1, \'Departamento\', \'xa\', \'213\', \'123\', \'ST_SetSRID(ST_MakePoint(-17.576742848794773,-64.4548256800337), 4326)\', 1, \'2024-05-14 01:50:26\', \'2024-05-14 01:50:26\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "hogar_estudiante" ("estudiante_id", "tipo", "descripcion", "avenida", "puerta", "ubicacion", "estado", "created_at", "updated_at") VALUES (1, \'Departamento\', \'xa\', \'213\', \'123\', \'ST_SetSRID(ST_MakePoint(-17.576742848794773,-64.4548256800337), 4326)\', 1, \'2024-05-14 01:50:26\', \'2024-05-14 01:50:26\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "hogar_estudiante" ("estudiante_id", "tipo", "descripcion", "avenida", "puerta", "ubicacion", "estado", "created_at", "updated_at") VALUES (:estudiante_id:, :tipo:, :descripcion:, :avenida:, :puerta:, :ubicacion:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 4 APPPATH\Models\GestionEstudianteModel.php(89): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\GestionUsuarioController.php(319): App\Models\GestionEstudianteModel->insertar_ubicacion([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-14 01:50:26 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  parse error - invalid geometry
+LINE 1: ...&quot;) VALUES (1, 'Departamento', 'xa', '213', '123', 'ST_SetSRI...
+                                                             ^
+HINT:  &quot;ST&quot; &lt;-- parse error at position 2 within geometry
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  parse error - invalid geometry
+LINE 1: ...&quot;) VALUES (1, \'Departamento\', \'xa\', \'213\', \'123\', \'ST_SetSRI...
+                                                             ^
+HINT:  &quot;ST&quot; &lt;-- parse error at position 2 within geometry', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'INSERT INTO "hogar_estudiante" ("estudiante_id", "tipo", "descripcion", "avenida", "puerta", "ubicacion", "estado", "created_at", "updated_at") VALUES (1, \'Departamento\', \'xa\', \'213\', \'123\', \'ST_SetSRID(ST_MakePoint(-17.576742848794773,-64.4548256800337), 4326)\', 1, \'2024-05-14 01:50:26\', \'2024-05-14 01:50:26\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "hogar_estudiante" ("estudiante_id", "tipo", "descripcion", "avenida", "puerta", "ubicacion", "estado", "created_at", "updated_at") VALUES (1, \'Departamento\', \'xa\', \'213\', \'123\', \'ST_SetSRID(ST_MakePoint(-17.576742848794773,-64.4548256800337), 4326)\', 1, \'2024-05-14 01:50:26\', \'2024-05-14 01:50:26\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "hogar_estudiante" ("estudiante_id", "tipo", "descripcion", "avenida", "puerta", "ubicacion", "estado", "created_at", "updated_at") VALUES (1, \'Departamento\', \'xa\', \'213\', \'123\', \'ST_SetSRID(ST_MakePoint(-17.576742848794773,-64.4548256800337), 4326)\', 1, \'2024-05-14 01:50:26\', \'2024-05-14 01:50:26\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "hogar_estudiante" ("estudiante_id", "tipo", "descripcion", "avenida", "puerta", "ubicacion", "estado", "created_at", "updated_at") VALUES (:estudiante_id:, :tipo:, :descripcion:, :avenida:, :puerta:, :ubicacion:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 6 APPPATH\Models\GestionEstudianteModel.php(89): CodeIgniter\Database\BaseBuilder->insert([...])
+ 7 APPPATH\Controllers\GestionUsuarioController.php(319): App\Models\GestionEstudianteModel->insertar_ubicacion([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->agregar_Estudiante()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')

@@ -1,0 +1,12 @@
+CRITICAL - 2024-03-24 00:27:05 --> ErrorException: Undefined variable $activeP
+in APPPATH\Views\4_Usuario\1_RolPrivilegios\4_aside_page_view.php on line 593.
+ 1 APPPATH\Views\4_Usuario\1_RolPrivilegios\4_aside_page_view.php(593): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $activeP', 'C:\\laragon\\www\\geotranck-dev\\app\\Views\\4_Usuario\\1_RolPrivilegios\\4_aside_page_view.php', 593)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\geotranck-dev\\app\\Views\\4_Usuario\\1_RolPrivilegios\\4_aside_page_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('4_Usuario/1_RolPrivilegios/4_aside_page_view.php', [], true)
+ 5 APPPATH\Controllers\GestionUsuarioController.php(42): view('4_Usuario/1_RolPrivilegios/4_aside_page_view.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->RolesView()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')

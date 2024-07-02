@@ -1,0 +1,50 @@
+CRITICAL - 2024-02-26 00:36:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "1_begin_page_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('1_begin_page_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('1_begin_page_view.php', [], true)
+ 3 APPPATH\Controllers\Administrador.php(10): view('1_begin_page_view.php')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Administrador->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-02-26 00:36:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "1_begin_page_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('1_begin_page_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('1_begin_page_view.php', [], true)
+ 3 APPPATH\Controllers\Administrador.php(10): view('1_begin_page_view.php')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Administrador->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-02-26 00:36:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "1_begin_page_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('1_begin_page_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('1_begin_page_view.php', [], true)
+ 3 APPPATH\Controllers\Administrador.php(10): view('1_begin_page_view.php')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Administrador->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-02-26 00:38:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "1_begin_page_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('1_begin_page_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('1_begin_page_view.php', [], true)
+ 3 APPPATH\Controllers\Administrador.php(10): view('1_begin_page_view.php')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Administrador->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-02-26 00:39:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "1_begin_page_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('1_begin_page_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('1_begin_page_view.php', [], true)
+ 3 APPPATH\Controllers\Administrador.php(10): view('1_begin_page_view.php')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Administrador->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP\\Desktop\\Proyecto Codineiter\\geotranck-dev\\public\\index.php')

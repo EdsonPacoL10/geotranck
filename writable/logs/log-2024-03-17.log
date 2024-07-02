@@ -1,0 +1,44 @@
+CRITICAL - 2024-03-17 02:20:44 --> ErrorException: Undefined variable $active
+in APPPATH\Views\2_Administrador\4_aside_page_view.php on line 29.
+ 1 APPPATH\Views\2_Administrador\4_aside_page_view.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $active', 'C:\\laragon\\www\\geotranck-dev\\app\\Views\\2_Administrador\\4_aside_page_view.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\geotranck-dev\\app\\Views\\2_Administrador\\4_aside_page_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('2_Administrador/4_aside_page_view.php', [], true)
+ 5 APPPATH\Controllers\MapasController.php(14): view('2_Administrador/4_aside_page_view.php')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\MapasController->UbicacionActual()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapasController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-17 02:28:55 --> ErrorException: Undefined variable $currentUrl
+in APPPATH\Views\2_Administrador\4_aside_page_view.php on line 29.
+ 1 APPPATH\Views\2_Administrador\4_aside_page_view.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $currentUrl', 'C:\\laragon\\www\\geotranck-dev\\app\\Views\\2_Administrador\\4_aside_page_view.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\geotranck-dev\\app\\Views\\2_Administrador\\4_aside_page_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('2_Administrador/4_aside_page_view.php', [], true)
+ 5 APPPATH\Controllers\AdministradorController.php(15): view('2_Administrador/4_aside_page_view.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdministradorController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministradorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-17 03:07:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "11_MenuLateral/2_Mapas/2_SeguiminetoTiemRealPageView.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('11_MenuLateral/2_Mapas/2_SeguiminetoTiemRealPageView.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('11_MenuLateral/2_Mapas/2_SeguiminetoTiemRealPageView.php', [], true)
+ 3 APPPATH\Controllers\MapasController.php(35): view('11_MenuLateral/2_Mapas/2_SeguiminetoTiemRealPageView.php')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\MapasController->UbicacionReal()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapasController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-03-17 03:08:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "11_MenuLateral/2_Mapas/2_SeguiminetoTiemRealPageView.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('11_MenuLateral/2_Mapas/2_SeguiminetoTiemRealPageView.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('11_MenuLateral/2_Mapas/2_SeguiminetoTiemRealPageView.php', [], true)
+ 3 APPPATH\Controllers\MapasController.php(35): view('11_MenuLateral/2_Mapas/2_SeguiminetoTiemRealPageView.php')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\MapasController->UbicacionReal()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapasController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')

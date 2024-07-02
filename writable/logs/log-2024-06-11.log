@@ -1,0 +1,107 @@
+INFO - 2024-06-11 18:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 18:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 18:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 18:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 18:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-11 18:58:33 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\AlertasController.php on line 240.
+ 1 APPPATH\Controllers\AlertasController.php(240): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\AlertasController.php(170): App\Controllers\AlertasController->datatables('[{"id":"15","nom_estudiante":"Marcos","ape_estudiante":"Ramos","cur_estudiante":"primaria","nom_padre":"Juan","ape_padre":"Perez","tel_padre":"61005154","nom_conductor":"Pedro","ape_conductor":"Alvarez","tel_conductor":"75684384","mar_automovil":"toyota","mod_automovil":"2020","color_automovil":"rojo","placa_automovil":"568ADS","estado":"1","created_at":"2024-06-02 21:55:01","updated_at":"2024-06-02 21:55:01"},{"id":"16","nom_estudiante":"Marcos","ape_estudiante":"Ramos","cur_estudiante":"primaria","nom_padre":"Juan","ape_padre":"Perez","tel_padre":"61005154","nom_conductor":"Pedro","ape_conductor":"Alvarez","tel_conductor":"75684384","mar_automovil":"toyota","mod_automovil":"2020","color_automovil":"rojo","placa_automovil":"568ADS","estado":"1","created_at":"2024-06-05 20:18:52","updated_at":"2024-06-05 20:18:52"},{"id":"1","nom_estudiante":"Marcos","ape_estudiante":"Ramos","cur_estudiante":"primaria","nom_padre":"Juan","ape_padre":"Perez","tel_padre":"61005154","nom_conductor":"Pedro","ape_conductor":"Alvarez","tel_conductor":"75684384","mar_automovil":"toyota","mod_automovil":"2020","color_automovil":"rojo","placa_automovil":"568ADS","estado":"1","created_at":"2024-06-01 00:55:11","updated_at":"2024-06-01 00:55:11"},{"id":"2","nom_estudiante":"Marcos","ape_estudiante":"Ramos","cur_estudiante":"primaria","nom_padre":"Juan","ape_padre":"Perez","tel_padre":"61005154","nom_conductor":"Pedro","ape_conductor":"Alvarez","tel_conductor":"75684384","mar_automovil":"toyota","mod_automovil":"2020","color_automovil":"rojo","placa_automovil":"568ADS","estado":"1","created_at":"2024-06-01 00:55:36","updated_at":"2024-06-01 00:55:36"},{"id":"3","nom_estudiante":"Marcos","ape_estudiante":"Ramos","cur_estudiante":"primaria","nom_padre":"Juan","ape_padre":"Perez","tel_padre":"61005154","nom_conductor":"Pedro","ape_conductor":"Alvarez","tel_conductor":"75684384","mar_automovil":"toyota","mod_automovil":"2020","color_automovil":"rojo","placa_automovil":"568ADS","estado":"1","created_at":"2024-06-01 01:03:36","updated_at":"2024-06-01 01:03:36"},{"id":"4","nom_estudiante":"Marcos","ape_estudiante":"Ramos","cur_estudiante":"primaria","nom_padre":"Juan","ape_padre":"Perez","tel_padre":"61005154","nom_conductor":"Pedro","ape_conductor":"Alvarez","tel_conductor":"75684384","mar_automovil":"toyota","mod_automovil":"2020","color_automovil":"rojo","placa_automovil":"568ADS","estado":"1","created_at":"2024-06-01 01:03:41","updated_at":"2024-06-01 01:03:41"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AlertasController->listaAlertasView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlertasController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-11 18:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 18:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 18:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 18:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-11 19:28:49 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\AlertasController.php on line 240.
+ 1 APPPATH\Controllers\AlertasController.php(240): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\AlertasController.php(170): App\Controllers\AlertasController->datatables('[{"id":"15","nom_estudiante":"Marcos","ape_estudiante":"Ramos","cur_estudiante":"primaria","nom_padre":"Juan","ape_padre":"Perez","tel_padre":"61005154","nom_conductor":"Pedro","ape_conductor":"Alvarez","tel_conductor":"75684384","mar_automovil":"toyota","mod_automovil":"2020","color_automovil":"rojo","placa_automovil":"568ADS","estado":"1","created_at":"2024-06-02 21:55:01","updated_at":"2024-06-02 21:55:01"},{"id":"16","nom_estudiante":"Marcos","ape_estudiante":"Ramos","cur_estudiante":"primaria","nom_padre":"Juan","ape_padre":"Perez","tel_padre":"61005154","nom_conductor":"Pedro","ape_conductor":"Alvarez","tel_conductor":"75684384","mar_automovil":"toyota","mod_automovil":"2020","color_automovil":"rojo","placa_automovil":"568ADS","estado":"1","created_at":"2024-06-05 20:18:52","updated_at":"2024-06-05 20:18:52"},{"id":"1","nom_estudiante":"Marcos","ape_estudiante":"Ramos","cur_estudiante":"primaria","nom_padre":"Juan","ape_padre":"Perez","tel_padre":"61005154","nom_conductor":"Pedro","ape_conductor":"Alvarez","tel_conductor":"75684384","mar_automovil":"toyota","mod_automovil":"2020","color_automovil":"rojo","placa_automovil":"568ADS","estado":"1","created_at":"2024-06-01 00:55:11","updated_at":"2024-06-01 00:55:11"},{"id":"2","nom_estudiante":"Marcos","ape_estudiante":"Ramos","cur_estudiante":"primaria","nom_padre":"Juan","ape_padre":"Perez","tel_padre":"61005154","nom_conductor":"Pedro","ape_conductor":"Alvarez","tel_conductor":"75684384","mar_automovil":"toyota","mod_automovil":"2020","color_automovil":"rojo","placa_automovil":"568ADS","estado":"1","created_at":"2024-06-01 00:55:36","updated_at":"2024-06-01 00:55:36"},{"id":"3","nom_estudiante":"Marcos","ape_estudiante":"Ramos","cur_estudiante":"primaria","nom_padre":"Juan","ape_padre":"Perez","tel_padre":"61005154","nom_conductor":"Pedro","ape_conductor":"Alvarez","tel_conductor":"75684384","mar_automovil":"toyota","mod_automovil":"2020","color_automovil":"rojo","placa_automovil":"568ADS","estado":"1","created_at":"2024-06-01 01:03:36","updated_at":"2024-06-01 01:03:36"},{"id":"4","nom_estudiante":"Marcos","ape_estudiante":"Ramos","cur_estudiante":"primaria","nom_padre":"Juan","ape_padre":"Perez","tel_padre":"61005154","nom_conductor":"Pedro","ape_conductor":"Alvarez","tel_conductor":"75684384","mar_automovil":"toyota","mod_automovil":"2020","color_automovil":"rojo","placa_automovil":"568ADS","estado":"1","created_at":"2024-06-01 01:03:41","updated_at":"2024-06-01 01:03:41"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AlertasController->listaAlertasView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlertasController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-11 19:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-11 19:34:58 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\AlertasController.php on line 240.
+ 1 APPPATH\Controllers\AlertasController.php(240): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\AlertasController.php(170): App\Controllers\AlertasController->datatables('[{"id":"15","nom_estudiante":"Marcos","ape_estudiante":"Ramos","cur_estudiante":"primaria","nom_padre":"Juan","ape_padre":"Perez","tel_padre":"61005154","nom_conductor":"Pedro","ape_conductor":"Alvarez","tel_conductor":"75684384","mar_automovil":"toyota","mod_automovil":"2020","color_automovil":"rojo","placa_automovil":"568ADS","estado":"1","created_at":"2024-06-02 21:55:01","updated_at":"2024-06-02 21:55:01"},{"id":"16","nom_estudiante":"Marcos","ape_estudiante":"Ramos","cur_estudiante":"primaria","nom_padre":"Juan","ape_padre":"Perez","tel_padre":"61005154","nom_conductor":"Pedro","ape_conductor":"Alvarez","tel_conductor":"75684384","mar_automovil":"toyota","mod_automovil":"2020","color_automovil":"rojo","placa_automovil":"568ADS","estado":"1","created_at":"2024-06-05 20:18:52","updated_at":"2024-06-05 20:18:52"},{"id":"1","nom_estudiante":"Marcos","ape_estudiante":"Ramos","cur_estudiante":"primaria","nom_padre":"Juan","ape_padre":"Perez","tel_padre":"61005154","nom_conductor":"Pedro","ape_conductor":"Alvarez","tel_conductor":"75684384","mar_automovil":"toyota","mod_automovil":"2020","color_automovil":"rojo","placa_automovil":"568ADS","estado":"1","created_at":"2024-06-01 00:55:11","updated_at":"2024-06-01 00:55:11"},{"id":"2","nom_estudiante":"Marcos","ape_estudiante":"Ramos","cur_estudiante":"primaria","nom_padre":"Juan","ape_padre":"Perez","tel_padre":"61005154","nom_conductor":"Pedro","ape_conductor":"Alvarez","tel_conductor":"75684384","mar_automovil":"toyota","mod_automovil":"2020","color_automovil":"rojo","placa_automovil":"568ADS","estado":"1","created_at":"2024-06-01 00:55:36","updated_at":"2024-06-01 00:55:36"},{"id":"3","nom_estudiante":"Marcos","ape_estudiante":"Ramos","cur_estudiante":"primaria","nom_padre":"Juan","ape_padre":"Perez","tel_padre":"61005154","nom_conductor":"Pedro","ape_conductor":"Alvarez","tel_conductor":"75684384","mar_automovil":"toyota","mod_automovil":"2020","color_automovil":"rojo","placa_automovil":"568ADS","estado":"1","created_at":"2024-06-01 01:03:36","updated_at":"2024-06-01 01:03:36"},{"id":"4","nom_estudiante":"Marcos","ape_estudiante":"Ramos","cur_estudiante":"primaria","nom_padre":"Juan","ape_padre":"Perez","tel_padre":"61005154","nom_conductor":"Pedro","ape_conductor":"Alvarez","tel_conductor":"75684384","mar_automovil":"toyota","mod_automovil":"2020","color_automovil":"rojo","placa_automovil":"568ADS","estado":"1","created_at":"2024-06-01 01:03:41","updated_at":"2024-06-01 01:03:41"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AlertasController->listaAlertasView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlertasController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-11 19:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 19:58:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 20:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 20:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 20:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 20:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 20:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 20:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 20:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 20:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 20:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 20:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 20:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 20:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 20:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 20:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 20:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 20:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 20:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 20:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 20:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 20:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 20:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

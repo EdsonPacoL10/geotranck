@@ -1,0 +1,35 @@
+INFO - 2024-06-04 20:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-04 23:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-04 23:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-04 23:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-04 23:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-04 23:33:58 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\AlertasController.php on line 240.
+ 1 APPPATH\Controllers\AlertasController.php(240): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\AlertasController.php(170): App\Controllers\AlertasController->datatables('[{"id":"14","nom_estudiante":"Marcos","ape_estudiante":"Ramos","cur_estudiante":"primaria","nom_padre":"Juan","ape_padre":"Perez","tel_padre":"61005154","nom_conductor":"Pedro","ape_conductor":"Alvarez","tel_conductor":"75684384","mar_automovil":"toyota","mod_automovil":"2020","color_automovil":"rojo","placa_automovil":"568ADS","estado":"1","created_at":"2024-06-02 21:46:18","updated_at":"2024-06-02 21:46:18"},{"id":"15","nom_estudiante":"Marcos","ape_estudiante":"Ramos","cur_estudiante":"primaria","nom_padre":"Juan","ape_padre":"Perez","tel_padre":"61005154","nom_conductor":"Pedro","ape_conductor":"Alvarez","tel_conductor":"75684384","mar_automovil":"toyota","mod_automovil":"2020","color_automovil":"rojo","placa_automovil":"568ADS","estado":"1","created_at":"2024-06-02 21:55:01","updated_at":"2024-06-02 21:55:01"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AlertasController->listaAlertasView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlertasController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-04 23:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-04 23:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-04 23:34:28 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\AlertasController.php on line 240.
+ 1 APPPATH\Controllers\AlertasController.php(240): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\AlertasController.php(170): App\Controllers\AlertasController->datatables('[{"id":"14","nom_estudiante":"Marcos","ape_estudiante":"Ramos","cur_estudiante":"primaria","nom_padre":"Juan","ape_padre":"Perez","tel_padre":"61005154","nom_conductor":"Pedro","ape_conductor":"Alvarez","tel_conductor":"75684384","mar_automovil":"toyota","mod_automovil":"2020","color_automovil":"rojo","placa_automovil":"568ADS","estado":"1","created_at":"2024-06-02 21:46:18","updated_at":"2024-06-02 21:46:18"},{"id":"15","nom_estudiante":"Marcos","ape_estudiante":"Ramos","cur_estudiante":"primaria","nom_padre":"Juan","ape_padre":"Perez","tel_padre":"61005154","nom_conductor":"Pedro","ape_conductor":"Alvarez","tel_conductor":"75684384","mar_automovil":"toyota","mod_automovil":"2020","color_automovil":"rojo","placa_automovil":"568ADS","estado":"1","created_at":"2024-06-02 21:55:01","updated_at":"2024-06-02 21:55:01"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AlertasController->listaAlertasView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlertasController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-04 23:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-04 23:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-04 23:34:29 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\AlertasController.php on line 240.
+ 1 APPPATH\Controllers\AlertasController.php(240): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\AlertasController.php(170): App\Controllers\AlertasController->datatables('[{"id":"14","nom_estudiante":"Marcos","ape_estudiante":"Ramos","cur_estudiante":"primaria","nom_padre":"Juan","ape_padre":"Perez","tel_padre":"61005154","nom_conductor":"Pedro","ape_conductor":"Alvarez","tel_conductor":"75684384","mar_automovil":"toyota","mod_automovil":"2020","color_automovil":"rojo","placa_automovil":"568ADS","estado":"1","created_at":"2024-06-02 21:46:18","updated_at":"2024-06-02 21:46:18"},{"id":"15","nom_estudiante":"Marcos","ape_estudiante":"Ramos","cur_estudiante":"primaria","nom_padre":"Juan","ape_padre":"Perez","tel_padre":"61005154","nom_conductor":"Pedro","ape_conductor":"Alvarez","tel_conductor":"75684384","mar_automovil":"toyota","mod_automovil":"2020","color_automovil":"rojo","placa_automovil":"568ADS","estado":"1","created_at":"2024-06-02 21:55:01","updated_at":"2024-06-02 21:55:01"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AlertasController->listaAlertasView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlertasController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-04 23:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-04 23:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

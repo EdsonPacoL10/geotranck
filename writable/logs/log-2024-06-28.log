@@ -1,0 +1,1201 @@
+INFO - 2024-06-28 00:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 00:19:47 --> ErrorException: Undefined variable $datosEstudiante
+in APPPATH\Views\reportes\ListaAutomoviles.php on line 186.
+ 1 APPPATH\Views\reportes\ListaAutomoviles.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datosEstudiante', 'C:\\laragon\\www\\geotranck-dev\\app\\Views\\reportes\\ListaAutomoviles.php', 186)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\geotranck-dev\\app\\Views\\reportes\\ListaAutomoviles.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('reportes/ListaAutomoviles', [], true)
+ 5 APPPATH\Controllers\ReportesControler.php(210): view('reportes/ListaAutomoviles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->ListaAutomoviles()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-28 00:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 00:19:49 --> ErrorException: Undefined variable $datosEstudiante
+in APPPATH\Views\reportes\ListaAutomoviles.php on line 186.
+ 1 APPPATH\Views\reportes\ListaAutomoviles.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datosEstudiante', 'C:\\laragon\\www\\geotranck-dev\\app\\Views\\reportes\\ListaAutomoviles.php', 186)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\geotranck-dev\\app\\Views\\reportes\\ListaAutomoviles.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('reportes/ListaAutomoviles', [], true)
+ 5 APPPATH\Controllers\ReportesControler.php(210): view('reportes/ListaAutomoviles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->ListaAutomoviles()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-28 00:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 00:20:02 --> ErrorException: Undefined array key "Placa"
+in APPPATH\Views\reportes\ListaAutomoviles.php on line 190.
+ 1 APPPATH\Views\reportes\ListaAutomoviles.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Placa"', 'C:\\laragon\\www\\geotranck-dev\\app\\Views\\reportes\\ListaAutomoviles.php', 190)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\geotranck-dev\\app\\Views\\reportes\\ListaAutomoviles.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('reportes/ListaAutomoviles', [], true)
+ 5 APPPATH\Controllers\ReportesControler.php(210): view('reportes/ListaAutomoviles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->ListaAutomoviles()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-28 00:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:24:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-28 00:24:43 --> ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'select a.imagen...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select a.imagen...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select a.imagen...')
+#4 C:\laragon\www\geotranck-dev\app\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagen...')
+#5 C:\laragon\www\geotranck-dev\app\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(NULL, NULL, NULL)
+#6 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-06-28 00:24:43 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 2 APPPATH\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(null, null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-28 00:24:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 3 APPPATH\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 4 APPPATH\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(null, null, null)
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-28 00:24:43 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 5 APPPATH\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 6 APPPATH\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(null, null, null)
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-28 00:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 00:30:23 --> ErrorException: Undefined array key "marca"
+in APPPATH\Views\reportes\ListaAutomoviles.php on line 189.
+ 1 APPPATH\Views\reportes\ListaAutomoviles.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "marca"', 'C:\\laragon\\www\\geotranck-dev\\app\\Views\\reportes\\ListaAutomoviles.php', 189)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\geotranck-dev\\app\\Views\\reportes\\ListaAutomoviles.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('reportes/ListaAutomoviles', [], true)
+ 5 APPPATH\Controllers\ReportesControler.php(281): view('reportes/ListaAutomoviles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->GuiaTelefonica()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-28 00:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 00:31:33 --> ErrorException: Undefined array key "marca"
+in APPPATH\Views\reportes\GuisTelefonica.php on line 189.
+ 1 APPPATH\Views\reportes\GuisTelefonica.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "marca"', 'C:\\laragon\\www\\geotranck-dev\\app\\Views\\reportes\\GuisTelefonica.php', 189)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\geotranck-dev\\app\\Views\\reportes\\GuisTelefonica.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('reportes/GuisTelefonica', [], true)
+ 5 APPPATH\Controllers\ReportesControler.php(281): view('reportes/GuisTelefonica', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->GuiaTelefonica()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-28 00:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-28 00:36:10 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la columna «create_at»
+LINE 1: select*,DATE(create_at) from guiatelefonica where estado=1;
+                     ^
+HINT:  Probablemente quiera hacer referencia a la columna «guiatelefonica.created_at». in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'select*,DATE(cr...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select*,DATE(cr...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select*,DATE(cr...')
+#4 C:\laragon\www\geotranck-dev\app\Models\GestionDatosReportesModel.php(70): CodeIgniter\Database\BaseConnection->query('select*,DATE(cr...')
+#5 C:\laragon\www\geotranck-dev\app\Controllers\ReportesControler.php(257): App\Models\GestionDatosReportesModel->repoGuiaTelefonica()
+#6 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\ReportesControler->GuiaTelefonica()
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-06-28 00:36:10 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  no existe la columna «create_at»
+LINE 1: select*,DATE(create_at) from guiatelefonica where estado=1;
+                     ^
+HINT:  Probablemente quiera hacer referencia a la columna «guiatelefonica.created_at».
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\GestionDatosReportesModel.php(70): CodeIgniter\Database\BaseConnection->query('select*,DATE(create_at) from guiatelefonica where estado=1;
+            ')
+ 2 APPPATH\Controllers\ReportesControler.php(257): App\Models\GestionDatosReportesModel->repoGuiaTelefonica()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->GuiaTelefonica()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-28 00:36:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  no existe la columna «create_at»
+LINE 1: select*,DATE(create_at) from guiatelefonica where estado=1;
+                     ^
+HINT:  Probablemente quiera hacer referencia a la columna «guiatelefonica.created_at».
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select*,DATE(create_at) from guiatelefonica where estado=1;
+            ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select*,DATE(create_at) from guiatelefonica where estado=1;
+            ')
+ 3 APPPATH\Models\GestionDatosReportesModel.php(70): CodeIgniter\Database\BaseConnection->query('select*,DATE(create_at) from guiatelefonica where estado=1;
+            ')
+ 4 APPPATH\Controllers\ReportesControler.php(257): App\Models\GestionDatosReportesModel->repoGuiaTelefonica()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->GuiaTelefonica()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-28 00:36:10 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  no existe la columna «create_at»
+LINE 1: select*,DATE(create_at) from guiatelefonica where estado=1;
+                     ^
+HINT:  Probablemente quiera hacer referencia a la columna «guiatelefonica.created_at».
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la columna «create_at»
+LINE 1: select*,DATE(create_at) from guiatelefonica where estado=1;
+                     ^
+HINT:  Probablemente quiera hacer referencia a la columna «guiatelefonica.created_at».', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'select*,DATE(create_at) from guiatelefonica where estado=1;
+            ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select*,DATE(create_at) from guiatelefonica where estado=1;
+            ')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select*,DATE(create_at) from guiatelefonica where estado=1;
+            ')
+ 5 APPPATH\Models\GestionDatosReportesModel.php(70): CodeIgniter\Database\BaseConnection->query('select*,DATE(create_at) from guiatelefonica where estado=1;
+            ')
+ 6 APPPATH\Controllers\ReportesControler.php(257): App\Models\GestionDatosReportesModel->repoGuiaTelefonica()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->GuiaTelefonica()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-28 00:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-28 00:48:00 --> ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'select a.imagen...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select a.imagen...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select a.imagen...')
+#4 C:\laragon\www\geotranck-dev\app\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagen...')
+#5 C:\laragon\www\geotranck-dev\app\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(NULL, NULL, NULL)
+#6 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-06-28 00:48:00 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 2 APPPATH\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(null, null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-28 00:48:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 3 APPPATH\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 4 APPPATH\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(null, null, null)
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-28 00:48:00 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 5 APPPATH\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 6 APPPATH\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(null, null, null)
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-28 00:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-28 00:57:17 --> ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'select a.imagen...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select a.imagen...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select a.imagen...')
+#4 C:\laragon\www\geotranck-dev\app\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagen...')
+#5 C:\laragon\www\geotranck-dev\app\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(NULL, NULL, NULL)
+#6 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-06-28 00:57:17 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 2 APPPATH\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(null, null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-28 00:57:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 3 APPPATH\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 4 APPPATH\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(null, null, null)
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-28 00:57:17 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 5 APPPATH\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 6 APPPATH\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(null, null, null)
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-28 00:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-28 00:57:33 --> ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'select a.imagen...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select a.imagen...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select a.imagen...')
+#4 C:\laragon\www\geotranck-dev\app\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagen...')
+#5 C:\laragon\www\geotranck-dev\app\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(NULL, NULL, NULL)
+#6 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-06-28 00:57:33 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 2 APPPATH\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(null, null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-28 00:57:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 3 APPPATH\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 4 APPPATH\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(null, null, null)
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-28 00:57:33 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 5 APPPATH\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 6 APPPATH\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(null, null, null)
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-28 00:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-28 00:58:17 --> ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'select a.imagen...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select a.imagen...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select a.imagen...')
+#4 C:\laragon\www\geotranck-dev\app\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagen...')
+#5 C:\laragon\www\geotranck-dev\app\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(NULL, NULL, NULL)
+#6 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-06-28 00:58:17 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 2 APPPATH\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(null, null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-28 00:58:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 3 APPPATH\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 4 APPPATH\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(null, null, null)
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-28 00:58:17 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 5 APPPATH\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 6 APPPATH\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(null, null, null)
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-28 00:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-28 00:58:25 --> ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'select a.imagen...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select a.imagen...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select a.imagen...')
+#4 C:\laragon\www\geotranck-dev\app\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagen...')
+#5 C:\laragon\www\geotranck-dev\app\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(NULL, NULL, NULL)
+#6 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-06-28 00:58:25 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 2 APPPATH\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(null, null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-28 00:58:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 3 APPPATH\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 4 APPPATH\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(null, null, null)
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-28 00:58:25 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 5 APPPATH\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 6 APPPATH\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(null, null, null)
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-28 00:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-28 00:58:56 --> ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'select a.imagen...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select a.imagen...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select a.imagen...')
+#4 C:\laragon\www\geotranck-dev\app\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagen...')
+#5 C:\laragon\www\geotranck-dev\app\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(NULL, NULL, NULL)
+#6 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-06-28 00:58:56 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 2 APPPATH\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(null, null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-28 00:58:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 3 APPPATH\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 4 APPPATH\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(null, null, null)
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-28 00:58:56 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 5 APPPATH\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 6 APPPATH\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(null, null, null)
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-28 00:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-28 00:58:59 --> ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'select a.imagen...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select a.imagen...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select a.imagen...')
+#4 C:\laragon\www\geotranck-dev\app\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagen...')
+#5 C:\laragon\www\geotranck-dev\app\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(NULL, NULL, NULL)
+#6 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-06-28 00:58:59 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 2 APPPATH\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(null, null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-28 00:58:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 3 APPPATH\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 4 APPPATH\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(null, null, null)
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-28 00:58:59 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «and»
+LINE 6:                     where a.id= and  DATE(r.created_at) BETW...
+                                        ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 5 APPPATH\Models\GestionDatosReportesModel.php(31): CodeIgniter\Database\BaseConnection->query('select a.imagenautomovil,a.imagenconductor,a.marca, a.modelo,a.color,a.placa,c.nombre as nombreconductor,c.apellido as apellidoconductor,c.telefono as telefonoconductor,c.direccion as direccionconductor,r.estadoruta, r.nombre_estudiante,r.apellido_estudiante,ST_X(r.ubicacion) AS longitud, ST_Y(r.ubicacion) AS latitud 
+                  ,DATE(r.created_at)  from rutaestudiante r 
+                    join perfilsistema pe on r.perfil_id = pe.id
+                    join conductor c on pe.usuarioconductor_id=c.id 
+                    join automovil a on a.conductorid=c.id 
+                    where a.id= and  DATE(r.created_at) BETWEEN \'\' AND \'\'
+                ')
+ 6 APPPATH\Controllers\ReportesControler.php(22): App\Models\GestionDatosReportesModel->repoPuntoParaMovilidades(null, null, null)
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->from01()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-28 00:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 00:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 00:59:12 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 884.
+ 1 SYSTEMPATH\Model.php(662): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(864): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\ReportesControler.php(331): CodeIgniter\Model->__call('ListaEstudianteAuto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->ListaEstudianteAuto()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-28 01:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 01:00:33 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 884.
+ 1 SYSTEMPATH\Model.php(662): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(864): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\ReportesControler.php(331): CodeIgniter\Model->__call('ListaEstudianteAuto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->ListaEstudianteAuto()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-28 01:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 01:00:39 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 884.
+ 1 SYSTEMPATH\Model.php(662): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(864): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\ReportesControler.php(331): CodeIgniter\Model->__call('ListaEstudianteAuto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->ListaEstudianteAuto()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-28 01:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 01:00:56 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 884.
+ 1 SYSTEMPATH\Model.php(662): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(864): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\ReportesControler.php(331): CodeIgniter\Model->__call('ListaEstudianteAuto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->ListaEstudianteAuto()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-28 01:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 01:01:09 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 884.
+ 1 SYSTEMPATH\Model.php(662): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(864): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\ReportesControler.php(331): CodeIgniter\Model->__call('ListaEstudianteAuto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->ListaEstudianteAuto()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-28 01:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 01:04:20 --> BadMethodCallException: Call to undefined method App\Models\GestionDatosReportesModel::ListaEstudianteAuto
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\ReportesControler.php(331): CodeIgniter\Model->__call('ListaEstudianteAuto', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->ListaEstudianteAuto()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-28 01:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 01:08:02 --> ErrorException: Undefined array key "nombre"
+in APPPATH\Views\reportes\AutoEstudiante.php on line 188.
+ 1 APPPATH\Views\reportes\AutoEstudiante.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\laragon\\www\\geotranck-dev\\app\\Views\\reportes\\AutoEstudiante.php', 188)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\geotranck-dev\\app\\Views\\reportes\\AutoEstudiante.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('reportes/AutoEstudiante', [], true)
+ 5 APPPATH\Controllers\ReportesControler.php(355): view('reportes/AutoEstudiante', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->ListaEstudianteAuto()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-28 01:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 01:14:55 --> ErrorException: Undefined array key "date"
+in APPPATH\Views\reportes\AutoEstudiante.php on line 191.
+ 1 APPPATH\Views\reportes\AutoEstudiante.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date"', 'C:\\laragon\\www\\geotranck-dev\\app\\Views\\reportes\\AutoEstudiante.php', 191)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\geotranck-dev\\app\\Views\\reportes\\AutoEstudiante.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('reportes/AutoEstudiante', [], true)
+ 5 APPPATH\Controllers\ReportesControler.php(355): view('reportes/AutoEstudiante', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->ListaEstudianteAuto()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-28 01:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 01:21:18 --> ErrorException: Undefined array key "nombreconductor"
+in APPPATH\Views\reportes\reporte01.php on line 201.
+ 1 APPPATH\Views\reportes\reporte01.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombreconductor"', 'C:\\laragon\\www\\geotranck-dev\\app\\Views\\reportes\\reporte01.php', 201)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\geotranck-dev\\app\\Views\\reportes\\reporte01.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('reportes/reporte01', [], true)
+ 5 APPPATH\Controllers\ReportesControler.php(367): view('reportes/reporte01', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->ListaEstudianteAuto()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-28 01:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 01:29:27 --> ErrorException: Undefined variable $datosEstudiante
+in APPPATH\Views\reportes\reporte01.php on line 182.
+ 1 APPPATH\Views\reportes\reporte01.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datosEstudiante', 'C:\\laragon\\www\\geotranck-dev\\app\\Views\\reportes\\reporte01.php', 182)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\geotranck-dev\\app\\Views\\reportes\\reporte01.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('reportes/reporte01', [], true)
+ 5 APPPATH\Controllers\ReportesControler.php(367): view('reportes/reporte01', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->ListaEstudianteAuto()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-28 01:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 01:31:33 --> ErrorException: Undefined variable $imagenautomovil
+in APPPATH\Views\reportes\AutoEstudiante.php on line 178.
+ 1 APPPATH\Views\reportes\AutoEstudiante.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imagenautomovil', 'C:\\laragon\\www\\geotranck-dev\\app\\Views\\reportes\\AutoEstudiante.php', 178)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\geotranck-dev\\app\\Views\\reportes\\AutoEstudiante.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('reportes/AutoEstudiante', [], true)
+ 5 APPPATH\Controllers\ReportesControler.php(367): view('reportes/AutoEstudiante', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->ListaEstudianteAuto()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-28 01:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-28 01:37:21 --> ErrorException: Undefined variable $datosPuntoParada
+in APPPATH\Controllers\ReportesControler.php on line 391.
+ 1 APPPATH\Controllers\ReportesControler.php(391): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datosPuntoParada', 'C:\\laragon\\www\\geotranck-dev\\app\\Controllers\\ReportesControler.php', 391)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesControler->ListaEstudianteAuto()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesControler))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-28 01:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 01:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

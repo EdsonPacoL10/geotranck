@@ -1,0 +1,900 @@
+INFO - 2024-06-16 00:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-16 00:51:13 --> ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 1: select c.id es.imagenestudiante as img ,es.nombre as nomestu...
+                      ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'select c.id es....')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select c.id es....')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select c.id es....')
+#4 C:\laragon\www\geotranck-dev\app\Models\GestionDatosEstudianteModel.php(48): CodeIgniter\Database\BaseConnection->query('select c.id es....')
+#5 C:\laragon\www\geotranck-dev\app\Controllers\SeguimientoGPSController.php(70): App\Models\GestionDatosEstudianteModel->datosEstudianteParaPadre('21')
+#6 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-06-16 00:51:13 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 1: select c.id es.imagenestudiante as img ,es.nombre as nomestu...
+                      ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\GestionDatosEstudianteModel.php(48): CodeIgniter\Database\BaseConnection->query('select c.id es.imagenestudiante as img ,es.nombre as nomestudiante , es.apellido as apeestudiant,es.ci as cedulaestudiante ,
+		pa.nombretutor as nompadre , pa.apellidotutor as apellidopadre, pa.telefonotutor as telefonopadre,
+		a.imagenautomovil as imgauto ,a.marca ,a.modelo ,a.color,a.placa,
+		c.nombre as nomconductor, c.apellido as apellidoconductor ,c.telefono,
+		he.tipo,he.descripcion,he.avenida,ST_X(he.ubicacion) AS longitud,
+        ST_Y(he.ubicacion) AS latitud
+		 from estudiantes es
+		join padre pa on es.tutor_id=pa.id 
+		join automovilestudiante au on es.id= au.estudiante_id
+		join automovil a on au.automovil_id= a.id 
+		join conductor c on a.conductorid =c.id 
+		join perfilsistema per on per.usuariopadre_id=pa.id
+		join hogar_estudiante he on he.estudiante_id=es.id  where  per.id=21 and  per.estado =1
+        ')
+ 2 APPPATH\Controllers\SeguimientoGPSController.php(70): App\Models\GestionDatosEstudianteModel->datosEstudianteParaPadre('21')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-16 00:51:13 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 1: select c.id es.imagenestudiante as img ,es.nombre as nomestu...
+                      ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select c.id es.imagenestudiante as img ,es.nombre as nomestudiante , es.apellido as apeestudiant,es.ci as cedulaestudiante ,
+		pa.nombretutor as nompadre , pa.apellidotutor as apellidopadre, pa.telefonotutor as telefonopadre,
+		a.imagenautomovil as imgauto ,a.marca ,a.modelo ,a.color,a.placa,
+		c.nombre as nomconductor, c.apellido as apellidoconductor ,c.telefono,
+		he.tipo,he.descripcion,he.avenida,ST_X(he.ubicacion) AS longitud,
+        ST_Y(he.ubicacion) AS latitud
+		 from estudiantes es
+		join padre pa on es.tutor_id=pa.id 
+		join automovilestudiante au on es.id= au.estudiante_id
+		join automovil a on au.automovil_id= a.id 
+		join conductor c on a.conductorid =c.id 
+		join perfilsistema per on per.usuariopadre_id=pa.id
+		join hogar_estudiante he on he.estudiante_id=es.id  where  per.id=21 and  per.estado =1
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select c.id es.imagenestudiante as img ,es.nombre as nomestudiante , es.apellido as apeestudiant,es.ci as cedulaestudiante ,
+		pa.nombretutor as nompadre , pa.apellidotutor as apellidopadre, pa.telefonotutor as telefonopadre,
+		a.imagenautomovil as imgauto ,a.marca ,a.modelo ,a.color,a.placa,
+		c.nombre as nomconductor, c.apellido as apellidoconductor ,c.telefono,
+		he.tipo,he.descripcion,he.avenida,ST_X(he.ubicacion) AS longitud,
+        ST_Y(he.ubicacion) AS latitud
+		 from estudiantes es
+		join padre pa on es.tutor_id=pa.id 
+		join automovilestudiante au on es.id= au.estudiante_id
+		join automovil a on au.automovil_id= a.id 
+		join conductor c on a.conductorid =c.id 
+		join perfilsistema per on per.usuariopadre_id=pa.id
+		join hogar_estudiante he on he.estudiante_id=es.id  where  per.id=21 and  per.estado =1
+        ')
+ 3 APPPATH\Models\GestionDatosEstudianteModel.php(48): CodeIgniter\Database\BaseConnection->query('select c.id es.imagenestudiante as img ,es.nombre as nomestudiante , es.apellido as apeestudiant,es.ci as cedulaestudiante ,
+		pa.nombretutor as nompadre , pa.apellidotutor as apellidopadre, pa.telefonotutor as telefonopadre,
+		a.imagenautomovil as imgauto ,a.marca ,a.modelo ,a.color,a.placa,
+		c.nombre as nomconductor, c.apellido as apellidoconductor ,c.telefono,
+		he.tipo,he.descripcion,he.avenida,ST_X(he.ubicacion) AS longitud,
+        ST_Y(he.ubicacion) AS latitud
+		 from estudiantes es
+		join padre pa on es.tutor_id=pa.id 
+		join automovilestudiante au on es.id= au.estudiante_id
+		join automovil a on au.automovil_id= a.id 
+		join conductor c on a.conductorid =c.id 
+		join perfilsistema per on per.usuariopadre_id=pa.id
+		join hogar_estudiante he on he.estudiante_id=es.id  where  per.id=21 and  per.estado =1
+        ')
+ 4 APPPATH\Controllers\SeguimientoGPSController.php(70): App\Models\GestionDatosEstudianteModel->datosEstudianteParaPadre('21')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-16 00:51:13 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 1: select c.id es.imagenestudiante as img ,es.nombre as nomestu...
+                      ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 1: select c.id es.imagenestudiante as img ,es.nombre as nomestu...
+                      ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'select c.id es.imagenestudiante as img ,es.nombre as nomestudiante , es.apellido as apeestudiant,es.ci as cedulaestudiante ,
+		pa.nombretutor as nompadre , pa.apellidotutor as apellidopadre, pa.telefonotutor as telefonopadre,
+		a.imagenautomovil as imgauto ,a.marca ,a.modelo ,a.color,a.placa,
+		c.nombre as nomconductor, c.apellido as apellidoconductor ,c.telefono,
+		he.tipo,he.descripcion,he.avenida,ST_X(he.ubicacion) AS longitud,
+        ST_Y(he.ubicacion) AS latitud
+		 from estudiantes es
+		join padre pa on es.tutor_id=pa.id 
+		join automovilestudiante au on es.id= au.estudiante_id
+		join automovil a on au.automovil_id= a.id 
+		join conductor c on a.conductorid =c.id 
+		join perfilsistema per on per.usuariopadre_id=pa.id
+		join hogar_estudiante he on he.estudiante_id=es.id  where  per.id=21 and  per.estado =1
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select c.id es.imagenestudiante as img ,es.nombre as nomestudiante , es.apellido as apeestudiant,es.ci as cedulaestudiante ,
+		pa.nombretutor as nompadre , pa.apellidotutor as apellidopadre, pa.telefonotutor as telefonopadre,
+		a.imagenautomovil as imgauto ,a.marca ,a.modelo ,a.color,a.placa,
+		c.nombre as nomconductor, c.apellido as apellidoconductor ,c.telefono,
+		he.tipo,he.descripcion,he.avenida,ST_X(he.ubicacion) AS longitud,
+        ST_Y(he.ubicacion) AS latitud
+		 from estudiantes es
+		join padre pa on es.tutor_id=pa.id 
+		join automovilestudiante au on es.id= au.estudiante_id
+		join automovil a on au.automovil_id= a.id 
+		join conductor c on a.conductorid =c.id 
+		join perfilsistema per on per.usuariopadre_id=pa.id
+		join hogar_estudiante he on he.estudiante_id=es.id  where  per.id=21 and  per.estado =1
+        ')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select c.id es.imagenestudiante as img ,es.nombre as nomestudiante , es.apellido as apeestudiant,es.ci as cedulaestudiante ,
+		pa.nombretutor as nompadre , pa.apellidotutor as apellidopadre, pa.telefonotutor as telefonopadre,
+		a.imagenautomovil as imgauto ,a.marca ,a.modelo ,a.color,a.placa,
+		c.nombre as nomconductor, c.apellido as apellidoconductor ,c.telefono,
+		he.tipo,he.descripcion,he.avenida,ST_X(he.ubicacion) AS longitud,
+        ST_Y(he.ubicacion) AS latitud
+		 from estudiantes es
+		join padre pa on es.tutor_id=pa.id 
+		join automovilestudiante au on es.id= au.estudiante_id
+		join automovil a on au.automovil_id= a.id 
+		join conductor c on a.conductorid =c.id 
+		join perfilsistema per on per.usuariopadre_id=pa.id
+		join hogar_estudiante he on he.estudiante_id=es.id  where  per.id=21 and  per.estado =1
+        ')
+ 5 APPPATH\Models\GestionDatosEstudianteModel.php(48): CodeIgniter\Database\BaseConnection->query('select c.id es.imagenestudiante as img ,es.nombre as nomestudiante , es.apellido as apeestudiant,es.ci as cedulaestudiante ,
+		pa.nombretutor as nompadre , pa.apellidotutor as apellidopadre, pa.telefonotutor as telefonopadre,
+		a.imagenautomovil as imgauto ,a.marca ,a.modelo ,a.color,a.placa,
+		c.nombre as nomconductor, c.apellido as apellidoconductor ,c.telefono,
+		he.tipo,he.descripcion,he.avenida,ST_X(he.ubicacion) AS longitud,
+        ST_Y(he.ubicacion) AS latitud
+		 from estudiantes es
+		join padre pa on es.tutor_id=pa.id 
+		join automovilestudiante au on es.id= au.estudiante_id
+		join automovil a on au.automovil_id= a.id 
+		join conductor c on a.conductorid =c.id 
+		join perfilsistema per on per.usuariopadre_id=pa.id
+		join hogar_estudiante he on he.estudiante_id=es.id  where  per.id=21 and  per.estado =1
+        ')
+ 6 APPPATH\Controllers\SeguimientoGPSController.php(70): App\Models\GestionDatosEstudianteModel->datosEstudianteParaPadre('21')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-16 00:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-16 00:52:15 --> ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 1: select c.id es.imagenestudiante as img ,es.nombre as nomestu...
+                      ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'select c.id es....')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select c.id es....')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select c.id es....')
+#4 C:\laragon\www\geotranck-dev\app\Models\GestionDatosEstudianteModel.php(48): CodeIgniter\Database\BaseConnection->query('select c.id es....')
+#5 C:\laragon\www\geotranck-dev\app\Controllers\SeguimientoGPSController.php(70): App\Models\GestionDatosEstudianteModel->datosEstudianteParaPadre('21')
+#6 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-06-16 00:52:15 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 1: select c.id es.imagenestudiante as img ,es.nombre as nomestu...
+                      ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\GestionDatosEstudianteModel.php(48): CodeIgniter\Database\BaseConnection->query('select c.id es.imagenestudiante as img ,es.nombre as nomestudiante , es.apellido as apeestudiant,es.ci as cedulaestudiante ,
+		pa.nombretutor as nompadre , pa.apellidotutor as apellidopadre, pa.telefonotutor as telefonopadre,
+		a.imagenautomovil as imgauto ,a.marca ,a.modelo ,a.color,a.placa,
+		c.nombre as nomconductor, c.apellido as apellidoconductor ,c.telefono,
+		he.tipo,he.descripcion,he.avenida,ST_X(he.ubicacion) AS longitud,
+        ST_Y(he.ubicacion) AS latitud
+		 from estudiantes es
+		join padre pa on es.tutor_id=pa.id 
+		join automovilestudiante au on es.id= au.estudiante_id
+		join automovil a on au.automovil_id= a.id 
+		join conductor c on a.conductorid =c.id 
+		join perfilsistema per on per.usuariopadre_id=pa.id
+		join hogar_estudiante he on he.estudiante_id=es.id  where  per.id=21 and  per.estado =1
+        ')
+ 2 APPPATH\Controllers\SeguimientoGPSController.php(70): App\Models\GestionDatosEstudianteModel->datosEstudianteParaPadre('21')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-16 00:52:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 1: select c.id es.imagenestudiante as img ,es.nombre as nomestu...
+                      ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select c.id es.imagenestudiante as img ,es.nombre as nomestudiante , es.apellido as apeestudiant,es.ci as cedulaestudiante ,
+		pa.nombretutor as nompadre , pa.apellidotutor as apellidopadre, pa.telefonotutor as telefonopadre,
+		a.imagenautomovil as imgauto ,a.marca ,a.modelo ,a.color,a.placa,
+		c.nombre as nomconductor, c.apellido as apellidoconductor ,c.telefono,
+		he.tipo,he.descripcion,he.avenida,ST_X(he.ubicacion) AS longitud,
+        ST_Y(he.ubicacion) AS latitud
+		 from estudiantes es
+		join padre pa on es.tutor_id=pa.id 
+		join automovilestudiante au on es.id= au.estudiante_id
+		join automovil a on au.automovil_id= a.id 
+		join conductor c on a.conductorid =c.id 
+		join perfilsistema per on per.usuariopadre_id=pa.id
+		join hogar_estudiante he on he.estudiante_id=es.id  where  per.id=21 and  per.estado =1
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select c.id es.imagenestudiante as img ,es.nombre as nomestudiante , es.apellido as apeestudiant,es.ci as cedulaestudiante ,
+		pa.nombretutor as nompadre , pa.apellidotutor as apellidopadre, pa.telefonotutor as telefonopadre,
+		a.imagenautomovil as imgauto ,a.marca ,a.modelo ,a.color,a.placa,
+		c.nombre as nomconductor, c.apellido as apellidoconductor ,c.telefono,
+		he.tipo,he.descripcion,he.avenida,ST_X(he.ubicacion) AS longitud,
+        ST_Y(he.ubicacion) AS latitud
+		 from estudiantes es
+		join padre pa on es.tutor_id=pa.id 
+		join automovilestudiante au on es.id= au.estudiante_id
+		join automovil a on au.automovil_id= a.id 
+		join conductor c on a.conductorid =c.id 
+		join perfilsistema per on per.usuariopadre_id=pa.id
+		join hogar_estudiante he on he.estudiante_id=es.id  where  per.id=21 and  per.estado =1
+        ')
+ 3 APPPATH\Models\GestionDatosEstudianteModel.php(48): CodeIgniter\Database\BaseConnection->query('select c.id es.imagenestudiante as img ,es.nombre as nomestudiante , es.apellido as apeestudiant,es.ci as cedulaestudiante ,
+		pa.nombretutor as nompadre , pa.apellidotutor as apellidopadre, pa.telefonotutor as telefonopadre,
+		a.imagenautomovil as imgauto ,a.marca ,a.modelo ,a.color,a.placa,
+		c.nombre as nomconductor, c.apellido as apellidoconductor ,c.telefono,
+		he.tipo,he.descripcion,he.avenida,ST_X(he.ubicacion) AS longitud,
+        ST_Y(he.ubicacion) AS latitud
+		 from estudiantes es
+		join padre pa on es.tutor_id=pa.id 
+		join automovilestudiante au on es.id= au.estudiante_id
+		join automovil a on au.automovil_id= a.id 
+		join conductor c on a.conductorid =c.id 
+		join perfilsistema per on per.usuariopadre_id=pa.id
+		join hogar_estudiante he on he.estudiante_id=es.id  where  per.id=21 and  per.estado =1
+        ')
+ 4 APPPATH\Controllers\SeguimientoGPSController.php(70): App\Models\GestionDatosEstudianteModel->datosEstudianteParaPadre('21')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-16 00:52:15 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 1: select c.id es.imagenestudiante as img ,es.nombre as nomestu...
+                      ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 1: select c.id es.imagenestudiante as img ,es.nombre as nomestu...
+                      ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'select c.id es.imagenestudiante as img ,es.nombre as nomestudiante , es.apellido as apeestudiant,es.ci as cedulaestudiante ,
+		pa.nombretutor as nompadre , pa.apellidotutor as apellidopadre, pa.telefonotutor as telefonopadre,
+		a.imagenautomovil as imgauto ,a.marca ,a.modelo ,a.color,a.placa,
+		c.nombre as nomconductor, c.apellido as apellidoconductor ,c.telefono,
+		he.tipo,he.descripcion,he.avenida,ST_X(he.ubicacion) AS longitud,
+        ST_Y(he.ubicacion) AS latitud
+		 from estudiantes es
+		join padre pa on es.tutor_id=pa.id 
+		join automovilestudiante au on es.id= au.estudiante_id
+		join automovil a on au.automovil_id= a.id 
+		join conductor c on a.conductorid =c.id 
+		join perfilsistema per on per.usuariopadre_id=pa.id
+		join hogar_estudiante he on he.estudiante_id=es.id  where  per.id=21 and  per.estado =1
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('select c.id es.imagenestudiante as img ,es.nombre as nomestudiante , es.apellido as apeestudiant,es.ci as cedulaestudiante ,
+		pa.nombretutor as nompadre , pa.apellidotutor as apellidopadre, pa.telefonotutor as telefonopadre,
+		a.imagenautomovil as imgauto ,a.marca ,a.modelo ,a.color,a.placa,
+		c.nombre as nomconductor, c.apellido as apellidoconductor ,c.telefono,
+		he.tipo,he.descripcion,he.avenida,ST_X(he.ubicacion) AS longitud,
+        ST_Y(he.ubicacion) AS latitud
+		 from estudiantes es
+		join padre pa on es.tutor_id=pa.id 
+		join automovilestudiante au on es.id= au.estudiante_id
+		join automovil a on au.automovil_id= a.id 
+		join conductor c on a.conductorid =c.id 
+		join perfilsistema per on per.usuariopadre_id=pa.id
+		join hogar_estudiante he on he.estudiante_id=es.id  where  per.id=21 and  per.estado =1
+        ')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select c.id es.imagenestudiante as img ,es.nombre as nomestudiante , es.apellido as apeestudiant,es.ci as cedulaestudiante ,
+		pa.nombretutor as nompadre , pa.apellidotutor as apellidopadre, pa.telefonotutor as telefonopadre,
+		a.imagenautomovil as imgauto ,a.marca ,a.modelo ,a.color,a.placa,
+		c.nombre as nomconductor, c.apellido as apellidoconductor ,c.telefono,
+		he.tipo,he.descripcion,he.avenida,ST_X(he.ubicacion) AS longitud,
+        ST_Y(he.ubicacion) AS latitud
+		 from estudiantes es
+		join padre pa on es.tutor_id=pa.id 
+		join automovilestudiante au on es.id= au.estudiante_id
+		join automovil a on au.automovil_id= a.id 
+		join conductor c on a.conductorid =c.id 
+		join perfilsistema per on per.usuariopadre_id=pa.id
+		join hogar_estudiante he on he.estudiante_id=es.id  where  per.id=21 and  per.estado =1
+        ')
+ 5 APPPATH\Models\GestionDatosEstudianteModel.php(48): CodeIgniter\Database\BaseConnection->query('select c.id es.imagenestudiante as img ,es.nombre as nomestudiante , es.apellido as apeestudiant,es.ci as cedulaestudiante ,
+		pa.nombretutor as nompadre , pa.apellidotutor as apellidopadre, pa.telefonotutor as telefonopadre,
+		a.imagenautomovil as imgauto ,a.marca ,a.modelo ,a.color,a.placa,
+		c.nombre as nomconductor, c.apellido as apellidoconductor ,c.telefono,
+		he.tipo,he.descripcion,he.avenida,ST_X(he.ubicacion) AS longitud,
+        ST_Y(he.ubicacion) AS latitud
+		 from estudiantes es
+		join padre pa on es.tutor_id=pa.id 
+		join automovilestudiante au on es.id= au.estudiante_id
+		join automovil a on au.automovil_id= a.id 
+		join conductor c on a.conductorid =c.id 
+		join perfilsistema per on per.usuariopadre_id=pa.id
+		join hogar_estudiante he on he.estudiante_id=es.id  where  per.id=21 and  per.estado =1
+        ')
+ 6 APPPATH\Controllers\SeguimientoGPSController.php(70): App\Models\GestionDatosEstudianteModel->datosEstudianteParaPadre('21')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-16 00:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-16 00:52:32 --> ErrorException: Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Query.php', 327)
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT "sr"."id", "co"."nombre", "co"."apellido", "co"."telefono", "sr"."id_usuario", ST_X(sr.ubicacionTipoReal) AS longitud, ST_Y(sr.ubicacionTipoReal) AS latitud
+FROM "seguimientotiemporeal" "sr"
+JOIN "perfilsistema" "pe" ON "pe"."id" = "sr"."id_usuario"
+JOIN "conductor" "co" ON "pe"."usuarioconductor_id" = "co"."id"
+WHERE "pe"."usuarioconductor_id" = :pe.usuarioconductor_id:
+AND "pe"."estado" = :pe.estado:
+ORDER BY "s"."id" DESC
+ LIMIT 1', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "sr"."id", "co"."nombre", "co"."apellido", "co"."telefono", "sr"."id_usuario", ST_X(sr.ubicacionTipoReal) AS longitud, ST_Y(sr.ubicacionTipoReal) AS latitud
+FROM "seguimientotiemporeal" "sr"
+JOIN "perfilsistema" "pe" ON "pe"."id" = "sr"."id_usuario"
+JOIN "conductor" "co" ON "pe"."usuarioconductor_id" = "co"."id"
+WHERE "pe"."usuarioconductor_id" = :pe.usuarioconductor_id:
+AND "pe"."estado" = :pe.estado:
+ORDER BY "s"."id" DESC
+ LIMIT 1', [...], false)
+ 7 APPPATH\Models\GestionSeguimientoGPS.php(100): CodeIgniter\Database\BaseBuilder->get()
+ 8 APPPATH\Controllers\SeguimientoGPSController.php(71): App\Models\GestionSeguimientoGPS->obtenerUltimoMarcador([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-16 00:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-16 00:53:37 --> ErrorException: Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Query.php', 327)
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT "sr"."id", "co"."nombre", "co"."apellido", "co"."telefono", "sr"."id_usuario", ST_X(sr.ubicacionTipoReal) AS longitud, ST_Y(sr.ubicacionTipoReal) AS latitud
+FROM "seguimientotiemporeal" "sr"
+JOIN "perfilsistema" "pe" ON "pe"."id" = "sr"."id_usuario"
+JOIN "conductor" "co" ON "pe"."usuarioconductor_id" = "co"."id"
+WHERE "pe"."usuarioconductor_id" = :pe.usuarioconductor_id:
+AND "pe"."estado" = :pe.estado:
+ORDER BY "s"."id" DESC
+ LIMIT 1', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "sr"."id", "co"."nombre", "co"."apellido", "co"."telefono", "sr"."id_usuario", ST_X(sr.ubicacionTipoReal) AS longitud, ST_Y(sr.ubicacionTipoReal) AS latitud
+FROM "seguimientotiemporeal" "sr"
+JOIN "perfilsistema" "pe" ON "pe"."id" = "sr"."id_usuario"
+JOIN "conductor" "co" ON "pe"."usuarioconductor_id" = "co"."id"
+WHERE "pe"."usuarioconductor_id" = :pe.usuarioconductor_id:
+AND "pe"."estado" = :pe.estado:
+ORDER BY "s"."id" DESC
+ LIMIT 1', [...], false)
+ 7 APPPATH\Models\GestionSeguimientoGPS.php(99): CodeIgniter\Database\BaseBuilder->get()
+ 8 APPPATH\Controllers\SeguimientoGPSController.php(71): App\Models\GestionSeguimientoGPS->obtenerUltimoMarcador([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-16 00:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-16 00:53:38 --> ErrorException: Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Query.php', 327)
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT "sr"."id", "co"."nombre", "co"."apellido", "co"."telefono", "sr"."id_usuario", ST_X(sr.ubicacionTipoReal) AS longitud, ST_Y(sr.ubicacionTipoReal) AS latitud
+FROM "seguimientotiemporeal" "sr"
+JOIN "perfilsistema" "pe" ON "pe"."id" = "sr"."id_usuario"
+JOIN "conductor" "co" ON "pe"."usuarioconductor_id" = "co"."id"
+WHERE "pe"."usuarioconductor_id" = :pe.usuarioconductor_id:
+AND "pe"."estado" = :pe.estado:
+ORDER BY "s"."id" DESC
+ LIMIT 1', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "sr"."id", "co"."nombre", "co"."apellido", "co"."telefono", "sr"."id_usuario", ST_X(sr.ubicacionTipoReal) AS longitud, ST_Y(sr.ubicacionTipoReal) AS latitud
+FROM "seguimientotiemporeal" "sr"
+JOIN "perfilsistema" "pe" ON "pe"."id" = "sr"."id_usuario"
+JOIN "conductor" "co" ON "pe"."usuarioconductor_id" = "co"."id"
+WHERE "pe"."usuarioconductor_id" = :pe.usuarioconductor_id:
+AND "pe"."estado" = :pe.estado:
+ORDER BY "s"."id" DESC
+ LIMIT 1', [...], false)
+ 7 APPPATH\Models\GestionSeguimientoGPS.php(99): CodeIgniter\Database\BaseBuilder->get()
+ 8 APPPATH\Controllers\SeguimientoGPSController.php(71): App\Models\GestionSeguimientoGPS->obtenerUltimoMarcador([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-16 00:54:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-16 00:54:27 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 884.
+ 1 SYSTEMPATH\Model.php(662): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(864): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\SeguimientoGPSController.php(71): CodeIgniter\Model->__call('obtenerUltimoMarcador', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-16 00:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-16 00:54:50 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 884.
+ 1 SYSTEMPATH\Model.php(662): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(864): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\SeguimientoGPSController.php(71): CodeIgniter\Model->__call('obtenerUltimoMarcador', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-16 00:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-16 00:54:51 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 884.
+ 1 SYSTEMPATH\Model.php(662): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(864): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\SeguimientoGPSController.php(71): CodeIgniter\Model->__call('obtenerUltimoMarcador', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-16 00:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-16 00:55:12 --> ErrorException: pg_query(): Query failed: ERROR:  falta una entrada para la tabla «s» en la cláusula FROM
+LINE 7: ORDER BY &quot;s&quot;.&quot;id&quot; DESC
+                 ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'SELECT "sr"."id...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT "sr"."id...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "sr"."id...')
+#4 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "sr"."id...', Array, false)
+#5 C:\laragon\www\geotranck-dev\app\Models\GestionSeguimientoGPS.php(100): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\laragon\www\geotranck-dev\app\Controllers\SeguimientoGPSController.php(71): App\Models\GestionSeguimientoGPS->obtenerUltimoMarcador(Array)
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+#9 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-06-16 00:55:12 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  falta una entrada para la tabla «s» en la cláusula FROM
+LINE 7: ORDER BY &quot;s&quot;.&quot;id&quot; DESC
+                 ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "sr"."id", "co"."nombre", "co"."apellido", "co"."telefono", "sr"."id_usuario", ST_X(sr.ubicacionTipoReal) AS longitud, ST_Y(sr.ubicacionTipoReal) AS latitud
+FROM "seguimientotiemporeal" "sr"
+JOIN "perfilsistema" "pe" ON "pe"."id" = "sr"."id_usuario"
+JOIN "conductor" "co" ON "pe"."usuarioconductor_id" = "co"."id"
+WHERE "pe"."usuarioconductor_id" = :pe.usuarioconductor_id:
+AND "pe"."estado" = :pe.estado:
+ORDER BY "s"."id" DESC
+ LIMIT 1', [...], false)
+ 2 APPPATH\Models\GestionSeguimientoGPS.php(100): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\SeguimientoGPSController.php(71): App\Models\GestionSeguimientoGPS->obtenerUltimoMarcador([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-16 00:55:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  falta una entrada para la tabla «s» en la cláusula FROM
+LINE 7: ORDER BY &quot;s&quot;.&quot;id&quot; DESC
+                 ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT "sr"."id", "co"."nombre", "co"."apellido", "co"."telefono", "sr"."id_usuario", ST_X(sr.ubicacionTipoReal) AS longitud, ST_Y(sr.ubicacionTipoReal) AS latitud
+FROM "seguimientotiemporeal" "sr"
+JOIN "perfilsistema" "pe" ON "pe"."id" = "sr"."id_usuario"
+JOIN "conductor" "co" ON "pe"."usuarioconductor_id" = "co"."id"
+WHERE "pe"."usuarioconductor_id" = 7
+AND "pe"."estado" = 1
+ORDER BY "s"."id" DESC
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "sr"."id", "co"."nombre", "co"."apellido", "co"."telefono", "sr"."id_usuario", ST_X(sr.ubicacionTipoReal) AS longitud, ST_Y(sr.ubicacionTipoReal) AS latitud
+FROM "seguimientotiemporeal" "sr"
+JOIN "perfilsistema" "pe" ON "pe"."id" = "sr"."id_usuario"
+JOIN "conductor" "co" ON "pe"."usuarioconductor_id" = "co"."id"
+WHERE "pe"."usuarioconductor_id" = 7
+AND "pe"."estado" = 1
+ORDER BY "s"."id" DESC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "sr"."id", "co"."nombre", "co"."apellido", "co"."telefono", "sr"."id_usuario", ST_X(sr.ubicacionTipoReal) AS longitud, ST_Y(sr.ubicacionTipoReal) AS latitud
+FROM "seguimientotiemporeal" "sr"
+JOIN "perfilsistema" "pe" ON "pe"."id" = "sr"."id_usuario"
+JOIN "conductor" "co" ON "pe"."usuarioconductor_id" = "co"."id"
+WHERE "pe"."usuarioconductor_id" = :pe.usuarioconductor_id:
+AND "pe"."estado" = :pe.estado:
+ORDER BY "s"."id" DESC
+ LIMIT 1', [...], false)
+ 4 APPPATH\Models\GestionSeguimientoGPS.php(100): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\SeguimientoGPSController.php(71): App\Models\GestionSeguimientoGPS->obtenerUltimoMarcador([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-16 00:55:12 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  falta una entrada para la tabla «s» en la cláusula FROM
+LINE 7: ORDER BY &quot;s&quot;.&quot;id&quot; DESC
+                 ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  falta una entrada para la tabla «s» en la cláusula FROM
+LINE 7: ORDER BY &quot;s&quot;.&quot;id&quot; DESC
+                 ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'SELECT "sr"."id", "co"."nombre", "co"."apellido", "co"."telefono", "sr"."id_usuario", ST_X(sr.ubicacionTipoReal) AS longitud, ST_Y(sr.ubicacionTipoReal) AS latitud
+FROM "seguimientotiemporeal" "sr"
+JOIN "perfilsistema" "pe" ON "pe"."id" = "sr"."id_usuario"
+JOIN "conductor" "co" ON "pe"."usuarioconductor_id" = "co"."id"
+WHERE "pe"."usuarioconductor_id" = 7
+AND "pe"."estado" = 1
+ORDER BY "s"."id" DESC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT "sr"."id", "co"."nombre", "co"."apellido", "co"."telefono", "sr"."id_usuario", ST_X(sr.ubicacionTipoReal) AS longitud, ST_Y(sr.ubicacionTipoReal) AS latitud
+FROM "seguimientotiemporeal" "sr"
+JOIN "perfilsistema" "pe" ON "pe"."id" = "sr"."id_usuario"
+JOIN "conductor" "co" ON "pe"."usuarioconductor_id" = "co"."id"
+WHERE "pe"."usuarioconductor_id" = 7
+AND "pe"."estado" = 1
+ORDER BY "s"."id" DESC
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "sr"."id", "co"."nombre", "co"."apellido", "co"."telefono", "sr"."id_usuario", ST_X(sr.ubicacionTipoReal) AS longitud, ST_Y(sr.ubicacionTipoReal) AS latitud
+FROM "seguimientotiemporeal" "sr"
+JOIN "perfilsistema" "pe" ON "pe"."id" = "sr"."id_usuario"
+JOIN "conductor" "co" ON "pe"."usuarioconductor_id" = "co"."id"
+WHERE "pe"."usuarioconductor_id" = 7
+AND "pe"."estado" = 1
+ORDER BY "s"."id" DESC
+ LIMIT 1')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "sr"."id", "co"."nombre", "co"."apellido", "co"."telefono", "sr"."id_usuario", ST_X(sr.ubicacionTipoReal) AS longitud, ST_Y(sr.ubicacionTipoReal) AS latitud
+FROM "seguimientotiemporeal" "sr"
+JOIN "perfilsistema" "pe" ON "pe"."id" = "sr"."id_usuario"
+JOIN "conductor" "co" ON "pe"."usuarioconductor_id" = "co"."id"
+WHERE "pe"."usuarioconductor_id" = :pe.usuarioconductor_id:
+AND "pe"."estado" = :pe.estado:
+ORDER BY "s"."id" DESC
+ LIMIT 1', [...], false)
+ 6 APPPATH\Models\GestionSeguimientoGPS.php(100): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\SeguimientoGPSController.php(71): App\Models\GestionSeguimientoGPS->obtenerUltimoMarcador([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-16 00:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-16 00:55:13 --> ErrorException: pg_query(): Query failed: ERROR:  falta una entrada para la tabla «s» en la cláusula FROM
+LINE 7: ORDER BY &quot;s&quot;.&quot;id&quot; DESC
+                 ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'SELECT "sr"."id...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT "sr"."id...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "sr"."id...')
+#4 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "sr"."id...', Array, false)
+#5 C:\laragon\www\geotranck-dev\app\Models\GestionSeguimientoGPS.php(100): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\laragon\www\geotranck-dev\app\Controllers\SeguimientoGPSController.php(71): App\Models\GestionSeguimientoGPS->obtenerUltimoMarcador(Array)
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+#9 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-06-16 00:55:13 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  falta una entrada para la tabla «s» en la cláusula FROM
+LINE 7: ORDER BY &quot;s&quot;.&quot;id&quot; DESC
+                 ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "sr"."id", "co"."nombre", "co"."apellido", "co"."telefono", "sr"."id_usuario", ST_X(sr.ubicacionTipoReal) AS longitud, ST_Y(sr.ubicacionTipoReal) AS latitud
+FROM "seguimientotiemporeal" "sr"
+JOIN "perfilsistema" "pe" ON "pe"."id" = "sr"."id_usuario"
+JOIN "conductor" "co" ON "pe"."usuarioconductor_id" = "co"."id"
+WHERE "pe"."usuarioconductor_id" = :pe.usuarioconductor_id:
+AND "pe"."estado" = :pe.estado:
+ORDER BY "s"."id" DESC
+ LIMIT 1', [...], false)
+ 2 APPPATH\Models\GestionSeguimientoGPS.php(100): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\SeguimientoGPSController.php(71): App\Models\GestionSeguimientoGPS->obtenerUltimoMarcador([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-16 00:55:13 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  falta una entrada para la tabla «s» en la cláusula FROM
+LINE 7: ORDER BY &quot;s&quot;.&quot;id&quot; DESC
+                 ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT "sr"."id", "co"."nombre", "co"."apellido", "co"."telefono", "sr"."id_usuario", ST_X(sr.ubicacionTipoReal) AS longitud, ST_Y(sr.ubicacionTipoReal) AS latitud
+FROM "seguimientotiemporeal" "sr"
+JOIN "perfilsistema" "pe" ON "pe"."id" = "sr"."id_usuario"
+JOIN "conductor" "co" ON "pe"."usuarioconductor_id" = "co"."id"
+WHERE "pe"."usuarioconductor_id" = 7
+AND "pe"."estado" = 1
+ORDER BY "s"."id" DESC
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "sr"."id", "co"."nombre", "co"."apellido", "co"."telefono", "sr"."id_usuario", ST_X(sr.ubicacionTipoReal) AS longitud, ST_Y(sr.ubicacionTipoReal) AS latitud
+FROM "seguimientotiemporeal" "sr"
+JOIN "perfilsistema" "pe" ON "pe"."id" = "sr"."id_usuario"
+JOIN "conductor" "co" ON "pe"."usuarioconductor_id" = "co"."id"
+WHERE "pe"."usuarioconductor_id" = 7
+AND "pe"."estado" = 1
+ORDER BY "s"."id" DESC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "sr"."id", "co"."nombre", "co"."apellido", "co"."telefono", "sr"."id_usuario", ST_X(sr.ubicacionTipoReal) AS longitud, ST_Y(sr.ubicacionTipoReal) AS latitud
+FROM "seguimientotiemporeal" "sr"
+JOIN "perfilsistema" "pe" ON "pe"."id" = "sr"."id_usuario"
+JOIN "conductor" "co" ON "pe"."usuarioconductor_id" = "co"."id"
+WHERE "pe"."usuarioconductor_id" = :pe.usuarioconductor_id:
+AND "pe"."estado" = :pe.estado:
+ORDER BY "s"."id" DESC
+ LIMIT 1', [...], false)
+ 4 APPPATH\Models\GestionSeguimientoGPS.php(100): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\SeguimientoGPSController.php(71): App\Models\GestionSeguimientoGPS->obtenerUltimoMarcador([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-16 00:55:13 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  falta una entrada para la tabla «s» en la cláusula FROM
+LINE 7: ORDER BY &quot;s&quot;.&quot;id&quot; DESC
+                 ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  falta una entrada para la tabla «s» en la cláusula FROM
+LINE 7: ORDER BY &quot;s&quot;.&quot;id&quot; DESC
+                 ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'SELECT "sr"."id", "co"."nombre", "co"."apellido", "co"."telefono", "sr"."id_usuario", ST_X(sr.ubicacionTipoReal) AS longitud, ST_Y(sr.ubicacionTipoReal) AS latitud
+FROM "seguimientotiemporeal" "sr"
+JOIN "perfilsistema" "pe" ON "pe"."id" = "sr"."id_usuario"
+JOIN "conductor" "co" ON "pe"."usuarioconductor_id" = "co"."id"
+WHERE "pe"."usuarioconductor_id" = 7
+AND "pe"."estado" = 1
+ORDER BY "s"."id" DESC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT "sr"."id", "co"."nombre", "co"."apellido", "co"."telefono", "sr"."id_usuario", ST_X(sr.ubicacionTipoReal) AS longitud, ST_Y(sr.ubicacionTipoReal) AS latitud
+FROM "seguimientotiemporeal" "sr"
+JOIN "perfilsistema" "pe" ON "pe"."id" = "sr"."id_usuario"
+JOIN "conductor" "co" ON "pe"."usuarioconductor_id" = "co"."id"
+WHERE "pe"."usuarioconductor_id" = 7
+AND "pe"."estado" = 1
+ORDER BY "s"."id" DESC
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "sr"."id", "co"."nombre", "co"."apellido", "co"."telefono", "sr"."id_usuario", ST_X(sr.ubicacionTipoReal) AS longitud, ST_Y(sr.ubicacionTipoReal) AS latitud
+FROM "seguimientotiemporeal" "sr"
+JOIN "perfilsistema" "pe" ON "pe"."id" = "sr"."id_usuario"
+JOIN "conductor" "co" ON "pe"."usuarioconductor_id" = "co"."id"
+WHERE "pe"."usuarioconductor_id" = 7
+AND "pe"."estado" = 1
+ORDER BY "s"."id" DESC
+ LIMIT 1')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "sr"."id", "co"."nombre", "co"."apellido", "co"."telefono", "sr"."id_usuario", ST_X(sr.ubicacionTipoReal) AS longitud, ST_Y(sr.ubicacionTipoReal) AS latitud
+FROM "seguimientotiemporeal" "sr"
+JOIN "perfilsistema" "pe" ON "pe"."id" = "sr"."id_usuario"
+JOIN "conductor" "co" ON "pe"."usuarioconductor_id" = "co"."id"
+WHERE "pe"."usuarioconductor_id" = :pe.usuarioconductor_id:
+AND "pe"."estado" = :pe.estado:
+ORDER BY "s"."id" DESC
+ LIMIT 1', [...], false)
+ 6 APPPATH\Models\GestionSeguimientoGPS.php(100): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\SeguimientoGPSController.php(71): App\Models\GestionSeguimientoGPS->obtenerUltimoMarcador([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-16 00:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-16 00:56:51 --> ErrorException: Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Query.php', 327)
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT "sr"."id", "co"."nombre", "co"."apellido", "co"."telefono", "sr"."id_usuario", ST_X(sr.ubicacionTipoReal) AS longitud, ST_Y(sr.ubicacionTipoReal) AS latitud
+FROM "seguimientotiemporeal" "sr"
+JOIN "perfilsistema" "pe" ON "pe"."id" = "sr"."id_usuario"
+JOIN "conductor" "co" ON "pe"."usuarioconductor_id" = "co"."id"
+WHERE "pe"."usuarioconductor_id" = :pe.usuarioconductor_id:
+AND "pe"."estado" = :pe.estado:
+ORDER BY "sr"."id" DESC
+ LIMIT 1', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT "sr"."id", "co"."nombre", "co"."apellido", "co"."telefono", "sr"."id_usuario", ST_X(sr.ubicacionTipoReal) AS longitud, ST_Y(sr.ubicacionTipoReal) AS latitud
+FROM "seguimientotiemporeal" "sr"
+JOIN "perfilsistema" "pe" ON "pe"."id" = "sr"."id_usuario"
+JOIN "conductor" "co" ON "pe"."usuarioconductor_id" = "co"."id"
+WHERE "pe"."usuarioconductor_id" = :pe.usuarioconductor_id:
+AND "pe"."estado" = :pe.estado:
+ORDER BY "sr"."id" DESC
+ LIMIT 1', [...], false)
+ 7 APPPATH\Models\GestionSeguimientoGPS.php(100): CodeIgniter\Database\BaseBuilder->get()
+ 8 APPPATH\Controllers\SeguimientoGPSController.php(71): App\Models\GestionSeguimientoGPS->obtenerUltimoMarcador([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-16 00:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-16 00:58:12 --> ErrorException: Undefined array key "id"
+in APPPATH\Controllers\SeguimientoGPSController.php on line 71.
+ 1 APPPATH\Controllers\SeguimientoGPSController.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\geotranck-dev\\app\\Controllers\\SeguimientoGPSController.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-16 00:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 00:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-16 00:59:36 --> ErrorException: Undefined array key "id"
+in APPPATH\Controllers\SeguimientoGPSController.php on line 72.
+ 1 APPPATH\Controllers\SeguimientoGPSController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\geotranck-dev\\app\\Controllers\\SeguimientoGPSController.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-16 00:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-16 00:59:52 --> ErrorException: Undefined array key "id"
+in APPPATH\Controllers\SeguimientoGPSController.php on line 72.
+ 1 APPPATH\Controllers\SeguimientoGPSController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\geotranck-dev\\app\\Controllers\\SeguimientoGPSController.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-16 01:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-16 01:00:20 --> ErrorException: Attempt to read property "id" on array
+in APPPATH\Controllers\SeguimientoGPSController.php on line 72.
+ 1 APPPATH\Controllers\SeguimientoGPSController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\geotranck-dev\\app\\Controllers\\SeguimientoGPSController.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-16 01:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-16 01:00:53 --> ErrorException: Undefined array key "id"
+in APPPATH\Controllers\SeguimientoGPSController.php on line 72.
+ 1 APPPATH\Controllers\SeguimientoGPSController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\geotranck-dev\\app\\Controllers\\SeguimientoGPSController.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-16 01:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-16 01:00:54 --> ErrorException: Undefined array key "id"
+in APPPATH\Controllers\SeguimientoGPSController.php on line 72.
+ 1 APPPATH\Controllers\SeguimientoGPSController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\geotranck-dev\\app\\Controllers\\SeguimientoGPSController.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-16 01:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-16 01:02:02 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\SeguimientoGPSController.php on line 72.
+ 1 APPPATH\Controllers\SeguimientoGPSController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\geotranck-dev\\app\\Controllers\\SeguimientoGPSController.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-16 01:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-16 01:03:39 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\SeguimientoGPSController.php on line 72.
+ 1 APPPATH\Controllers\SeguimientoGPSController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\geotranck-dev\\app\\Controllers\\SeguimientoGPSController.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-16 01:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-16 01:03:40 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\SeguimientoGPSController.php on line 72.
+ 1 APPPATH\Controllers\SeguimientoGPSController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\geotranck-dev\\app\\Controllers\\SeguimientoGPSController.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-16 01:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-16 01:03:41 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\SeguimientoGPSController.php on line 72.
+ 1 APPPATH\Controllers\SeguimientoGPSController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\geotranck-dev\\app\\Controllers\\SeguimientoGPSController.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-16 01:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-16 01:05:23 --> ErrorException: Attempt to read property "id" on array
+in APPPATH\Controllers\SeguimientoGPSController.php on line 72.
+ 1 APPPATH\Controllers\SeguimientoGPSController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\geotranck-dev\\app\\Controllers\\SeguimientoGPSController.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->ubicacionActual()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-16 01:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:07:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 01:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

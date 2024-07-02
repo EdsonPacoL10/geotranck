@@ -1,0 +1,720 @@
+WARNING - 2024-05-12 20:26:35 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 698.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(698): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(60): App\Controllers\GestionUsuarioController->datatables('[{"id":"6","nombre":"fwef","descripcion":"wefew","administrador":"true","agregar":"false","modificar":"true","eliminar":"false","estado":"1","created_at":"2024-04-02 02:06:31","updated_at":"2024-04-05 00:29:19"},{"id":"4","nombre":"gf1231231212100njkn","descripcion":"dfgascasc","administrador":"false","agregar":"false","modificar":"true","eliminar":"true","estado":"1","created_at":"2024-04-02 02:01:47.269406","updated_at":"2024-04-05 00:29:30"},{"id":"15","nombre":"fefe","descripcion":"fefe","administrador":"false","agregar":"false","modificar":"true","eliminar":"false","estado":"1","created_at":"2024-04-05 18:14:32","updated_at":"2024-04-05 18:14:32"},{"id":"16","nombre":"fefw","descripcion":"wefe","administrador":"false","agregar":"false","modificar":"true","eliminar":"false","estado":"1","created_at":"2024-04-05 18:14:43","updated_at":"2024-04-05 18:14:43"},{"id":"17","nombre":"fe","descripcion":"fefefe","administrador":"true","agregar":"false","modificar":"false","eliminar":"false","estado":"1","created_at":"2024-04-05 18:17:09","updated_at":"2024-04-05 18:17:09"},{"id":"18","nombre":"dwdwdw","descripcion":"dwdw123","administrador":"true","agregar":"false","modificar":"false","eliminar":"false","estado":"1","created_at":"2024-04-05 18:20:17","updated_at":"2024-04-05 18:20:17"},{"id":"19","nombre":"79788921312378","descripcion":"fefwef","administrador":"true","agregar":"false","modificar":"false","eliminar":"false","estado":"1","created_at":"2024-04-05 18:20:37","updated_at":"2024-04-05 18:20:37"},{"id":"13","nombre":"0asd","descripcion":"dwsqsq","administrador":"true","agregar":"false","modificar":"false","eliminar":"false","estado":"1","created_at":"2024-04-01 22:38:16","updated_at":"2024-04-05 18:30:57"},{"id":"14","nombre":"1121sdasd","descripcion":"121modificado","administrador":"false","agregar":"false","modificar":"true","eliminar":"false","estado":"1","created_at":"2024-04-04 23:58:08","updated_at":"2024-04-05 18:32:00"},{"id":"1","nombre":"fee","descripcion":"f","administrador":"true","agregar":"false","modificar":"false","eliminar":"false","estado":"1","created_at":"2024-04-01 22:20:56","updated_at":"2024-04-01 22:20:56"},{"id":"2","nombre":"dwdw24242151515","descripcion":"dw515111","administrador":"false","agregar":"false","modificar":"true","eliminar":"true","estado":"1","created_at":"2024-04-01 22:34:17","updated_at":"2024-04-05 00:08:04"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->DatosPrivilegioView1()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 20:26:40 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 698.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(698): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(171): App\Controllers\GestionUsuarioController->datatables('[{"id":"12","nombre":"ded","descripcion":"dewdew","grupo_privilegio":"fe","estado":"1","created_at":"2024-04-21 21:19:28"},{"id":"4","nombre":"dwd","descripcion":"dw","grupo_privilegio":"dwdw24242151515","estado":"1","created_at":"2024-04-08 00:50:18"},{"id":"8","nombre":"xsxs","descripcion":"xs","grupo_privilegio":"dwdw24242151515","estado":"1","created_at":"2024-04-08 01:04:24"},{"id":"9","nombre":"xs","descripcion":"asx","grupo_privilegio":"79788921312378","estado":"1","created_at":"2024-04-08 01:06:01"},{"id":"10","nombre":"cr","descripcion":"hthtr","grupo_privilegio":"dwdwdw","estado":"1","created_at":"2024-04-08 01:09:17"},{"id":"11","nombre":"fe 123 213 dsfdsf","descripcion":"vd","grupo_privilegio":"fee","estado":"1","created_at":"2024-04-08 21:00:36"},{"id":"13","nombre":"sdc","descripcion":"vsdv","grupo_privilegio":"79788921312378","estado":"1","created_at":"2024-04-21 21:27:43"},{"id":"14","nombre":"sdf","descripcion":"sdf","grupo_privilegio":"dwdwdw","estado":"1","created_at":"2024-04-21 21:28:44"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->DatosRolesView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 20:26:45 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 698.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(698): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(171): App\Controllers\GestionUsuarioController->datatables('[{"id":"12","nombre":"ded","descripcion":"dewdew","grupo_privilegio":"fe","estado":"1","created_at":"2024-04-21 21:19:28"},{"id":"4","nombre":"dwd","descripcion":"dw","grupo_privilegio":"dwdw24242151515","estado":"1","created_at":"2024-04-08 00:50:18"},{"id":"8","nombre":"xsxs","descripcion":"xs","grupo_privilegio":"dwdw24242151515","estado":"1","created_at":"2024-04-08 01:04:24"},{"id":"9","nombre":"xs","descripcion":"asx","grupo_privilegio":"79788921312378","estado":"1","created_at":"2024-04-08 01:06:01"},{"id":"10","nombre":"cr","descripcion":"hthtr","grupo_privilegio":"dwdwdw","estado":"1","created_at":"2024-04-08 01:09:17"},{"id":"11","nombre":"fe 123 213 dsfdsf","descripcion":"vd","grupo_privilegio":"fee","estado":"1","created_at":"2024-04-08 21:00:36"},{"id":"13","nombre":"sdc","descripcion":"vsdv","grupo_privilegio":"79788921312378","estado":"1","created_at":"2024-04-21 21:27:43"},{"id":"14","nombre":"sdf","descripcion":"sdf","grupo_privilegio":"dwdwdw","estado":"1","created_at":"2024-04-21 21:28:44"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->DatosRolesView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 20:26:51 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 698.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(698): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(349): App\Controllers\GestionUsuarioController->datatables('[{"id":"9","nombre":"sadasdas","apellido":"adsasdasd","ci":"asdasd","telefono":null,"parentesco":"padre","correo":"123","direccion":"3","indicacion":"123","created_at":"2024-04-23 23:41:26"},{"id":"7","nombre":"tutorssdsada","apellido":"cas","ci":"cs","telefono":"1","parentesco":"tio","correo":"csc","direccion":"csc","indicacion":"scs","created_at":"2024-04-22 21:13:44"},{"id":"4","nombre":"vxcvx\\n","apellido":"xcvcxv","ci":"xcvxcv","telefono":null,"parentesco":"padre","correo":null,"direccion":null,"indicacion":null,"created_at":"2024-04-22 21:08:53"},{"id":"2","nombre":"sdsa","apellido":"wef","ci":"fwe","telefono":"123","parentesco":"padre","correo":"dsf","direccion":"dsa","indicacion":"asd","created_at":"2024-04-22 21:00:14"},{"id":"1","nombre":"asd","apellido":"sdasd","ci":"asdasd","telefono":"asdasd","parentesco":"padre","correo":"asdsad","direccion":"asdasd","indicacion":"sadasd","created_at":"2024-04-22 20:52:19"},{"id":"6","nombre":"mama","apellido":"dede","ci":"123","telefono":"123","parentesco":"madre","correo":null,"direccion":null,"indicacion":null,"created_at":"2024-04-22 21:12:38"},{"id":"5","nombre":"juansd","apellido":"sad","ci":"asd","telefono":"123","parentesco":"padre","correo":null,"direccion":null,"indicacion":null,"created_at":"2024-04-22 21:11:56"},{"id":"3","nombre":"sdsa","apellido":"wef","ci":"fwe","telefono":"123","parentesco":"padre","correo":"","direccion":"","indicacion":"","created_at":"2024-04-22 21:00:27"},{"id":"10","nombre":"sdfdsf","apellido":"dsfdsf","ci":"ewr","telefono":"342","parentesco":"sdfdsf","correo":null,"direccion":null,"indicacion":null,"created_at":"2024-04-24 00:22:50"},{"id":"12","nombre":"fdsfdsdfds","apellido":"sdfdsfsd","ci":"dsfdsf","telefono":"2312312","parentesco":"padre","correo":null,"direccion":null,"indicacion":null,"created_at":"2024-04-24 00:25:25"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->DatosPadresView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 20:26:54 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 698.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(698): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(533): App\Controllers\GestionUsuarioController->datatables('[{"id":"2","nombre":"Maria","apellido":"Lopez","correo":"maria@example.com","telefono":"7654321","direccion":"Avenida 456","cargo":"Directora","nombrerol":"Rol 2dwdwdw","created_at":"2024-04-30 12:00:00"},{"id":"5","nombre":"xasx","apellido":"ASX","correo":"asx","telefono":"123","direccion":"123","cargo":"qdw","nombrerol":"sdc","created_at":"2024-04-28 22:03:49"},{"id":"6","nombre":"bdfb","apellido":"fb","correo":"dfb","telefono":"324","direccion":"sdv","cargo":"dsv","nombrerol":"fe 123 213 dsfdsf","created_at":"2024-04-28 22:48:10"},{"id":"3","nombre":"mimierror","apellido":"de","correo":"de","telefono":"213","direccion":"fefew","cargo":"sc","nombrerol":"sdc","created_at":"2024-04-26 22:30:56"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->datosAdministradorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 20:26:58 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 565.
+ 1 APPPATH\Controllers\GestionTransporteController.php(565): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(64): App\Controllers\GestionTransporteController->datatables('[{"id":"6","nombre":"sd","apellido":"asc","ci":"31232131","numlicencia":"13212312","fechalicencia":"2024-05-16","licencia":"1","catlic":"Cat.C","correoelectronico":"ascsacas","telefono":"21312","direccion":"cassa","cargo":"scasc","genero":"Femenino","fechainiciocontrato":"2024-05-17","fechafincontrato":"2024-05-17","estado":"1","created_at":"2024-05-04 22:43:05","updated_at":"2024-05-05 21:28:12"},{"id":"3","nombre":"asd","apellido":"asd","ci":"asd","numlicencia":"213","fechalicencia":"2024-05-02","licencia":"1","catlic":"Cat.A","correoelectronico":"asd","telefono":"342423","direccion":"sacascsa","cargo":"ascascsacas","genero":"Masculino","fechainiciocontrato":"2024-05-16","fechafincontrato":"2024-05-25","estado":"1","created_at":"2024-05-04 22:35:40","updated_at":"2024-05-05 21:34:36"},{"id":"4","nombre":"ascsceditado","apellido":"asc","ci":"acsasc","numlicencia":"as","fechalicencia":"2024-05-08","licencia":"1","catlic":"Cat.P","correoelectronico":"asc","telefono":"3432","direccion":"csac","cargo":"asc","genero":"Femenino","fechainiciocontrato":"2024-05-15","fechafincontrato":"2024-05-16","estado":"1","created_at":"2024-05-04 22:36:20","updated_at":"2024-05-05 21:34:59"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->datosConductorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 20:27:10 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 565.
+ 1 APPPATH\Controllers\GestionTransporteController.php(565): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"Captura de pantalla 2023-04-28 122838_2.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_10.png","marca":"fe","modelo":"feeditadoknmkn","nropasajeros":"1","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"1","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"},{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"Captura de pantalla 2023-04-28 122838_3.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_11.png","marca":"scaasceditacion","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 20:27:14 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 565.
+ 1 APPPATH\Controllers\GestionTransporteController.php(565): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(449): App\Controllers\GestionTransporteController->datatables('[{"id":"2","nombre":"da","cargo":"asd","correoelectronico":"asd","telefono":"123","direccion":"as","estado":"1","created_at":"2024-05-09 23:58:24"},{"id":"3","nombre":"asxas","cargo":"asx","correoelectronico":"asx","telefono":"213","direccion":"A","estado":"1","created_at":"2024-05-10 00:00:28"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosTelefonoView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 20:27:23 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 565.
+ 1 APPPATH\Controllers\GestionTransporteController.php(565): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(449): App\Controllers\GestionTransporteController->datatables('[{"id":"2","nombre":"da","cargo":"asd","correoelectronico":"asd","telefono":"123","direccion":"as","estado":"1","created_at":"2024-05-09 23:58:24"},{"id":"3","nombre":"asxas","cargo":"asx","correoelectronico":"asx","telefono":"213","direccion":"A","estado":"1","created_at":"2024-05-10 00:00:28"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosTelefonoView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 20:30:02 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 565.
+ 1 APPPATH\Controllers\GestionTransporteController.php(565): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(449): App\Controllers\GestionTransporteController->datatables('[{"id":"2","nombre":"da","cargo":"asd","correoelectronico":"asd","telefono":"123","direccion":"as","estado":"1","created_at":"2024-05-09 23:58:24"},{"id":"3","nombre":"asxas","cargo":"asx","correoelectronico":"asx","telefono":"213","direccion":"A","estado":"1","created_at":"2024-05-10 00:00:28"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosTelefonoView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-12 20:30:09 --> CodeIgniter\Database\Exceptions\DatabaseException: You must use the "set" method to update an entry.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2519.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2426): CodeIgniter\Database\BaseBuilder->validateUpdate()
+ 2 APPPATH\Models\GestionTransporteModel.php(172): CodeIgniter\Database\BaseBuilder->getCompiledUpdate()
+ 3 APPPATH\Controllers\GestionTransporteController.php(497): App\Models\GestionTransporteModel->actualiza_telefono(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarTelefono()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-12 20:30:27 --> CodeIgniter\Database\Exceptions\DatabaseException: You must use the "set" method to update an entry.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2519.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2426): CodeIgniter\Database\BaseBuilder->validateUpdate()
+ 2 APPPATH\Models\GestionTransporteModel.php(172): CodeIgniter\Database\BaseBuilder->getCompiledUpdate()
+ 3 APPPATH\Controllers\GestionTransporteController.php(497): App\Models\GestionTransporteModel->actualiza_telefono(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarTelefono()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 20:32:05 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 565.
+ 1 APPPATH\Controllers\GestionTransporteController.php(565): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(449): App\Controllers\GestionTransporteController->datatables('[{"id":"2","nombre":"da","cargo":"asd","correoelectronico":"asd","telefono":"123","direccion":"as","estado":"1","created_at":"2024-05-09 23:58:24"},{"id":"3","nombre":"asxas","cargo":"asx","correoelectronico":"asx","telefono":"213","direccion":"A","estado":"1","created_at":"2024-05-10 00:00:28"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosTelefonoView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-12 20:32:11 --> CodeIgniter\Database\Exceptions\DatabaseException: You must use the "set" method to update an entry.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2519.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2426): CodeIgniter\Database\BaseBuilder->validateUpdate()
+ 2 APPPATH\Models\GestionTransporteModel.php(172): CodeIgniter\Database\BaseBuilder->getCompiledUpdate()
+ 3 APPPATH\Controllers\GestionTransporteController.php(497): App\Models\GestionTransporteModel->actualiza_telefono(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarTelefono()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-12 20:33:41 --> CodeIgniter\Database\Exceptions\DatabaseException: You must use the "set" method to update an entry.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2519.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2426): CodeIgniter\Database\BaseBuilder->validateUpdate()
+ 2 APPPATH\Models\GestionTransporteModel.php(172): CodeIgniter\Database\BaseBuilder->getCompiledUpdate()
+ 3 APPPATH\Controllers\GestionTransporteController.php(497): App\Models\GestionTransporteModel->actualiza_telefono(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarTelefono()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 20:35:26 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 565.
+ 1 APPPATH\Controllers\GestionTransporteController.php(565): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(449): App\Controllers\GestionTransporteController->datatables('[{"id":"3","nombre":"asxas","cargo":"asx","correoelectronico":"asx","telefono":"213","direccion":"A","estado":"1","created_at":"2024-05-10 00:00:28"},{"id":"2","nombre":"asxas","cargo":"asxcdcds","correoelectronico":"asxdw","telefono":"213","direccion":"A","estado":"1","created_at":"2024-05-09 23:58:24"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosTelefonoView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-12 20:35:34 --> CodeIgniter\Database\Exceptions\DatabaseException: You must use the "set" method to update an entry.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2519.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2426): CodeIgniter\Database\BaseBuilder->validateUpdate()
+ 2 APPPATH\Models\GestionTransporteModel.php(172): CodeIgniter\Database\BaseBuilder->getCompiledUpdate()
+ 3 APPPATH\Controllers\GestionTransporteController.php(497): App\Models\GestionTransporteModel->actualiza_telefono(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarTelefono()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 20:35:46 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 565.
+ 1 APPPATH\Controllers\GestionTransporteController.php(565): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(449): App\Controllers\GestionTransporteController->datatables('[{"id":"3","nombre":"asxas","cargo":"asx","correoelectronico":"asx","telefono":"213","direccion":"A","estado":"1","created_at":"2024-05-10 00:00:28"},{"id":"2","nombre":"asxas","cargo":"asxdw","correoelectronico":"asx","telefono":"213","direccion":"A","estado":"1","created_at":"2024-05-09 23:58:24"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosTelefonoView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-12 20:35:55 --> CodeIgniter\Database\Exceptions\DatabaseException: You must use the "set" method to update an entry.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2519.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2426): CodeIgniter\Database\BaseBuilder->validateUpdate()
+ 2 APPPATH\Models\GestionTransporteModel.php(172): CodeIgniter\Database\BaseBuilder->getCompiledUpdate()
+ 3 APPPATH\Controllers\GestionTransporteController.php(497): App\Models\GestionTransporteModel->actualiza_telefono(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarTelefono()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 20:36:34 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 565.
+ 1 APPPATH\Controllers\GestionTransporteController.php(565): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(449): App\Controllers\GestionTransporteController->datatables('[{"id":"3","nombre":"asxas","cargo":"asx","correoelectronico":"asx","telefono":"213","direccion":"A","estado":"1","created_at":"2024-05-10 00:00:28"},{"id":"2","nombre":"asxas","cargo":"asx","correoelectronico":"asxsw","telefono":"213","direccion":"Asw","estado":"1","created_at":"2024-05-09 23:58:24"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosTelefonoView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-12 20:36:38 --> CodeIgniter\Database\Exceptions\DatabaseException: You must use the "set" method to update an entry.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2519.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2426): CodeIgniter\Database\BaseBuilder->validateUpdate()
+ 2 APPPATH\Models\GestionTransporteModel.php(172): CodeIgniter\Database\BaseBuilder->getCompiledUpdate()
+ 3 APPPATH\Controllers\GestionTransporteController.php(497): App\Models\GestionTransporteModel->actualiza_telefono(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarTelefono()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-12 20:37:24 --> CodeIgniter\Database\Exceptions\DatabaseException: You must use the "set" method to update an entry.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2519.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2426): CodeIgniter\Database\BaseBuilder->validateUpdate()
+ 2 APPPATH\Models\GestionTransporteModel.php(172): CodeIgniter\Database\BaseBuilder->getCompiledUpdate()
+ 3 APPPATH\Controllers\GestionTransporteController.php(497): App\Models\GestionTransporteModel->actualiza_telefono(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarTelefono()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 20:37:27 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 565.
+ 1 APPPATH\Controllers\GestionTransporteController.php(565): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(449): App\Controllers\GestionTransporteController->datatables('[{"id":"3","nombre":"asxas","cargo":"asx","correoelectronico":"asx","telefono":"213","direccion":"A","estado":"1","created_at":"2024-05-10 00:00:28"},{"id":"2","nombre":"asxas","cargo":"asx","correoelectronico":"asx","telefono":"213","direccion":"A","estado":"1","created_at":"2024-05-09 23:58:24"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosTelefonoView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-12 20:38:02 --> CodeIgniter\Database\Exceptions\DatabaseException: You must use the "set" method to update an entry.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2519.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2426): CodeIgniter\Database\BaseBuilder->validateUpdate()
+ 2 APPPATH\Models\GestionTransporteModel.php(172): CodeIgniter\Database\BaseBuilder->getCompiledUpdate()
+ 3 APPPATH\Controllers\GestionTransporteController.php(497): App\Models\GestionTransporteModel->actualiza_telefono(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarTelefono()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-12 20:41:02 --> CodeIgniter\Database\Exceptions\DatabaseException: You must use the "set" method to update an entry.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2519.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2426): CodeIgniter\Database\BaseBuilder->validateUpdate()
+ 2 APPPATH\Models\GestionTransporteModel.php(172): CodeIgniter\Database\BaseBuilder->getCompiledUpdate()
+ 3 APPPATH\Controllers\GestionTransporteController.php(497): App\Models\GestionTransporteModel->actualiza_telefono(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarTelefono()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 20:43:33 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 565.
+ 1 APPPATH\Controllers\GestionTransporteController.php(565): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(449): App\Controllers\GestionTransporteController->datatables('[{"id":"3","nombre":"asxas","cargo":"asx","correoelectronico":"asx","telefono":"213","direccion":"A","estado":"1","created_at":"2024-05-10 00:00:28"},{"id":"2","nombre":"asxasEdit","cargo":"asxEdit","correoelectronico":"asxEdit","telefono":"213123123","direccion":"AEdit","estado":"1","created_at":"2024-05-09 23:58:24"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosTelefonoView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-12 20:43:38 --> CodeIgniter\Database\Exceptions\DatabaseException: You must use the "set" method to update an entry.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2519.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2426): CodeIgniter\Database\BaseBuilder->validateUpdate()
+ 2 APPPATH\Models\GestionTransporteModel.php(172): CodeIgniter\Database\BaseBuilder->getCompiledUpdate()
+ 3 APPPATH\Controllers\GestionTransporteController.php(497): App\Models\GestionTransporteModel->actualiza_telefono(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarTelefono()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 20:45:00 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 565.
+ 1 APPPATH\Controllers\GestionTransporteController.php(565): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(449): App\Controllers\GestionTransporteController->datatables('[{"id":"3","nombre":"asxas","cargo":"asx","correoelectronico":"asx","telefono":"213","direccion":"A","estado":"1","created_at":"2024-05-10 00:00:28"},{"id":"2","nombre":"asxas","cargo":"asxde","correoelectronico":"asx","telefono":"213","direccion":"A","estado":"1","created_at":"2024-05-09 23:58:24"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosTelefonoView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-12 20:45:06 --> CodeIgniter\Database\Exceptions\DatabaseException: You must use the "set" method to update an entry.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2519.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2426): CodeIgniter\Database\BaseBuilder->validateUpdate()
+ 2 APPPATH\Models\GestionTransporteModel.php(172): CodeIgniter\Database\BaseBuilder->getCompiledUpdate()
+ 3 APPPATH\Controllers\GestionTransporteController.php(497): App\Models\GestionTransporteModel->actualiza_telefono(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarTelefono()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 20:48:38 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 565.
+ 1 APPPATH\Controllers\GestionTransporteController.php(565): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(449): App\Controllers\GestionTransporteController->datatables('[{"id":"3","nombre":"asxas","cargo":"asx","correoelectronico":"asx","telefono":"213","direccion":"A","estado":"1","created_at":"2024-05-10 00:00:28"},{"id":"2","nombre":null,"cargo":null,"correoelectronico":null,"telefono":null,"direccion":null,"estado":"1","created_at":"2024-05-09 23:58:24"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosTelefonoView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-12 20:49:13 --> CodeIgniter\Database\Exceptions\DatabaseException: You must use the "set" method to update an entry.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2519.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2426): CodeIgniter\Database\BaseBuilder->validateUpdate()
+ 2 APPPATH\Models\GestionTransporteModel.php(172): CodeIgniter\Database\BaseBuilder->getCompiledUpdate()
+ 3 APPPATH\Controllers\GestionTransporteController.php(497): App\Models\GestionTransporteModel->actualiza_telefono(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarTelefono()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-12 20:49:35 --> CodeIgniter\Database\Exceptions\DatabaseException: You must use the "set" method to update an entry.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2519.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2426): CodeIgniter\Database\BaseBuilder->validateUpdate()
+ 2 APPPATH\Models\GestionTransporteModel.php(172): CodeIgniter\Database\BaseBuilder->getCompiledUpdate()
+ 3 APPPATH\Controllers\GestionTransporteController.php(497): App\Models\GestionTransporteModel->actualiza_telefono(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarTelefono()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-12 20:50:30 --> CodeIgniter\Database\Exceptions\DatabaseException: You must use the "set" method to update an entry.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2519.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2426): CodeIgniter\Database\BaseBuilder->validateUpdate()
+ 2 APPPATH\Models\GestionTransporteModel.php(172): CodeIgniter\Database\BaseBuilder->getCompiledUpdate()
+ 3 APPPATH\Controllers\GestionTransporteController.php(497): App\Models\GestionTransporteModel->actualiza_telefono(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarTelefono()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-12 20:52:40 --> CodeIgniter\Database\Exceptions\DatabaseException: You must use the "set" method to update an entry.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2519.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2426): CodeIgniter\Database\BaseBuilder->validateUpdate()
+ 2 APPPATH\Models\GestionTransporteModel.php(172): CodeIgniter\Database\BaseBuilder->getCompiledUpdate()
+ 3 APPPATH\Controllers\GestionTransporteController.php(496): App\Models\GestionTransporteModel->actualiza_telefono(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarTelefono()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 21:00:21 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 564.
+ 1 APPPATH\Controllers\GestionTransporteController.php(564): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"Captura de pantalla 2023-04-28 122838_2.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_10.png","marca":"fe","modelo":"feeditadoknmkn","nropasajeros":"1","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"1","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"},{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"Captura de pantalla 2023-04-28 122838_3.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_11.png","marca":"scaasceditacion","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 21:00:46 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 564.
+ 1 APPPATH\Controllers\GestionTransporteController.php(564): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"Captura de pantalla 2023-04-28 122838_3.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_11.png","marca":"scaasceditacion","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"},{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"Captura de pantalla 2023-04-28 122838_4.png","imagenconductor":"Captura de pantalla 2023-06-18 160650 - copia - copia.png","marca":"fe","modelo":"feeditadoknmkn","nropasajeros":"7","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"1","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-12 21:03:01 --> ErrorException: Undefined array key "conductorid"
+in APPPATH\Models\GestionTransporteModel.php on line 165.
+ 1 APPPATH\Models\GestionTransporteModel.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "conductorid"', 'C:\\laragon\\www\\geotranck-dev\\app\\Models\\GestionTransporteModel.php', 165)
+ 2 APPPATH\Controllers\GestionTransporteController.php(496): App\Models\GestionTransporteModel->actualiza_telefono(null, [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarTelefono()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-12 21:03:05 --> ErrorException: Undefined array key "conductorid"
+in APPPATH\Models\GestionTransporteModel.php on line 165.
+ 1 APPPATH\Models\GestionTransporteModel.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "conductorid"', 'C:\\laragon\\www\\geotranck-dev\\app\\Models\\GestionTransporteModel.php', 165)
+ 2 APPPATH\Controllers\GestionTransporteController.php(496): App\Models\GestionTransporteModel->actualiza_telefono(null, [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarTelefono()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-12 21:03:31 --> ErrorException: Undefined array key "conductorid"
+in APPPATH\Models\GestionTransporteModel.php on line 165.
+ 1 APPPATH\Models\GestionTransporteModel.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "conductorid"', 'C:\\laragon\\www\\geotranck-dev\\app\\Models\\GestionTransporteModel.php', 165)
+ 2 APPPATH\Controllers\GestionTransporteController.php(496): App\Models\GestionTransporteModel->actualiza_telefono(null, [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarTelefono()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-12 21:07:41 --> ParseError: Unclosed '(' does not match ']'
+in APPPATH\Models\GestionTransporteModel.php on line 163.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\geotranck-dev\\app\\Models\\GestionTransporteModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\GestionTransporteModel')
+ 3 APPPATH\Controllers\GestionTransporteController.php(436): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\GestionTransporteModel')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosTelefonoView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 21:19:54 --> Routes file not found: "C:\laragon\www\geotranck-dev\app\Config/Routes.php"
+WARNING - 2024-05-12 21:19:56 --> Routes file not found: "C:\laragon\www\geotranck-dev\app\Config/Routes.php"
+WARNING - 2024-05-12 21:19:57 --> Routes file not found: "C:\laragon\www\geotranck-dev\app\Config/Routes.php"
+WARNING - 2024-05-12 21:20:03 --> Routes file not found: "C:\laragon\www\geotranck-dev\app\Config/Routes.php"
+WARNING - 2024-05-12 21:20:04 --> Routes file not found: "C:\laragon\www\geotranck-dev\app\Config/Routes.php"
+WARNING - 2024-05-12 21:20:10 --> Routes file not found: "C:\laragon\www\geotranck-dev\app\Config/Routes.php"
+WARNING - 2024-05-12 21:20:10 --> Routes file not found: "C:\laragon\www\geotranck-dev\app\Config/Routes.php"
+WARNING - 2024-05-12 21:20:10 --> Routes file not found: "C:\laragon\www\geotranck-dev\app\Config/Routes.php"
+WARNING - 2024-05-12 21:20:11 --> Routes file not found: "C:\laragon\www\geotranck-dev\app\Config/Routes.php"
+WARNING - 2024-05-12 21:20:11 --> Routes file not found: "C:\laragon\www\geotranck-dev\app\Config/Routes.php"
+WARNING - 2024-05-12 21:20:11 --> Routes file not found: "C:\laragon\www\geotranck-dev\app\Config/Routes.php"
+WARNING - 2024-05-12 21:20:12 --> Routes file not found: "C:\laragon\www\geotranck-dev\app\Config/Routes.php"
+WARNING - 2024-05-12 21:20:15 --> Routes file not found: "C:\laragon\www\geotranck-dev\app\Config/Routes.php"
+WARNING - 2024-05-12 21:20:16 --> Routes file not found: "C:\laragon\www\geotranck-dev\app\Config/Routes.php"
+WARNING - 2024-05-12 21:20:50 --> Routes file not found: "C:\laragon\www\geotranck-dev\app\Config/Routes.php"
+WARNING - 2024-05-12 21:20:55 --> Routes file not found: "C:\laragon\www\geotranck-dev\app\Config/Routes.php"
+WARNING - 2024-05-12 21:21:03 --> Routes file not found: "C:\laragon\www\geotranck-dev\app\Config/Routes.php"
+WARNING - 2024-05-12 21:21:19 --> Routes file not found: "C:\laragon\www\geotranck-dev\app\Config/Routes.php"
+WARNING - 2024-05-12 21:21:21 --> Routes file not found: "C:\laragon\www\geotranck-dev\app\Config/Routes.php"
+WARNING - 2024-05-12 21:21:22 --> Routes file not found: "C:\laragon\www\geotranck-dev\app\Config/Routes.php"
+WARNING - 2024-05-12 21:22:22 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 698.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(698): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(171): App\Controllers\GestionUsuarioController->datatables('[{"id":"12","nombre":"ded","descripcion":"dewdew","grupo_privilegio":"fe","estado":"1","created_at":"2024-04-21 21:19:28"},{"id":"4","nombre":"dwd","descripcion":"dw","grupo_privilegio":"dwdw24242151515","estado":"1","created_at":"2024-04-08 00:50:18"},{"id":"8","nombre":"xsxs","descripcion":"xs","grupo_privilegio":"dwdw24242151515","estado":"1","created_at":"2024-04-08 01:04:24"},{"id":"9","nombre":"xs","descripcion":"asx","grupo_privilegio":"79788921312378","estado":"1","created_at":"2024-04-08 01:06:01"},{"id":"10","nombre":"cr","descripcion":"hthtr","grupo_privilegio":"dwdwdw","estado":"1","created_at":"2024-04-08 01:09:17"},{"id":"11","nombre":"fe 123 213 dsfdsf","descripcion":"vd","grupo_privilegio":"fee","estado":"1","created_at":"2024-04-08 21:00:36"},{"id":"13","nombre":"sdc","descripcion":"vsdv","grupo_privilegio":"79788921312378","estado":"1","created_at":"2024-04-21 21:27:43"},{"id":"14","nombre":"sdf","descripcion":"sdf","grupo_privilegio":"dwdwdw","estado":"1","created_at":"2024-04-21 21:28:44"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->DatosRolesView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 21:22:26 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 698.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(698): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(171): App\Controllers\GestionUsuarioController->datatables('[{"id":"12","nombre":"ded","descripcion":"dewdew","grupo_privilegio":"fe","estado":"1","created_at":"2024-04-21 21:19:28"},{"id":"4","nombre":"dwd","descripcion":"dw","grupo_privilegio":"dwdw24242151515","estado":"1","created_at":"2024-04-08 00:50:18"},{"id":"8","nombre":"xsxs","descripcion":"xs","grupo_privilegio":"dwdw24242151515","estado":"1","created_at":"2024-04-08 01:04:24"},{"id":"9","nombre":"xs","descripcion":"asx","grupo_privilegio":"79788921312378","estado":"1","created_at":"2024-04-08 01:06:01"},{"id":"10","nombre":"cr","descripcion":"hthtr","grupo_privilegio":"dwdwdw","estado":"1","created_at":"2024-04-08 01:09:17"},{"id":"11","nombre":"fe 123 213 dsfdsf","descripcion":"vd","grupo_privilegio":"fee","estado":"1","created_at":"2024-04-08 21:00:36"},{"id":"13","nombre":"sdc","descripcion":"vsdv","grupo_privilegio":"79788921312378","estado":"1","created_at":"2024-04-21 21:27:43"},{"id":"14","nombre":"sdf","descripcion":"sdf","grupo_privilegio":"dwdwdw","estado":"1","created_at":"2024-04-21 21:28:44"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->DatosRolesView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 21:22:31 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionUsuarioController.php on line 698.
+ 1 APPPATH\Controllers\GestionUsuarioController.php(698): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionUsuarioController.php(533): App\Controllers\GestionUsuarioController->datatables('[{"id":"2","nombre":"Maria","apellido":"Lopez","correo":"maria@example.com","telefono":"7654321","direccion":"Avenida 456","cargo":"Directora","nombrerol":"Rol 2dwdwdw","created_at":"2024-04-30 12:00:00"},{"id":"5","nombre":"xasx","apellido":"ASX","correo":"asx","telefono":"123","direccion":"123","cargo":"qdw","nombrerol":"sdc","created_at":"2024-04-28 22:03:49"},{"id":"6","nombre":"bdfb","apellido":"fb","correo":"dfb","telefono":"324","direccion":"sdv","cargo":"dsv","nombrerol":"fe 123 213 dsfdsf","created_at":"2024-04-28 22:48:10"},{"id":"3","nombre":"mimierror","apellido":"de","correo":"de","telefono":"213","direccion":"fefew","cargo":"sc","nombrerol":"sdc","created_at":"2024-04-26 22:30:56"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionUsuarioController->datosAdministradorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionUsuarioController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 21:22:34 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 564.
+ 1 APPPATH\Controllers\GestionTransporteController.php(564): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(64): App\Controllers\GestionTransporteController->datatables('[{"id":"6","nombre":"sd","apellido":"asc","ci":"31232131","numlicencia":"13212312","fechalicencia":"2024-05-16","licencia":"1","catlic":"Cat.C","correoelectronico":"ascsacas","telefono":"21312","direccion":"cassa","cargo":"scasc","genero":"Femenino","fechainiciocontrato":"2024-05-17","fechafincontrato":"2024-05-17","estado":"1","created_at":"2024-05-04 22:43:05","updated_at":"2024-05-05 21:28:12"},{"id":"3","nombre":"asd","apellido":"asd","ci":"asd","numlicencia":"213","fechalicencia":"2024-05-02","licencia":"1","catlic":"Cat.A","correoelectronico":"asd","telefono":"342423","direccion":"sacascsa","cargo":"ascascsacas","genero":"Masculino","fechainiciocontrato":"2024-05-16","fechafincontrato":"2024-05-25","estado":"1","created_at":"2024-05-04 22:35:40","updated_at":"2024-05-05 21:34:36"},{"id":"4","nombre":"ascsceditado","apellido":"asc","ci":"acsasc","numlicencia":"as","fechalicencia":"2024-05-08","licencia":"1","catlic":"Cat.P","correoelectronico":"asc","telefono":"3432","direccion":"csac","cargo":"asc","genero":"Femenino","fechainiciocontrato":"2024-05-15","fechafincontrato":"2024-05-16","estado":"1","created_at":"2024-05-04 22:36:20","updated_at":"2024-05-05 21:34:59"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->datosConductorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 21:22:35 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 564.
+ 1 APPPATH\Controllers\GestionTransporteController.php(564): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"Captura de pantalla 2023-04-28 122838_3.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_11.png","marca":"scaasceditacion","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"},{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"Captura de pantalla 2023-04-28 122838_4.png","imagenconductor":"Captura de pantalla 2023-06-18 160650 - copia - copia.png","marca":"fe","modelo":"feeditadoknmkn","nropasajeros":"7","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"1","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 21:23:24 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 564.
+ 1 APPPATH\Controllers\GestionTransporteController.php(564): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"Captura de pantalla 2023-04-28 122838_3.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_11.png","marca":"scaasceditacion","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"},{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"Captura de pantalla 2023-04-28 122838_4.png","imagenconductor":"Captura de pantalla 2023-06-18 160650 - copia - copia.png","marca":"fe","modelo":"feeditadoknmkn","nropasajeros":"7","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"1","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 21:23:54 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 564.
+ 1 APPPATH\Controllers\GestionTransporteController.php(564): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"Captura de pantalla 2023-04-28 122838_3.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_11.png","marca":"scaasceditacion","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"},{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"Captura de pantalla 2023-04-28 122838_4.png","imagenconductor":"Captura de pantalla 2023-06-18 160650 - copia - copia.png","marca":"fe","modelo":"feeditadoknmkn","nropasajeros":"7","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"1","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 21:24:18 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 564.
+ 1 APPPATH\Controllers\GestionTransporteController.php(564): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"Captura de pantalla 2023-04-28 122838_3.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_11.png","marca":"scaasceditacion","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"},{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"Captura de pantalla 2023-04-28 122838_4.png","imagenconductor":"Captura de pantalla 2023-06-18 160650 - copia - copia.png","marca":"fe","modelo":"feeditadoknmkn","nropasajeros":"7","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"1","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 21:24:53 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 564.
+ 1 APPPATH\Controllers\GestionTransporteController.php(564): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"Captura de pantalla 2023-04-28 122838_3.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_11.png","marca":"scaasceditacion","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"},{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"Captura de pantalla 2023-04-28 122838_4.png","imagenconductor":"Captura de pantalla 2023-06-18 160650 - copia - copia.png","marca":"fe","modelo":"feeditadoknmkn","nropasajeros":"7","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"1","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 21:25:22 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 564.
+ 1 APPPATH\Controllers\GestionTransporteController.php(564): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"Captura de pantalla 2023-04-28 122838_3.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_11.png","marca":"scaasceditacion","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"},{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"Captura de pantalla 2023-04-28 122838_4.png","imagenconductor":"Captura de pantalla 2023-06-18 160650 - copia - copia.png","marca":"fe","modelo":"feeditadoknmkn","nropasajeros":"7","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"1","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 21:48:23 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 564.
+ 1 APPPATH\Controllers\GestionTransporteController.php(564): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"Captura de pantalla 2023-04-28 122838_3.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_11.png","marca":"scaasceditacion","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"},{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"Captura de pantalla 2023-04-28 122838_4.png","imagenconductor":"Captura de pantalla 2023-06-18 160650 - copia - copia.png","marca":"fe","modelo":"feeditadoknmkn","nropasajeros":"7","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"1","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 21:48:35 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 564.
+ 1 APPPATH\Controllers\GestionTransporteController.php(564): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"Captura de pantalla 2023-04-28 122838_3.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_11.png","marca":"scaasceditacion","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"},{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"Captura de pantalla 2023-04-28 122838_4.png","imagenconductor":"Captura de pantalla 2023-06-18 160650 - copia - copia.png","marca":"fe","modelo":"feeditadoknmkn","nropasajeros":"7","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"1","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 21:48:42 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 564.
+ 1 APPPATH\Controllers\GestionTransporteController.php(564): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"Captura de pantalla 2023-04-28 122838_3.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_11.png","marca":"scaasceditacion","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"},{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"Captura de pantalla 2023-04-28 122838_4.png","imagenconductor":"Captura de pantalla 2023-06-18 160650 - copia - copia.png","marca":"fe","modelo":"feeditadoknmkn","nropasajeros":"7","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"1","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-12 21:48:47 --> ErrorException: Undefined array key "apellido"
+in APPPATH\Views\6_Dispositivos\1_GpsPageView.php on line 127.
+ 1 APPPATH\Views\6_Dispositivos\1_GpsPageView.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "apellido"', 'C:\\laragon\\www\\geotranck-dev\\app\\Views\\6_Dispositivos\\1_GpsPageView.php', 127)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\geotranck-dev\\app\\Views\\6_Dispositivos\\1_GpsPageView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('6_Dispositivos/1_GpsPageView.php', [], true)
+ 5 APPPATH\Controllers\GestionDispositivosController.php(37): view('6_Dispositivos/1_GpsPageView.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionDispositivosController->GPSView()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionDispositivosController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+ERROR - 2024-05-12 23:47:27 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la columna «movilidad» en la relación «dispositivo_gps»
+LINE 1: INSERT INTO &quot;dispositivo_gps&quot; (&quot;marca&quot;, &quot;modelo&quot;, &quot;movilidad...
+                                                          ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'INSERT INTO "di...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "di...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "di...')
+#4 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "di...', Array, false)
+#5 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\laragon\www\geotranck-dev\app\Models\GestionDispositivoModel.php(36): CodeIgniter\Model->insert(Array)
+#9 C:\laragon\www\geotranck-dev\app\Controllers\GestionDispositivosController.php(66): App\Models\GestionDispositivoModel->insertar_dispositivoGPS(Array)
+#10 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\GestionDispositivosController->agregarGPS()
+#11 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionDispositivosController))
+#12 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#15 {main}
+CRITICAL - 2024-05-12 23:47:27 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  no existe la columna «movilidad» en la relación «dispositivo_gps»
+LINE 1: INSERT INTO &quot;dispositivo_gps&quot; (&quot;marca&quot;, &quot;modelo&quot;, &quot;movilidad...
+                                                          ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "dispositivo_gps" ("marca", "modelo", "movilidad", "descripcion", "detalles", "estado", "created_at", "updated_at") VALUES (:marca:, :modelo:, :movilidad:, :descripcion:, :detalles:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\GestionDispositivoModel.php(36): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\GestionDispositivosController.php(66): App\Models\GestionDispositivoModel->insertar_dispositivoGPS([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionDispositivosController->agregarGPS()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionDispositivosController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-12 23:47:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  no existe la columna «movilidad» en la relación «dispositivo_gps»
+LINE 1: INSERT INTO &quot;dispositivo_gps&quot; (&quot;marca&quot;, &quot;modelo&quot;, &quot;movilidad...
+                                                          ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "dispositivo_gps" ("marca", "modelo", "movilidad", "descripcion", "detalles", "estado", "created_at", "updated_at") VALUES (\'cds\', \'dsc\', \'10\', \'dc\', \'sd\', 1, \'2024-05-12 23:47:26\', \'2024-05-12 23:47:26\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "dispositivo_gps" ("marca", "modelo", "movilidad", "descripcion", "detalles", "estado", "created_at", "updated_at") VALUES (\'cds\', \'dsc\', \'10\', \'dc\', \'sd\', 1, \'2024-05-12 23:47:26\', \'2024-05-12 23:47:26\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "dispositivo_gps" ("marca", "modelo", "movilidad", "descripcion", "detalles", "estado", "created_at", "updated_at") VALUES (:marca:, :modelo:, :movilidad:, :descripcion:, :detalles:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Models\GestionDispositivoModel.php(36): CodeIgniter\Model->insert([...])
+ 8 APPPATH\Controllers\GestionDispositivosController.php(66): App\Models\GestionDispositivoModel->insertar_dispositivoGPS([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionDispositivosController->agregarGPS()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionDispositivosController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-12 23:47:27 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  no existe la columna «movilidad» en la relación «dispositivo_gps»
+LINE 1: INSERT INTO &quot;dispositivo_gps&quot; (&quot;marca&quot;, &quot;modelo&quot;, &quot;movilidad...
+                                                          ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la columna «movilidad» en la relación «dispositivo_gps»
+LINE 1: INSERT INTO &quot;dispositivo_gps&quot; (&quot;marca&quot;, &quot;modelo&quot;, &quot;movilidad...
+                                                          ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'INSERT INTO "dispositivo_gps" ("marca", "modelo", "movilidad", "descripcion", "detalles", "estado", "created_at", "updated_at") VALUES (\'cds\', \'dsc\', \'10\', \'dc\', \'sd\', 1, \'2024-05-12 23:47:26\', \'2024-05-12 23:47:26\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "dispositivo_gps" ("marca", "modelo", "movilidad", "descripcion", "detalles", "estado", "created_at", "updated_at") VALUES (\'cds\', \'dsc\', \'10\', \'dc\', \'sd\', 1, \'2024-05-12 23:47:26\', \'2024-05-12 23:47:26\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "dispositivo_gps" ("marca", "modelo", "movilidad", "descripcion", "detalles", "estado", "created_at", "updated_at") VALUES (\'cds\', \'dsc\', \'10\', \'dc\', \'sd\', 1, \'2024-05-12 23:47:26\', \'2024-05-12 23:47:26\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "dispositivo_gps" ("marca", "modelo", "movilidad", "descripcion", "detalles", "estado", "created_at", "updated_at") VALUES (:marca:, :modelo:, :movilidad:, :descripcion:, :detalles:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 6 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Models\GestionDispositivoModel.php(36): CodeIgniter\Model->insert([...])
+10 APPPATH\Controllers\GestionDispositivosController.php(66): App\Models\GestionDispositivoModel->insertar_dispositivoGPS([...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionDispositivosController->agregarGPS()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionDispositivosController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+ERROR - 2024-05-12 23:48:27 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la columna «movilidad» en la relación «dispositivo_gps»
+LINE 1: INSERT INTO &quot;dispositivo_gps&quot; (&quot;marca&quot;, &quot;modelo&quot;, &quot;movilidad...
+                                                          ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'INSERT INTO "di...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "di...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "di...')
+#4 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "di...', Array, false)
+#5 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\laragon\www\geotranck-dev\app\Models\GestionDispositivoModel.php(36): CodeIgniter\Model->insert(Array)
+#9 C:\laragon\www\geotranck-dev\app\Controllers\GestionDispositivosController.php(66): App\Models\GestionDispositivoModel->insertar_dispositivoGPS(Array)
+#10 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\GestionDispositivosController->agregarGPS()
+#11 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionDispositivosController))
+#12 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#15 {main}
+CRITICAL - 2024-05-12 23:48:27 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  no existe la columna «movilidad» en la relación «dispositivo_gps»
+LINE 1: INSERT INTO &quot;dispositivo_gps&quot; (&quot;marca&quot;, &quot;modelo&quot;, &quot;movilidad...
+                                                          ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "dispositivo_gps" ("marca", "modelo", "movilidad", "descripcion", "detalles", "estado", "created_at", "updated_at") VALUES (:marca:, :modelo:, :movilidad:, :descripcion:, :detalles:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\GestionDispositivoModel.php(36): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\GestionDispositivosController.php(66): App\Models\GestionDispositivoModel->insertar_dispositivoGPS([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionDispositivosController->agregarGPS()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionDispositivosController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-12 23:48:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  no existe la columna «movilidad» en la relación «dispositivo_gps»
+LINE 1: INSERT INTO &quot;dispositivo_gps&quot; (&quot;marca&quot;, &quot;modelo&quot;, &quot;movilidad...
+                                                          ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "dispositivo_gps" ("marca", "modelo", "movilidad", "descripcion", "detalles", "estado", "created_at", "updated_at") VALUES (\'sdcsd\', \'c\', \'8\', \'sdc\', \'sdc\', 1, \'2024-05-12 23:48:27\', \'2024-05-12 23:48:27\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "dispositivo_gps" ("marca", "modelo", "movilidad", "descripcion", "detalles", "estado", "created_at", "updated_at") VALUES (\'sdcsd\', \'c\', \'8\', \'sdc\', \'sdc\', 1, \'2024-05-12 23:48:27\', \'2024-05-12 23:48:27\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "dispositivo_gps" ("marca", "modelo", "movilidad", "descripcion", "detalles", "estado", "created_at", "updated_at") VALUES (:marca:, :modelo:, :movilidad:, :descripcion:, :detalles:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Models\GestionDispositivoModel.php(36): CodeIgniter\Model->insert([...])
+ 8 APPPATH\Controllers\GestionDispositivosController.php(66): App\Models\GestionDispositivoModel->insertar_dispositivoGPS([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionDispositivosController->agregarGPS()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionDispositivosController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-12 23:48:27 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  no existe la columna «movilidad» en la relación «dispositivo_gps»
+LINE 1: INSERT INTO &quot;dispositivo_gps&quot; (&quot;marca&quot;, &quot;modelo&quot;, &quot;movilidad...
+                                                          ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la columna «movilidad» en la relación «dispositivo_gps»
+LINE 1: INSERT INTO &quot;dispositivo_gps&quot; (&quot;marca&quot;, &quot;modelo&quot;, &quot;movilidad...
+                                                          ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'INSERT INTO "dispositivo_gps" ("marca", "modelo", "movilidad", "descripcion", "detalles", "estado", "created_at", "updated_at") VALUES (\'sdcsd\', \'c\', \'8\', \'sdc\', \'sdc\', 1, \'2024-05-12 23:48:27\', \'2024-05-12 23:48:27\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "dispositivo_gps" ("marca", "modelo", "movilidad", "descripcion", "detalles", "estado", "created_at", "updated_at") VALUES (\'sdcsd\', \'c\', \'8\', \'sdc\', \'sdc\', 1, \'2024-05-12 23:48:27\', \'2024-05-12 23:48:27\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "dispositivo_gps" ("marca", "modelo", "movilidad", "descripcion", "detalles", "estado", "created_at", "updated_at") VALUES (\'sdcsd\', \'c\', \'8\', \'sdc\', \'sdc\', 1, \'2024-05-12 23:48:27\', \'2024-05-12 23:48:27\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "dispositivo_gps" ("marca", "modelo", "movilidad", "descripcion", "detalles", "estado", "created_at", "updated_at") VALUES (:marca:, :modelo:, :movilidad:, :descripcion:, :detalles:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 6 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Models\GestionDispositivoModel.php(36): CodeIgniter\Model->insert([...])
+10 APPPATH\Controllers\GestionDispositivosController.php(66): App\Models\GestionDispositivoModel->insertar_dispositivoGPS([...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionDispositivosController->agregarGPS()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionDispositivosController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+ERROR - 2024-05-12 23:50:02 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la columna «movilidad» en la relación «dispositivo_gps»
+LINE 1: INSERT INTO &quot;dispositivo_gps&quot; (&quot;marca&quot;, &quot;modelo&quot;, &quot;movilidad...
+                                                          ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'INSERT INTO "di...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "di...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "di...')
+#4 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "di...', Array, false)
+#5 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\laragon\www\geotranck-dev\app\Models\GestionDispositivoModel.php(36): CodeIgniter\Model->insert(Array)
+#9 C:\laragon\www\geotranck-dev\app\Controllers\GestionDispositivosController.php(66): App\Models\GestionDispositivoModel->insertar_dispositivoGPS(Array)
+#10 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\GestionDispositivosController->agregarGPS()
+#11 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionDispositivosController))
+#12 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#15 {main}
+CRITICAL - 2024-05-12 23:50:02 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  no existe la columna «movilidad» en la relación «dispositivo_gps»
+LINE 1: INSERT INTO &quot;dispositivo_gps&quot; (&quot;marca&quot;, &quot;modelo&quot;, &quot;movilidad...
+                                                          ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "dispositivo_gps" ("marca", "modelo", "movilidad", "descripcion", "detalles", "estado", "created_at", "updated_at") VALUES (:marca:, :modelo:, :movilidad:, :descripcion:, :detalles:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\GestionDispositivoModel.php(36): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\GestionDispositivosController.php(66): App\Models\GestionDispositivoModel->insertar_dispositivoGPS([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionDispositivosController->agregarGPS()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionDispositivosController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-12 23:50:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  no existe la columna «movilidad» en la relación «dispositivo_gps»
+LINE 1: INSERT INTO &quot;dispositivo_gps&quot; (&quot;marca&quot;, &quot;modelo&quot;, &quot;movilidad...
+                                                          ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "dispositivo_gps" ("marca", "modelo", "movilidad", "descripcion", "detalles", "estado", "created_at", "updated_at") VALUES (\'asx\', \'asx\', \'8\', \'asx\', \'xas\', 1, \'2024-05-12 23:50:02\', \'2024-05-12 23:50:02\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "dispositivo_gps" ("marca", "modelo", "movilidad", "descripcion", "detalles", "estado", "created_at", "updated_at") VALUES (\'asx\', \'asx\', \'8\', \'asx\', \'xas\', 1, \'2024-05-12 23:50:02\', \'2024-05-12 23:50:02\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "dispositivo_gps" ("marca", "modelo", "movilidad", "descripcion", "detalles", "estado", "created_at", "updated_at") VALUES (:marca:, :modelo:, :movilidad:, :descripcion:, :detalles:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Models\GestionDispositivoModel.php(36): CodeIgniter\Model->insert([...])
+ 8 APPPATH\Controllers\GestionDispositivosController.php(66): App\Models\GestionDispositivoModel->insertar_dispositivoGPS([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionDispositivosController->agregarGPS()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionDispositivosController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-12 23:50:02 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  no existe la columna «movilidad» en la relación «dispositivo_gps»
+LINE 1: INSERT INTO &quot;dispositivo_gps&quot; (&quot;marca&quot;, &quot;modelo&quot;, &quot;movilidad...
+                                                          ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la columna «movilidad» en la relación «dispositivo_gps»
+LINE 1: INSERT INTO &quot;dispositivo_gps&quot; (&quot;marca&quot;, &quot;modelo&quot;, &quot;movilidad...
+                                                          ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'INSERT INTO "dispositivo_gps" ("marca", "modelo", "movilidad", "descripcion", "detalles", "estado", "created_at", "updated_at") VALUES (\'asx\', \'asx\', \'8\', \'asx\', \'xas\', 1, \'2024-05-12 23:50:02\', \'2024-05-12 23:50:02\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "dispositivo_gps" ("marca", "modelo", "movilidad", "descripcion", "detalles", "estado", "created_at", "updated_at") VALUES (\'asx\', \'asx\', \'8\', \'asx\', \'xas\', 1, \'2024-05-12 23:50:02\', \'2024-05-12 23:50:02\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "dispositivo_gps" ("marca", "modelo", "movilidad", "descripcion", "detalles", "estado", "created_at", "updated_at") VALUES (\'asx\', \'asx\', \'8\', \'asx\', \'xas\', 1, \'2024-05-12 23:50:02\', \'2024-05-12 23:50:02\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO "dispositivo_gps" ("marca", "modelo", "movilidad", "descripcion", "detalles", "estado", "created_at", "updated_at") VALUES (:marca:, :modelo:, :movilidad:, :descripcion:, :detalles:, :estado:, :created_at:, :updated_at:)', [...], false)
+ 6 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Models\GestionDispositivoModel.php(36): CodeIgniter\Model->insert([...])
+10 APPPATH\Controllers\GestionDispositivosController.php(66): App\Models\GestionDispositivoModel->insertar_dispositivoGPS([...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionDispositivosController->agregarGPS()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionDispositivosController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-12 23:53:30 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionDispositivosController.php on line 229.
+ 1 APPPATH\Controllers\GestionDispositivosController.php(229): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionDispositivosController.php(85): App\Controllers\GestionDispositivosController->datatables('[{"id":"1","marca":"cds","modelo":"csd","movilidad_id":null,"descripcion":"cds","detalles":"sdc","estado":"1","created_at":"2024-05-12 23:53:06","updated_at":"2024-05-12 23:53:06"},{"id":"2","marca":"Z","modelo":"asx","movilidad_id":null,"descripcion":"xsa","detalles":"asx","estado":"1","created_at":"2024-05-12 23:53:30","updated_at":"2024-05-12 23:53:30"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionDispositivosController->DatosDispositivoGPSView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionDispositivosController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')

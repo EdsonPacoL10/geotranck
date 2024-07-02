@@ -1,0 +1,585 @@
+WARNING - 2024-05-08 00:03:00 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 410.
+ 1 APPPATH\Controllers\GestionTransporteController.php(410): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"mdpyep-horizontal02_1.png","imagenconductor":"soporte01_1.png","marca":"scaasc","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"},{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"soporte.png","imagenconductor":"soporte.png","marca":"fe","modelo":"fe","nropasajeros":"1","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"0","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-08 00:03:36 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 410.
+ 1 APPPATH\Controllers\GestionTransporteController.php(410): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"mdpyep-horizontal02_1.png","imagenconductor":"soporte01_1.png","marca":"scaasc","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"},{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"soporte.png","imagenconductor":"soporte.png","marca":"fe","modelo":"fe","nropasajeros":"1","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"0","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-08 00:04:17 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 410.
+ 1 APPPATH\Controllers\GestionTransporteController.php(410): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"mdpyep-horizontal02_1.png","imagenconductor":"soporte01_1.png","marca":"scaasc","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"},{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"soporte.png","imagenconductor":"soporte.png","marca":"fe","modelo":"fe","nropasajeros":"1","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"0","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-08 00:05:20 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 410.
+ 1 APPPATH\Controllers\GestionTransporteController.php(410): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"mdpyep-horizontal02_1.png","imagenconductor":"soporte01_1.png","marca":"scaasc","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"},{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"soporte.png","imagenconductor":"soporte.png","marca":"fe","modelo":"fe","nropasajeros":"1","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"0","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-08 00:06:05 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 410.
+ 1 APPPATH\Controllers\GestionTransporteController.php(410): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"mdpyep-horizontal02_1.png","imagenconductor":"soporte01_1.png","marca":"scaasc","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"},{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"soporte.png","imagenconductor":"soporte.png","marca":"fe","modelo":"fe","nropasajeros":"1","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"0","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-08 00:06:22 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 410.
+ 1 APPPATH\Controllers\GestionTransporteController.php(410): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(64): App\Controllers\GestionTransporteController->datatables('[{"id":"6","nombre":"sd","apellido":"asc","ci":"31232131","numlicencia":"13212312","fechalicencia":"2024-05-16","licencia":"1","catlic":"Cat.C","correoelectronico":"ascsacas","telefono":"21312","direccion":"cassa","cargo":"scasc","genero":"Femenino","fechainiciocontrato":"2024-05-17","fechafincontrato":"2024-05-17","estado":"1","created_at":"2024-05-04 22:43:05","updated_at":"2024-05-05 21:28:12"},{"id":"3","nombre":"asd","apellido":"asd","ci":"asd","numlicencia":"213","fechalicencia":"2024-05-02","licencia":"1","catlic":"Cat.A","correoelectronico":"asd","telefono":"342423","direccion":"sacascsa","cargo":"ascascsacas","genero":"Masculino","fechainiciocontrato":"2024-05-16","fechafincontrato":"2024-05-25","estado":"1","created_at":"2024-05-04 22:35:40","updated_at":"2024-05-05 21:34:36"},{"id":"4","nombre":"ascsceditado","apellido":"asc","ci":"acsasc","numlicencia":"as","fechalicencia":"2024-05-08","licencia":"1","catlic":"Cat.P","correoelectronico":"asc","telefono":"3432","direccion":"csac","cargo":"asc","genero":"Femenino","fechainiciocontrato":"2024-05-15","fechafincontrato":"2024-05-16","estado":"1","created_at":"2024-05-04 22:36:20","updated_at":"2024-05-05 21:34:59"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->datosConductorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-08 00:10:36 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 410.
+ 1 APPPATH\Controllers\GestionTransporteController.php(410): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(64): App\Controllers\GestionTransporteController->datatables('[{"id":"6","nombre":"sd","apellido":"asc","ci":"31232131","numlicencia":"13212312","fechalicencia":"2024-05-16","licencia":"1","catlic":"Cat.C","correoelectronico":"ascsacas","telefono":"21312","direccion":"cassa","cargo":"scasc","genero":"Femenino","fechainiciocontrato":"2024-05-17","fechafincontrato":"2024-05-17","estado":"1","created_at":"2024-05-04 22:43:05","updated_at":"2024-05-05 21:28:12"},{"id":"3","nombre":"asd","apellido":"asd","ci":"asd","numlicencia":"213","fechalicencia":"2024-05-02","licencia":"1","catlic":"Cat.A","correoelectronico":"asd","telefono":"342423","direccion":"sacascsa","cargo":"ascascsacas","genero":"Masculino","fechainiciocontrato":"2024-05-16","fechafincontrato":"2024-05-25","estado":"1","created_at":"2024-05-04 22:35:40","updated_at":"2024-05-05 21:34:36"},{"id":"4","nombre":"ascsceditado","apellido":"asc","ci":"acsasc","numlicencia":"as","fechalicencia":"2024-05-08","licencia":"1","catlic":"Cat.P","correoelectronico":"asc","telefono":"3432","direccion":"csac","cargo":"asc","genero":"Femenino","fechainiciocontrato":"2024-05-15","fechafincontrato":"2024-05-16","estado":"1","created_at":"2024-05-04 22:36:20","updated_at":"2024-05-05 21:34:59"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->datosConductorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-08 00:10:39 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 410.
+ 1 APPPATH\Controllers\GestionTransporteController.php(410): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"mdpyep-horizontal02_1.png","imagenconductor":"soporte01_1.png","marca":"scaasc","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"},{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"soporte.png","imagenconductor":"soporte.png","marca":"fe","modelo":"fe","nropasajeros":"1","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"0","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-08 00:11:27 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 410.
+ 1 APPPATH\Controllers\GestionTransporteController.php(410): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"mdpyep-horizontal02_1.png","imagenconductor":"soporte01_1.png","marca":"scaasc","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"},{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"soporte.png","imagenconductor":"soporte.png","marca":"fe","modelo":"fe","nropasajeros":"1","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"0","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-08 00:31:18 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 469.
+ 1 APPPATH\Controllers\GestionTransporteController.php(469): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"mdpyep-horizontal02_1.png","imagenconductor":"soporte01_1.png","marca":"scaasc","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"},{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"soporte.png","imagenconductor":"soporte.png","marca":"fe","modelo":"fe","nropasajeros":"1","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"0","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+ERROR - 2024-05-08 00:31:42 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la columna «conductorid» en la relación «administrador»
+LINE 1: UPDATE &quot;administrador&quot; SET &quot;conductorid&quot; = '6', &quot;imagenautom...
+                                   ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'UPDATE "adminis...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "adminis...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "adminis...')
+#4 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE "adminis...', Array, false)
+#5 C:\laragon\www\geotranck-dev\app\Models\GestionTransporteModel.php(120): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\laragon\www\geotranck-dev\app\Controllers\GestionTransporteController.php(368): App\Models\GestionTransporteModel->actualiza_vehiculo('10', Array)
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarAutomivil()
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+#9 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-05-08 00:31:42 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  no existe la columna «conductorid» en la relación «administrador»
+LINE 1: UPDATE &quot;administrador&quot; SET &quot;conductorid&quot; = '6', &quot;imagenautom...
+                                   ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE "administrador" SET "conductorid" = :conductorid:, "imagenautomovil" = :imagenautomovil:, "imagenconductor" = :imagenconductor:, "marca" = :marca:, "modelo" = :modelo:, "nropasajeros" = :nropasajeros:, "nrochasis" = :nrochasis:, "soat" = :soat:, "a_soat" = :a_soat:, "inspeccion" = :inspeccion:, "color" = :color:, "placa" = :placa:, "duenomovil" = :duenomovil:, "nrotelefono" = :nrotelefono:, "tipovehiculo" = :tipovehiculo:, "updated_at" = :updated_at:
+WHERE "id" = :id:', [...], false)
+ 2 APPPATH\Models\GestionTransporteModel.php(120): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH\Controllers\GestionTransporteController.php(368): App\Models\GestionTransporteModel->actualiza_vehiculo('10', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarAutomivil()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-08 00:31:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  no existe la columna «conductorid» en la relación «administrador»
+LINE 1: UPDATE &quot;administrador&quot; SET &quot;conductorid&quot; = '6', &quot;imagenautom...
+                                   ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "administrador" SET "conductorid" = \'6\', "imagenautomovil" = \'soporte_1.png\', "imagenconductor" = \'soporte_1.png\', "marca" = \'scaasc\', "modelo" = \'asc\', "nropasajeros" = \'1\', "nrochasis" = \'cssc\', "soat" = \'1\', "a_soat" = \'asc\', "inspeccion" = \'1\', "color" = \'asc\', "placa" = \'asc\', "duenomovil" = \'sc\', "nrotelefono" = \'213\', "tipovehiculo" = \'asc\', "updated_at" = \'2024-05-08 00:31:42\'
+WHERE "id" = \'10\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "administrador" SET "conductorid" = \'6\', "imagenautomovil" = \'soporte_1.png\', "imagenconductor" = \'soporte_1.png\', "marca" = \'scaasc\', "modelo" = \'asc\', "nropasajeros" = \'1\', "nrochasis" = \'cssc\', "soat" = \'1\', "a_soat" = \'asc\', "inspeccion" = \'1\', "color" = \'asc\', "placa" = \'asc\', "duenomovil" = \'sc\', "nrotelefono" = \'213\', "tipovehiculo" = \'asc\', "updated_at" = \'2024-05-08 00:31:42\'
+WHERE "id" = \'10\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE "administrador" SET "conductorid" = :conductorid:, "imagenautomovil" = :imagenautomovil:, "imagenconductor" = :imagenconductor:, "marca" = :marca:, "modelo" = :modelo:, "nropasajeros" = :nropasajeros:, "nrochasis" = :nrochasis:, "soat" = :soat:, "a_soat" = :a_soat:, "inspeccion" = :inspeccion:, "color" = :color:, "placa" = :placa:, "duenomovil" = :duenomovil:, "nrotelefono" = :nrotelefono:, "tipovehiculo" = :tipovehiculo:, "updated_at" = :updated_at:
+WHERE "id" = :id:', [...], false)
+ 4 APPPATH\Models\GestionTransporteModel.php(120): CodeIgniter\Database\BaseBuilder->update()
+ 5 APPPATH\Controllers\GestionTransporteController.php(368): App\Models\GestionTransporteModel->actualiza_vehiculo('10', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarAutomivil()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-08 00:31:42 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  no existe la columna «conductorid» en la relación «administrador»
+LINE 1: UPDATE &quot;administrador&quot; SET &quot;conductorid&quot; = '6', &quot;imagenautom...
+                                   ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la columna «conductorid» en la relación «administrador»
+LINE 1: UPDATE &quot;administrador&quot; SET &quot;conductorid&quot; = \'6\', &quot;imagenautom...
+                                   ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'UPDATE "administrador" SET "conductorid" = \'6\', "imagenautomovil" = \'soporte_1.png\', "imagenconductor" = \'soporte_1.png\', "marca" = \'scaasc\', "modelo" = \'asc\', "nropasajeros" = \'1\', "nrochasis" = \'cssc\', "soat" = \'1\', "a_soat" = \'asc\', "inspeccion" = \'1\', "color" = \'asc\', "placa" = \'asc\', "duenomovil" = \'sc\', "nrotelefono" = \'213\', "tipovehiculo" = \'asc\', "updated_at" = \'2024-05-08 00:31:42\'
+WHERE "id" = \'10\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "administrador" SET "conductorid" = \'6\', "imagenautomovil" = \'soporte_1.png\', "imagenconductor" = \'soporte_1.png\', "marca" = \'scaasc\', "modelo" = \'asc\', "nropasajeros" = \'1\', "nrochasis" = \'cssc\', "soat" = \'1\', "a_soat" = \'asc\', "inspeccion" = \'1\', "color" = \'asc\', "placa" = \'asc\', "duenomovil" = \'sc\', "nrotelefono" = \'213\', "tipovehiculo" = \'asc\', "updated_at" = \'2024-05-08 00:31:42\'
+WHERE "id" = \'10\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "administrador" SET "conductorid" = \'6\', "imagenautomovil" = \'soporte_1.png\', "imagenconductor" = \'soporte_1.png\', "marca" = \'scaasc\', "modelo" = \'asc\', "nropasajeros" = \'1\', "nrochasis" = \'cssc\', "soat" = \'1\', "a_soat" = \'asc\', "inspeccion" = \'1\', "color" = \'asc\', "placa" = \'asc\', "duenomovil" = \'sc\', "nrotelefono" = \'213\', "tipovehiculo" = \'asc\', "updated_at" = \'2024-05-08 00:31:42\'
+WHERE "id" = \'10\'')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE "administrador" SET "conductorid" = :conductorid:, "imagenautomovil" = :imagenautomovil:, "imagenconductor" = :imagenconductor:, "marca" = :marca:, "modelo" = :modelo:, "nropasajeros" = :nropasajeros:, "nrochasis" = :nrochasis:, "soat" = :soat:, "a_soat" = :a_soat:, "inspeccion" = :inspeccion:, "color" = :color:, "placa" = :placa:, "duenomovil" = :duenomovil:, "nrotelefono" = :nrotelefono:, "tipovehiculo" = :tipovehiculo:, "updated_at" = :updated_at:
+WHERE "id" = :id:', [...], false)
+ 6 APPPATH\Models\GestionTransporteModel.php(120): CodeIgniter\Database\BaseBuilder->update()
+ 7 APPPATH\Controllers\GestionTransporteController.php(368): App\Models\GestionTransporteModel->actualiza_vehiculo('10', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarAutomivil()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+ERROR - 2024-05-08 00:31:50 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la columna «conductorid» en la relación «administrador»
+LINE 1: UPDATE &quot;administrador&quot; SET &quot;conductorid&quot; = '6', &quot;imagenautom...
+                                   ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'UPDATE "adminis...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "adminis...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "adminis...')
+#4 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE "adminis...', Array, false)
+#5 C:\laragon\www\geotranck-dev\app\Models\GestionTransporteModel.php(120): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\laragon\www\geotranck-dev\app\Controllers\GestionTransporteController.php(368): App\Models\GestionTransporteModel->actualiza_vehiculo('10', Array)
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarAutomivil()
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+#9 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-05-08 00:31:50 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  no existe la columna «conductorid» en la relación «administrador»
+LINE 1: UPDATE &quot;administrador&quot; SET &quot;conductorid&quot; = '6', &quot;imagenautom...
+                                   ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE "administrador" SET "conductorid" = :conductorid:, "imagenautomovil" = :imagenautomovil:, "imagenconductor" = :imagenconductor:, "marca" = :marca:, "modelo" = :modelo:, "nropasajeros" = :nropasajeros:, "nrochasis" = :nrochasis:, "soat" = :soat:, "a_soat" = :a_soat:, "inspeccion" = :inspeccion:, "color" = :color:, "placa" = :placa:, "duenomovil" = :duenomovil:, "nrotelefono" = :nrotelefono:, "tipovehiculo" = :tipovehiculo:, "updated_at" = :updated_at:
+WHERE "id" = :id:', [...], false)
+ 2 APPPATH\Models\GestionTransporteModel.php(120): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH\Controllers\GestionTransporteController.php(368): App\Models\GestionTransporteModel->actualiza_vehiculo('10', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarAutomivil()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-08 00:31:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  no existe la columna «conductorid» en la relación «administrador»
+LINE 1: UPDATE &quot;administrador&quot; SET &quot;conductorid&quot; = '6', &quot;imagenautom...
+                                   ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "administrador" SET "conductorid" = \'6\', "imagenautomovil" = \'soporte_2.png\', "imagenconductor" = \'mdpyep-horizontal02.png\', "marca" = \'scaasc\', "modelo" = \'asc\', "nropasajeros" = \'1\', "nrochasis" = \'cssc\', "soat" = \'1\', "a_soat" = \'asc\', "inspeccion" = \'1\', "color" = \'asc\', "placa" = \'asc\', "duenomovil" = \'sc\', "nrotelefono" = \'213\', "tipovehiculo" = \'asc\', "updated_at" = \'2024-05-08 00:31:50\'
+WHERE "id" = \'10\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "administrador" SET "conductorid" = \'6\', "imagenautomovil" = \'soporte_2.png\', "imagenconductor" = \'mdpyep-horizontal02.png\', "marca" = \'scaasc\', "modelo" = \'asc\', "nropasajeros" = \'1\', "nrochasis" = \'cssc\', "soat" = \'1\', "a_soat" = \'asc\', "inspeccion" = \'1\', "color" = \'asc\', "placa" = \'asc\', "duenomovil" = \'sc\', "nrotelefono" = \'213\', "tipovehiculo" = \'asc\', "updated_at" = \'2024-05-08 00:31:50\'
+WHERE "id" = \'10\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE "administrador" SET "conductorid" = :conductorid:, "imagenautomovil" = :imagenautomovil:, "imagenconductor" = :imagenconductor:, "marca" = :marca:, "modelo" = :modelo:, "nropasajeros" = :nropasajeros:, "nrochasis" = :nrochasis:, "soat" = :soat:, "a_soat" = :a_soat:, "inspeccion" = :inspeccion:, "color" = :color:, "placa" = :placa:, "duenomovil" = :duenomovil:, "nrotelefono" = :nrotelefono:, "tipovehiculo" = :tipovehiculo:, "updated_at" = :updated_at:
+WHERE "id" = :id:', [...], false)
+ 4 APPPATH\Models\GestionTransporteModel.php(120): CodeIgniter\Database\BaseBuilder->update()
+ 5 APPPATH\Controllers\GestionTransporteController.php(368): App\Models\GestionTransporteModel->actualiza_vehiculo('10', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarAutomivil()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-08 00:31:50 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  no existe la columna «conductorid» en la relación «administrador»
+LINE 1: UPDATE &quot;administrador&quot; SET &quot;conductorid&quot; = '6', &quot;imagenautom...
+                                   ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la columna «conductorid» en la relación «administrador»
+LINE 1: UPDATE &quot;administrador&quot; SET &quot;conductorid&quot; = \'6\', &quot;imagenautom...
+                                   ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'UPDATE "administrador" SET "conductorid" = \'6\', "imagenautomovil" = \'soporte_2.png\', "imagenconductor" = \'mdpyep-horizontal02.png\', "marca" = \'scaasc\', "modelo" = \'asc\', "nropasajeros" = \'1\', "nrochasis" = \'cssc\', "soat" = \'1\', "a_soat" = \'asc\', "inspeccion" = \'1\', "color" = \'asc\', "placa" = \'asc\', "duenomovil" = \'sc\', "nrotelefono" = \'213\', "tipovehiculo" = \'asc\', "updated_at" = \'2024-05-08 00:31:50\'
+WHERE "id" = \'10\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "administrador" SET "conductorid" = \'6\', "imagenautomovil" = \'soporte_2.png\', "imagenconductor" = \'mdpyep-horizontal02.png\', "marca" = \'scaasc\', "modelo" = \'asc\', "nropasajeros" = \'1\', "nrochasis" = \'cssc\', "soat" = \'1\', "a_soat" = \'asc\', "inspeccion" = \'1\', "color" = \'asc\', "placa" = \'asc\', "duenomovil" = \'sc\', "nrotelefono" = \'213\', "tipovehiculo" = \'asc\', "updated_at" = \'2024-05-08 00:31:50\'
+WHERE "id" = \'10\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "administrador" SET "conductorid" = \'6\', "imagenautomovil" = \'soporte_2.png\', "imagenconductor" = \'mdpyep-horizontal02.png\', "marca" = \'scaasc\', "modelo" = \'asc\', "nropasajeros" = \'1\', "nrochasis" = \'cssc\', "soat" = \'1\', "a_soat" = \'asc\', "inspeccion" = \'1\', "color" = \'asc\', "placa" = \'asc\', "duenomovil" = \'sc\', "nrotelefono" = \'213\', "tipovehiculo" = \'asc\', "updated_at" = \'2024-05-08 00:31:50\'
+WHERE "id" = \'10\'')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE "administrador" SET "conductorid" = :conductorid:, "imagenautomovil" = :imagenautomovil:, "imagenconductor" = :imagenconductor:, "marca" = :marca:, "modelo" = :modelo:, "nropasajeros" = :nropasajeros:, "nrochasis" = :nrochasis:, "soat" = :soat:, "a_soat" = :a_soat:, "inspeccion" = :inspeccion:, "color" = :color:, "placa" = :placa:, "duenomovil" = :duenomovil:, "nrotelefono" = :nrotelefono:, "tipovehiculo" = :tipovehiculo:, "updated_at" = :updated_at:
+WHERE "id" = :id:', [...], false)
+ 6 APPPATH\Models\GestionTransporteModel.php(120): CodeIgniter\Database\BaseBuilder->update()
+ 7 APPPATH\Controllers\GestionTransporteController.php(368): App\Models\GestionTransporteModel->actualiza_vehiculo('10', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarAutomivil()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-08 00:33:13 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 469.
+ 1 APPPATH\Controllers\GestionTransporteController.php(469): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"mdpyep-horizontal02_1.png","imagenconductor":"soporte01_1.png","marca":"scaasc","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"},{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"soporte.png","imagenconductor":"soporte.png","marca":"fe","modelo":"fe","nropasajeros":"1","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"0","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+ERROR - 2024-05-08 00:33:37 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la columna «conductorid» en la relación «administrador»
+LINE 1: UPDATE &quot;administrador&quot; SET &quot;conductorid&quot; = '6', &quot;imagenautom...
+                                   ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'UPDATE "adminis...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "adminis...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "adminis...')
+#4 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE "adminis...', Array, false)
+#5 C:\laragon\www\geotranck-dev\app\Models\GestionTransporteModel.php(120): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\laragon\www\geotranck-dev\app\Controllers\GestionTransporteController.php(368): App\Models\GestionTransporteModel->actualiza_vehiculo('10', Array)
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarAutomivil()
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+#9 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-05-08 00:33:37 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  no existe la columna «conductorid» en la relación «administrador»
+LINE 1: UPDATE &quot;administrador&quot; SET &quot;conductorid&quot; = '6', &quot;imagenautom...
+                                   ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE "administrador" SET "conductorid" = :conductorid:, "imagenautomovil" = :imagenautomovil:, "imagenconductor" = :imagenconductor:, "marca" = :marca:, "modelo" = :modelo:, "nropasajeros" = :nropasajeros:, "nrochasis" = :nrochasis:, "soat" = :soat:, "a_soat" = :a_soat:, "inspeccion" = :inspeccion:, "color" = :color:, "placa" = :placa:, "duenomovil" = :duenomovil:, "nrotelefono" = :nrotelefono:, "tipovehiculo" = :tipovehiculo:, "updated_at" = :updated_at:
+WHERE "id" = :id:', [...], false)
+ 2 APPPATH\Models\GestionTransporteModel.php(120): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH\Controllers\GestionTransporteController.php(368): App\Models\GestionTransporteModel->actualiza_vehiculo('10', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarAutomivil()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-08 00:33:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  no existe la columna «conductorid» en la relación «administrador»
+LINE 1: UPDATE &quot;administrador&quot; SET &quot;conductorid&quot; = '6', &quot;imagenautom...
+                                   ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "administrador" SET "conductorid" = \'6\', "imagenautomovil" = \'Captura de pantalla 2023-06-18 160650 - copia - copia_1.png\', "imagenconductor" = \'Captura de pantalla 2023-06-18 160650 - copia.png\', "marca" = \'scaasc\', "modelo" = \'asceditar\', "nropasajeros" = \'1\', "nrochasis" = \'cssc\', "soat" = \'1\', "a_soat" = \'asc\', "inspeccion" = \'1\', "color" = \'asc\', "placa" = \'asc\', "duenomovil" = \'sc\', "nrotelefono" = \'213\', "tipovehiculo" = \'asc\', "updated_at" = \'2024-05-08 00:33:37\'
+WHERE "id" = \'10\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "administrador" SET "conductorid" = \'6\', "imagenautomovil" = \'Captura de pantalla 2023-06-18 160650 - copia - copia_1.png\', "imagenconductor" = \'Captura de pantalla 2023-06-18 160650 - copia.png\', "marca" = \'scaasc\', "modelo" = \'asceditar\', "nropasajeros" = \'1\', "nrochasis" = \'cssc\', "soat" = \'1\', "a_soat" = \'asc\', "inspeccion" = \'1\', "color" = \'asc\', "placa" = \'asc\', "duenomovil" = \'sc\', "nrotelefono" = \'213\', "tipovehiculo" = \'asc\', "updated_at" = \'2024-05-08 00:33:37\'
+WHERE "id" = \'10\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE "administrador" SET "conductorid" = :conductorid:, "imagenautomovil" = :imagenautomovil:, "imagenconductor" = :imagenconductor:, "marca" = :marca:, "modelo" = :modelo:, "nropasajeros" = :nropasajeros:, "nrochasis" = :nrochasis:, "soat" = :soat:, "a_soat" = :a_soat:, "inspeccion" = :inspeccion:, "color" = :color:, "placa" = :placa:, "duenomovil" = :duenomovil:, "nrotelefono" = :nrotelefono:, "tipovehiculo" = :tipovehiculo:, "updated_at" = :updated_at:
+WHERE "id" = :id:', [...], false)
+ 4 APPPATH\Models\GestionTransporteModel.php(120): CodeIgniter\Database\BaseBuilder->update()
+ 5 APPPATH\Controllers\GestionTransporteController.php(368): App\Models\GestionTransporteModel->actualiza_vehiculo('10', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarAutomivil()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-08 00:33:37 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  no existe la columna «conductorid» en la relación «administrador»
+LINE 1: UPDATE &quot;administrador&quot; SET &quot;conductorid&quot; = '6', &quot;imagenautom...
+                                   ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la columna «conductorid» en la relación «administrador»
+LINE 1: UPDATE &quot;administrador&quot; SET &quot;conductorid&quot; = \'6\', &quot;imagenautom...
+                                   ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'UPDATE "administrador" SET "conductorid" = \'6\', "imagenautomovil" = \'Captura de pantalla 2023-06-18 160650 - copia - copia_1.png\', "imagenconductor" = \'Captura de pantalla 2023-06-18 160650 - copia.png\', "marca" = \'scaasc\', "modelo" = \'asceditar\', "nropasajeros" = \'1\', "nrochasis" = \'cssc\', "soat" = \'1\', "a_soat" = \'asc\', "inspeccion" = \'1\', "color" = \'asc\', "placa" = \'asc\', "duenomovil" = \'sc\', "nrotelefono" = \'213\', "tipovehiculo" = \'asc\', "updated_at" = \'2024-05-08 00:33:37\'
+WHERE "id" = \'10\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "administrador" SET "conductorid" = \'6\', "imagenautomovil" = \'Captura de pantalla 2023-06-18 160650 - copia - copia_1.png\', "imagenconductor" = \'Captura de pantalla 2023-06-18 160650 - copia.png\', "marca" = \'scaasc\', "modelo" = \'asceditar\', "nropasajeros" = \'1\', "nrochasis" = \'cssc\', "soat" = \'1\', "a_soat" = \'asc\', "inspeccion" = \'1\', "color" = \'asc\', "placa" = \'asc\', "duenomovil" = \'sc\', "nrotelefono" = \'213\', "tipovehiculo" = \'asc\', "updated_at" = \'2024-05-08 00:33:37\'
+WHERE "id" = \'10\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "administrador" SET "conductorid" = \'6\', "imagenautomovil" = \'Captura de pantalla 2023-06-18 160650 - copia - copia_1.png\', "imagenconductor" = \'Captura de pantalla 2023-06-18 160650 - copia.png\', "marca" = \'scaasc\', "modelo" = \'asceditar\', "nropasajeros" = \'1\', "nrochasis" = \'cssc\', "soat" = \'1\', "a_soat" = \'asc\', "inspeccion" = \'1\', "color" = \'asc\', "placa" = \'asc\', "duenomovil" = \'sc\', "nrotelefono" = \'213\', "tipovehiculo" = \'asc\', "updated_at" = \'2024-05-08 00:33:37\'
+WHERE "id" = \'10\'')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE "administrador" SET "conductorid" = :conductorid:, "imagenautomovil" = :imagenautomovil:, "imagenconductor" = :imagenconductor:, "marca" = :marca:, "modelo" = :modelo:, "nropasajeros" = :nropasajeros:, "nrochasis" = :nrochasis:, "soat" = :soat:, "a_soat" = :a_soat:, "inspeccion" = :inspeccion:, "color" = :color:, "placa" = :placa:, "duenomovil" = :duenomovil:, "nrotelefono" = :nrotelefono:, "tipovehiculo" = :tipovehiculo:, "updated_at" = :updated_at:
+WHERE "id" = :id:', [...], false)
+ 6 APPPATH\Models\GestionTransporteModel.php(120): CodeIgniter\Database\BaseBuilder->update()
+ 7 APPPATH\Controllers\GestionTransporteController.php(368): App\Models\GestionTransporteModel->actualiza_vehiculo('10', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarAutomivil()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+ERROR - 2024-05-08 00:35:01 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la columna «conductorid» en la relación «administrador»
+LINE 1: UPDATE &quot;administrador&quot; SET &quot;conductorid&quot; = '6', &quot;imagenautom...
+                                   ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'UPDATE "adminis...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "adminis...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "adminis...')
+#4 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE "adminis...', Array, false)
+#5 C:\laragon\www\geotranck-dev\app\Models\GestionTransporteModel.php(120): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\laragon\www\geotranck-dev\app\Controllers\GestionTransporteController.php(368): App\Models\GestionTransporteModel->actualiza_vehiculo('10', Array)
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarAutomivil()
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+#9 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-05-08 00:35:01 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  no existe la columna «conductorid» en la relación «administrador»
+LINE 1: UPDATE &quot;administrador&quot; SET &quot;conductorid&quot; = '6', &quot;imagenautom...
+                                   ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE "administrador" SET "conductorid" = :conductorid:, "imagenautomovil" = :imagenautomovil:, "imagenconductor" = :imagenconductor:, "marca" = :marca:, "modelo" = :modelo:, "nropasajeros" = :nropasajeros:, "nrochasis" = :nrochasis:, "soat" = :soat:, "a_soat" = :a_soat:, "inspeccion" = :inspeccion:, "color" = :color:, "placa" = :placa:, "duenomovil" = :duenomovil:, "nrotelefono" = :nrotelefono:, "tipovehiculo" = :tipovehiculo:, "updated_at" = :updated_at:
+WHERE "id" = :id:', [...], false)
+ 2 APPPATH\Models\GestionTransporteModel.php(120): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH\Controllers\GestionTransporteController.php(368): App\Models\GestionTransporteModel->actualiza_vehiculo('10', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarAutomivil()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-08 00:35:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  no existe la columna «conductorid» en la relación «administrador»
+LINE 1: UPDATE &quot;administrador&quot; SET &quot;conductorid&quot; = '6', &quot;imagenautom...
+                                   ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "administrador" SET "conductorid" = \'6\', "imagenautomovil" = \'Captura de pantalla 2023-06-18 160650 - copia - copia_2.png\', "imagenconductor" = \'Captura de pantalla 2023-06-18 160650 - copia_1.png\', "marca" = \'scaasc\', "modelo" = \'asc\', "nropasajeros" = \'1\', "nrochasis" = \'cssc\', "soat" = \'1\', "a_soat" = \'asc\', "inspeccion" = \'1\', "color" = \'asc\', "placa" = \'asc\', "duenomovil" = \'sc\', "nrotelefono" = \'213\', "tipovehiculo" = \'asc\', "updated_at" = \'2024-05-08 00:35:01\'
+WHERE "id" = \'10\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "administrador" SET "conductorid" = \'6\', "imagenautomovil" = \'Captura de pantalla 2023-06-18 160650 - copia - copia_2.png\', "imagenconductor" = \'Captura de pantalla 2023-06-18 160650 - copia_1.png\', "marca" = \'scaasc\', "modelo" = \'asc\', "nropasajeros" = \'1\', "nrochasis" = \'cssc\', "soat" = \'1\', "a_soat" = \'asc\', "inspeccion" = \'1\', "color" = \'asc\', "placa" = \'asc\', "duenomovil" = \'sc\', "nrotelefono" = \'213\', "tipovehiculo" = \'asc\', "updated_at" = \'2024-05-08 00:35:01\'
+WHERE "id" = \'10\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE "administrador" SET "conductorid" = :conductorid:, "imagenautomovil" = :imagenautomovil:, "imagenconductor" = :imagenconductor:, "marca" = :marca:, "modelo" = :modelo:, "nropasajeros" = :nropasajeros:, "nrochasis" = :nrochasis:, "soat" = :soat:, "a_soat" = :a_soat:, "inspeccion" = :inspeccion:, "color" = :color:, "placa" = :placa:, "duenomovil" = :duenomovil:, "nrotelefono" = :nrotelefono:, "tipovehiculo" = :tipovehiculo:, "updated_at" = :updated_at:
+WHERE "id" = :id:', [...], false)
+ 4 APPPATH\Models\GestionTransporteModel.php(120): CodeIgniter\Database\BaseBuilder->update()
+ 5 APPPATH\Controllers\GestionTransporteController.php(368): App\Models\GestionTransporteModel->actualiza_vehiculo('10', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarAutomivil()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-08 00:35:01 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  no existe la columna «conductorid» en la relación «administrador»
+LINE 1: UPDATE &quot;administrador&quot; SET &quot;conductorid&quot; = '6', &quot;imagenautom...
+                                   ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la columna «conductorid» en la relación «administrador»
+LINE 1: UPDATE &quot;administrador&quot; SET &quot;conductorid&quot; = \'6\', &quot;imagenautom...
+                                   ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'UPDATE "administrador" SET "conductorid" = \'6\', "imagenautomovil" = \'Captura de pantalla 2023-06-18 160650 - copia - copia_2.png\', "imagenconductor" = \'Captura de pantalla 2023-06-18 160650 - copia_1.png\', "marca" = \'scaasc\', "modelo" = \'asc\', "nropasajeros" = \'1\', "nrochasis" = \'cssc\', "soat" = \'1\', "a_soat" = \'asc\', "inspeccion" = \'1\', "color" = \'asc\', "placa" = \'asc\', "duenomovil" = \'sc\', "nrotelefono" = \'213\', "tipovehiculo" = \'asc\', "updated_at" = \'2024-05-08 00:35:01\'
+WHERE "id" = \'10\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "administrador" SET "conductorid" = \'6\', "imagenautomovil" = \'Captura de pantalla 2023-06-18 160650 - copia - copia_2.png\', "imagenconductor" = \'Captura de pantalla 2023-06-18 160650 - copia_1.png\', "marca" = \'scaasc\', "modelo" = \'asc\', "nropasajeros" = \'1\', "nrochasis" = \'cssc\', "soat" = \'1\', "a_soat" = \'asc\', "inspeccion" = \'1\', "color" = \'asc\', "placa" = \'asc\', "duenomovil" = \'sc\', "nrotelefono" = \'213\', "tipovehiculo" = \'asc\', "updated_at" = \'2024-05-08 00:35:01\'
+WHERE "id" = \'10\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "administrador" SET "conductorid" = \'6\', "imagenautomovil" = \'Captura de pantalla 2023-06-18 160650 - copia - copia_2.png\', "imagenconductor" = \'Captura de pantalla 2023-06-18 160650 - copia_1.png\', "marca" = \'scaasc\', "modelo" = \'asc\', "nropasajeros" = \'1\', "nrochasis" = \'cssc\', "soat" = \'1\', "a_soat" = \'asc\', "inspeccion" = \'1\', "color" = \'asc\', "placa" = \'asc\', "duenomovil" = \'sc\', "nrotelefono" = \'213\', "tipovehiculo" = \'asc\', "updated_at" = \'2024-05-08 00:35:01\'
+WHERE "id" = \'10\'')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE "administrador" SET "conductorid" = :conductorid:, "imagenautomovil" = :imagenautomovil:, "imagenconductor" = :imagenconductor:, "marca" = :marca:, "modelo" = :modelo:, "nropasajeros" = :nropasajeros:, "nrochasis" = :nrochasis:, "soat" = :soat:, "a_soat" = :a_soat:, "inspeccion" = :inspeccion:, "color" = :color:, "placa" = :placa:, "duenomovil" = :duenomovil:, "nrotelefono" = :nrotelefono:, "tipovehiculo" = :tipovehiculo:, "updated_at" = :updated_at:
+WHERE "id" = :id:', [...], false)
+ 6 APPPATH\Models\GestionTransporteModel.php(120): CodeIgniter\Database\BaseBuilder->update()
+ 7 APPPATH\Controllers\GestionTransporteController.php(368): App\Models\GestionTransporteModel->actualiza_vehiculo('10', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarAutomivil()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+ERROR - 2024-05-08 00:35:08 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la columna «conductorid» en la relación «administrador»
+LINE 1: UPDATE &quot;administrador&quot; SET &quot;conductorid&quot; = '6', &quot;imagenautom...
+                                   ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'UPDATE "adminis...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "adminis...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "adminis...')
+#4 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE "adminis...', Array, false)
+#5 C:\laragon\www\geotranck-dev\app\Models\GestionTransporteModel.php(120): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\laragon\www\geotranck-dev\app\Controllers\GestionTransporteController.php(368): App\Models\GestionTransporteModel->actualiza_vehiculo('10', Array)
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarAutomivil()
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+#9 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-05-08 00:35:08 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  no existe la columna «conductorid» en la relación «administrador»
+LINE 1: UPDATE &quot;administrador&quot; SET &quot;conductorid&quot; = '6', &quot;imagenautom...
+                                   ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE "administrador" SET "conductorid" = :conductorid:, "imagenautomovil" = :imagenautomovil:, "imagenconductor" = :imagenconductor:, "marca" = :marca:, "modelo" = :modelo:, "nropasajeros" = :nropasajeros:, "nrochasis" = :nrochasis:, "soat" = :soat:, "a_soat" = :a_soat:, "inspeccion" = :inspeccion:, "color" = :color:, "placa" = :placa:, "duenomovil" = :duenomovil:, "nrotelefono" = :nrotelefono:, "tipovehiculo" = :tipovehiculo:, "updated_at" = :updated_at:
+WHERE "id" = :id:', [...], false)
+ 2 APPPATH\Models\GestionTransporteModel.php(120): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH\Controllers\GestionTransporteController.php(368): App\Models\GestionTransporteModel->actualiza_vehiculo('10', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarAutomivil()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-08 00:35:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  no existe la columna «conductorid» en la relación «administrador»
+LINE 1: UPDATE &quot;administrador&quot; SET &quot;conductorid&quot; = '6', &quot;imagenautom...
+                                   ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "administrador" SET "conductorid" = \'6\', "imagenautomovil" = \'Captura de pantalla 2023-06-18 160650 - copia - copia_3.png\', "imagenconductor" = \'Captura de pantalla 2023-06-18 160650 - copia_2.png\', "marca" = \'scaasc\', "modelo" = \'asc\', "nropasajeros" = \'1\', "nrochasis" = \'cssc\', "soat" = \'1\', "a_soat" = \'asc\', "inspeccion" = \'1\', "color" = \'asc\', "placa" = \'asc\', "duenomovil" = \'sc\', "nrotelefono" = \'213\', "tipovehiculo" = \'asc\', "updated_at" = \'2024-05-08 00:35:08\'
+WHERE "id" = \'10\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "administrador" SET "conductorid" = \'6\', "imagenautomovil" = \'Captura de pantalla 2023-06-18 160650 - copia - copia_3.png\', "imagenconductor" = \'Captura de pantalla 2023-06-18 160650 - copia_2.png\', "marca" = \'scaasc\', "modelo" = \'asc\', "nropasajeros" = \'1\', "nrochasis" = \'cssc\', "soat" = \'1\', "a_soat" = \'asc\', "inspeccion" = \'1\', "color" = \'asc\', "placa" = \'asc\', "duenomovil" = \'sc\', "nrotelefono" = \'213\', "tipovehiculo" = \'asc\', "updated_at" = \'2024-05-08 00:35:08\'
+WHERE "id" = \'10\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE "administrador" SET "conductorid" = :conductorid:, "imagenautomovil" = :imagenautomovil:, "imagenconductor" = :imagenconductor:, "marca" = :marca:, "modelo" = :modelo:, "nropasajeros" = :nropasajeros:, "nrochasis" = :nrochasis:, "soat" = :soat:, "a_soat" = :a_soat:, "inspeccion" = :inspeccion:, "color" = :color:, "placa" = :placa:, "duenomovil" = :duenomovil:, "nrotelefono" = :nrotelefono:, "tipovehiculo" = :tipovehiculo:, "updated_at" = :updated_at:
+WHERE "id" = :id:', [...], false)
+ 4 APPPATH\Models\GestionTransporteModel.php(120): CodeIgniter\Database\BaseBuilder->update()
+ 5 APPPATH\Controllers\GestionTransporteController.php(368): App\Models\GestionTransporteModel->actualiza_vehiculo('10', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarAutomivil()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-05-08 00:35:08 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  no existe la columna «conductorid» en la relación «administrador»
+LINE 1: UPDATE &quot;administrador&quot; SET &quot;conductorid&quot; = '6', &quot;imagenautom...
+                                   ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la columna «conductorid» en la relación «administrador»
+LINE 1: UPDATE &quot;administrador&quot; SET &quot;conductorid&quot; = \'6\', &quot;imagenautom...
+                                   ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'UPDATE "administrador" SET "conductorid" = \'6\', "imagenautomovil" = \'Captura de pantalla 2023-06-18 160650 - copia - copia_3.png\', "imagenconductor" = \'Captura de pantalla 2023-06-18 160650 - copia_2.png\', "marca" = \'scaasc\', "modelo" = \'asc\', "nropasajeros" = \'1\', "nrochasis" = \'cssc\', "soat" = \'1\', "a_soat" = \'asc\', "inspeccion" = \'1\', "color" = \'asc\', "placa" = \'asc\', "duenomovil" = \'sc\', "nrotelefono" = \'213\', "tipovehiculo" = \'asc\', "updated_at" = \'2024-05-08 00:35:08\'
+WHERE "id" = \'10\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "administrador" SET "conductorid" = \'6\', "imagenautomovil" = \'Captura de pantalla 2023-06-18 160650 - copia - copia_3.png\', "imagenconductor" = \'Captura de pantalla 2023-06-18 160650 - copia_2.png\', "marca" = \'scaasc\', "modelo" = \'asc\', "nropasajeros" = \'1\', "nrochasis" = \'cssc\', "soat" = \'1\', "a_soat" = \'asc\', "inspeccion" = \'1\', "color" = \'asc\', "placa" = \'asc\', "duenomovil" = \'sc\', "nrotelefono" = \'213\', "tipovehiculo" = \'asc\', "updated_at" = \'2024-05-08 00:35:08\'
+WHERE "id" = \'10\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "administrador" SET "conductorid" = \'6\', "imagenautomovil" = \'Captura de pantalla 2023-06-18 160650 - copia - copia_3.png\', "imagenconductor" = \'Captura de pantalla 2023-06-18 160650 - copia_2.png\', "marca" = \'scaasc\', "modelo" = \'asc\', "nropasajeros" = \'1\', "nrochasis" = \'cssc\', "soat" = \'1\', "a_soat" = \'asc\', "inspeccion" = \'1\', "color" = \'asc\', "placa" = \'asc\', "duenomovil" = \'sc\', "nrotelefono" = \'213\', "tipovehiculo" = \'asc\', "updated_at" = \'2024-05-08 00:35:08\'
+WHERE "id" = \'10\'')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE "administrador" SET "conductorid" = :conductorid:, "imagenautomovil" = :imagenautomovil:, "imagenconductor" = :imagenconductor:, "marca" = :marca:, "modelo" = :modelo:, "nropasajeros" = :nropasajeros:, "nrochasis" = :nrochasis:, "soat" = :soat:, "a_soat" = :a_soat:, "inspeccion" = :inspeccion:, "color" = :color:, "placa" = :placa:, "duenomovil" = :duenomovil:, "nrotelefono" = :nrotelefono:, "tipovehiculo" = :tipovehiculo:, "updated_at" = :updated_at:
+WHERE "id" = :id:', [...], false)
+ 6 APPPATH\Models\GestionTransporteModel.php(120): CodeIgniter\Database\BaseBuilder->update()
+ 7 APPPATH\Controllers\GestionTransporteController.php(368): App\Models\GestionTransporteModel->actualiza_vehiculo('10', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->actualizarAutomivil()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-08 00:37:18 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 470.
+ 1 APPPATH\Controllers\GestionTransporteController.php(470): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"mdpyep-horizontal02_1.png","imagenconductor":"soporte01_1.png","marca":"scaasc","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"},{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"soporte.png","imagenconductor":"soporte.png","marca":"fe","modelo":"fe","nropasajeros":"1","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"0","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-08 00:37:37 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 470.
+ 1 APPPATH\Controllers\GestionTransporteController.php(470): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"mdpyep-horizontal02_1.png","imagenconductor":"soporte01_1.png","marca":"scaasc","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"},{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"Captura de pantalla 2023-06-18 160825.png","imagenconductor":"Captura de pantalla 2023-06-18 160650 - copia_3.png","marca":"fe","modelo":"feeditado","nropasajeros":"1","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"1","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-08 00:41:53 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 470.
+ 1 APPPATH\Controllers\GestionTransporteController.php(470): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"mdpyep-horizontal02_1.png","imagenconductor":"soporte01_1.png","marca":"scaasc","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"},{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"Captura de pantalla 2023-06-18 160825.png","imagenconductor":"Captura de pantalla 2023-06-18 160650 - copia_3.png","marca":"fe","modelo":"feeditado","nropasajeros":"1","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"1","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-08 00:42:31 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 470.
+ 1 APPPATH\Controllers\GestionTransporteController.php(470): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"Captura de pantalla 2023-06-18 160825.png","imagenconductor":"Captura de pantalla 2023-06-18 160650 - copia_3.png","marca":"fe","modelo":"feeditado","nropasajeros":"1","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"1","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"},{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"Captura de pantalla 2023-06-18 160650 - copia - copia_4.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia.png","marca":"scaasceditacion","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-08 00:44:26 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 470.
+ 1 APPPATH\Controllers\GestionTransporteController.php(470): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"Captura de pantalla 2023-06-18 160825.png","imagenconductor":"Captura de pantalla 2023-06-18 160650 - copia_3.png","marca":"fe","modelo":"feeditado","nropasajeros":"1","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"1","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"},{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"Captura de pantalla 2023-06-18 160650 - copia - copia_5.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_1.png","marca":"scaasceditacion","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-08 00:44:35 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 470.
+ 1 APPPATH\Controllers\GestionTransporteController.php(470): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"Captura de pantalla 2023-06-18 160650 - copia - copia_5.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_1.png","marca":"scaasceditacion","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"},{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"Captura de pantalla 2023-06-18 160650 - copia - copia_6.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_2.png","marca":"fe","modelo":"feeditado","nropasajeros":"1","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"1","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-08 00:44:49 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 470.
+ 1 APPPATH\Controllers\GestionTransporteController.php(470): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"Captura de pantalla 2023-06-18 160650 - copia - copia_5.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_1.png","marca":"scaasceditacion","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"},{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"Captura de pantalla 2023-04-28 122838.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_3.png","marca":"fe","modelo":"feeditado","nropasajeros":"1","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"1","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-08 00:45:02 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 470.
+ 1 APPPATH\Controllers\GestionTransporteController.php(470): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"Captura de pantalla 2023-06-18 160650 - copia - copia_5.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_1.png","marca":"scaasceditacion","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"},{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"Captura de pantalla 2023-04-28 122838_1.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_4.png","marca":"fe","modelo":"feeditado","nropasajeros":"1","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"1","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-08 00:45:21 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 470.
+ 1 APPPATH\Controllers\GestionTransporteController.php(470): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"Captura de pantalla 2023-04-28 122838_1.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_4.png","marca":"fe","modelo":"feeditado","nropasajeros":"1","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"1","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"},{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"Captura de pantalla 2023-06-18 160922 - copia.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_5.png","marca":"scaasceditacion","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-08 00:45:26 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 470.
+ 1 APPPATH\Controllers\GestionTransporteController.php(470): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(64): App\Controllers\GestionTransporteController->datatables('[{"id":"6","nombre":"sd","apellido":"asc","ci":"31232131","numlicencia":"13212312","fechalicencia":"2024-05-16","licencia":"1","catlic":"Cat.C","correoelectronico":"ascsacas","telefono":"21312","direccion":"cassa","cargo":"scasc","genero":"Femenino","fechainiciocontrato":"2024-05-17","fechafincontrato":"2024-05-17","estado":"1","created_at":"2024-05-04 22:43:05","updated_at":"2024-05-05 21:28:12"},{"id":"3","nombre":"asd","apellido":"asd","ci":"asd","numlicencia":"213","fechalicencia":"2024-05-02","licencia":"1","catlic":"Cat.A","correoelectronico":"asd","telefono":"342423","direccion":"sacascsa","cargo":"ascascsacas","genero":"Masculino","fechainiciocontrato":"2024-05-16","fechafincontrato":"2024-05-25","estado":"1","created_at":"2024-05-04 22:35:40","updated_at":"2024-05-05 21:34:36"},{"id":"4","nombre":"ascsceditado","apellido":"asc","ci":"acsasc","numlicencia":"as","fechalicencia":"2024-05-08","licencia":"1","catlic":"Cat.P","correoelectronico":"asc","telefono":"3432","direccion":"csac","cargo":"asc","genero":"Femenino","fechainiciocontrato":"2024-05-15","fechafincontrato":"2024-05-16","estado":"1","created_at":"2024-05-04 22:36:20","updated_at":"2024-05-05 21:34:59"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->datosConductorView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-08 00:45:29 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 470.
+ 1 APPPATH\Controllers\GestionTransporteController.php(470): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"Captura de pantalla 2023-04-28 122838_1.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_4.png","marca":"fe","modelo":"feeditado","nropasajeros":"1","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"1","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"},{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"Captura de pantalla 2023-06-18 160922 - copia.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_5.png","marca":"scaasceditacion","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-08 00:45:39 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 470.
+ 1 APPPATH\Controllers\GestionTransporteController.php(470): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"Captura de pantalla 2023-04-28 122838_1.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_4.png","marca":"fe","modelo":"feeditado","nropasajeros":"1","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"1","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"},{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"Captura de pantalla 2023-06-18 160922 - copia_1.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_6.png","marca":"scaasceditacion","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-08 00:45:55 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 470.
+ 1 APPPATH\Controllers\GestionTransporteController.php(470): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"Captura de pantalla 2023-04-28 122838_1.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_4.png","marca":"fe","modelo":"feeditado","nropasajeros":"1","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"1","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"},{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"Captura de pantalla 2023-06-18 160922 - copia_2.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_7.png","marca":"scaasceditacion","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-08 00:46:04 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 470.
+ 1 APPPATH\Controllers\GestionTransporteController.php(470): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"Captura de pantalla 2023-04-28 122838_1.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_4.png","marca":"fe","modelo":"feeditado","nropasajeros":"1","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"1","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"},{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"Captura de pantalla 2023-06-18 160922 - copia_2.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_7.png","marca":"scaasceditacion","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-08 00:46:20 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 470.
+ 1 APPPATH\Controllers\GestionTransporteController.php(470): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"Captura de pantalla 2023-04-28 122838_1.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_4.png","marca":"fe","modelo":"feeditado","nropasajeros":"1","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"1","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"},{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"Captura de pantalla 2023-06-18 160922 - copia_2.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_7.png","marca":"scaasceditacion","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-08 00:46:38 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 470.
+ 1 APPPATH\Controllers\GestionTransporteController.php(470): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"Captura de pantalla 2023-04-28 122838_1.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_4.png","marca":"fe","modelo":"feeditado","nropasajeros":"1","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"1","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"},{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"Captura de pantalla 2023-06-18 160650 - copia - copia_7.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_8.png","marca":"scaasceditacion","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-08 00:46:45 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 470.
+ 1 APPPATH\Controllers\GestionTransporteController.php(470): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"Captura de pantalla 2023-06-18 160650 - copia - copia_7.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_8.png","marca":"scaasceditacion","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"},{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"Captura de pantalla 2023-06-18 160650 - copia - copia_8.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_9.png","marca":"fe","modelo":"feeditadoknmkn","nropasajeros":"1","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"1","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-08 00:46:58 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 470.
+ 1 APPPATH\Controllers\GestionTransporteController.php(470): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"Captura de pantalla 2023-06-18 160650 - copia - copia_7.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_8.png","marca":"scaasceditacion","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"},{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"Captura de pantalla 2023-04-28 122838_2.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_10.png","marca":"fe","modelo":"feeditadoknmkn","nropasajeros":"1","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"1","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+WARNING - 2024-05-08 00:47:10 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 470.
+ 1 APPPATH\Controllers\GestionTransporteController.php(470): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(295): App\Controllers\GestionTransporteController->datatables('[{"id":"8","nombreconductor":"asd","apellidoconductor":"asd","imagenautomovil":"Captura de pantalla 2023-04-28 122838_2.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_10.png","marca":"fe","modelo":"feeditadoknmkn","nropasajeros":"1","nrochasis":"fe","soat":"1","a_soat":"fe","inspeccion":"1","color":"ef","placa":"ef","duenomovil":"few","nrotelefono":"123","tipovehiculo":"asd","created_at":"2024-05-06 22:38:48"},{"id":"10","nombreconductor":"sd","apellidoconductor":"asc","imagenautomovil":"Captura de pantalla 2023-04-28 122838_3.png","imagenconductor":"Captura de pantalla 2023-06-18 160922 - copia_11.png","marca":"scaasceditacion","modelo":"asc","nropasajeros":"1","nrochasis":"cssc","soat":"1","a_soat":"asc","inspeccion":"1","color":"asc","placa":"asc","duenomovil":"sc","nrotelefono":"213","tipovehiculo":"asc","created_at":"2024-05-07 22:54:43"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosAutomovilView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')

@@ -1,0 +1,1209 @@
+INFO - 2024-06-15 19:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 19:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 19:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 19:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 19:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 19:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 19:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 19:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 19:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 19:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 19:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 19:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 19:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 19:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 19:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 19:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 19:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 19:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 19:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 19:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 19:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 19:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 19:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 19:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 19:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 19:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 19:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 19:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-15 20:02:00 --> Error: Call to a member function getResultArray() on bool
+in APPPATH\Models\GestionSeguimientoGPS.php on line 62.
+ 1 APPPATH\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->Eliminar()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-15 20:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-15 20:06:47 --> ErrorException: pg_query(): Query failed: ERROR:  parse error - invalid geometry
+HINT:  &quot;LINESTRING()&quot; &lt;-- parse error at position 13 within geometry in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), '\r\n        INSER...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('\r\n        INSER...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        INSER...')
+#4 C:\laragon\www\geotranck-dev\app\Models\GestionSeguimientoGPS.php(82): CodeIgniter\Database\BaseConnection->query('\r\n        INSER...', Array)
+#5 C:\laragon\www\geotranck-dev\app\Controllers\SeguimientoGPSController.php(48): App\Models\GestionSeguimientoGPS->GuardarDatosRuta(Array)
+#6 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-06-15 20:06:47 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  parse error - invalid geometry
+HINT:  &quot;LINESTRING()&quot; &lt;-- parse error at position 13 within geometry
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\GestionSeguimientoGPS.php(82): CodeIgniter\Database\BaseConnection->query('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:06:47\' , \'2024-06-15 20:06:47\');
+        ', [...])
+ 2 APPPATH\Controllers\SeguimientoGPSController.php(48): App\Models\GestionSeguimientoGPS->GuardarDatosRuta([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-15 20:06:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  parse error - invalid geometry
+HINT:  &quot;LINESTRING()&quot; &lt;-- parse error at position 13 within geometry
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:06:47\' , \'2024-06-15 20:06:47\');
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:06:47\' , \'2024-06-15 20:06:47\');
+        ')
+ 3 APPPATH\Models\GestionSeguimientoGPS.php(82): CodeIgniter\Database\BaseConnection->query('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:06:47\' , \'2024-06-15 20:06:47\');
+        ', [...])
+ 4 APPPATH\Controllers\SeguimientoGPSController.php(48): App\Models\GestionSeguimientoGPS->GuardarDatosRuta([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-15 20:06:47 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  parse error - invalid geometry
+HINT:  &quot;LINESTRING()&quot; &lt;-- parse error at position 13 within geometry
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  parse error - invalid geometry
+HINT:  &quot;LINESTRING()&quot; &lt;-- parse error at position 13 within geometry', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), '
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:06:47\' , \'2024-06-15 20:06:47\');
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:06:47\' , \'2024-06-15 20:06:47\');
+        ')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:06:47\' , \'2024-06-15 20:06:47\');
+        ')
+ 5 APPPATH\Models\GestionSeguimientoGPS.php(82): CodeIgniter\Database\BaseConnection->query('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:06:47\' , \'2024-06-15 20:06:47\');
+        ', [...])
+ 6 APPPATH\Controllers\SeguimientoGPSController.php(48): App\Models\GestionSeguimientoGPS->GuardarDatosRuta([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-15 20:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-15 20:08:01 --> Error: Call to a member function getResultArray() on bool
+in APPPATH\Models\GestionSeguimientoGPS.php on line 62.
+ 1 APPPATH\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->Eliminar()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-15 20:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-15 20:10:17 --> ErrorException: pg_query(): Query failed: ERROR:  parse error - invalid geometry
+HINT:  &quot;LINESTRING()&quot; &lt;-- parse error at position 13 within geometry in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), '\r\n        INSER...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('\r\n        INSER...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        INSER...')
+#4 C:\laragon\www\geotranck-dev\app\Models\GestionSeguimientoGPS.php(82): CodeIgniter\Database\BaseConnection->query('\r\n        INSER...', Array)
+#5 C:\laragon\www\geotranck-dev\app\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->GuardarDatosRuta(Array)
+#6 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-06-15 20:10:17 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  parse error - invalid geometry
+HINT:  &quot;LINESTRING()&quot; &lt;-- parse error at position 13 within geometry
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\GestionSeguimientoGPS.php(82): CodeIgniter\Database\BaseConnection->query('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:10:17\' , \'2024-06-15 20:10:17\');
+        ', [...])
+ 2 APPPATH\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->GuardarDatosRuta([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-15 20:10:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  parse error - invalid geometry
+HINT:  &quot;LINESTRING()&quot; &lt;-- parse error at position 13 within geometry
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:10:17\' , \'2024-06-15 20:10:17\');
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:10:17\' , \'2024-06-15 20:10:17\');
+        ')
+ 3 APPPATH\Models\GestionSeguimientoGPS.php(82): CodeIgniter\Database\BaseConnection->query('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:10:17\' , \'2024-06-15 20:10:17\');
+        ', [...])
+ 4 APPPATH\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->GuardarDatosRuta([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-15 20:10:17 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  parse error - invalid geometry
+HINT:  &quot;LINESTRING()&quot; &lt;-- parse error at position 13 within geometry
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  parse error - invalid geometry
+HINT:  &quot;LINESTRING()&quot; &lt;-- parse error at position 13 within geometry', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), '
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:10:17\' , \'2024-06-15 20:10:17\');
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:10:17\' , \'2024-06-15 20:10:17\');
+        ')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:10:17\' , \'2024-06-15 20:10:17\');
+        ')
+ 5 APPPATH\Models\GestionSeguimientoGPS.php(82): CodeIgniter\Database\BaseConnection->query('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:10:17\' , \'2024-06-15 20:10:17\');
+        ', [...])
+ 6 APPPATH\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->GuardarDatosRuta([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-15 20:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-15 20:11:25 --> Error: Call to a member function getResultArray() on bool
+in APPPATH\Models\GestionSeguimientoGPS.php on line 62.
+ 1 APPPATH\Controllers\SeguimientoGPSController.php(50): App\Models\GestionSeguimientoGPS->Eliminar()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-15 20:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-15 20:14:24 --> ErrorException: pg_query(): Query failed: ERROR:  geometry requires more points
+HINT:  &quot;LINESTRING(-68.1934848 -16.498688)&quot; &lt;-- parse error at position 37 within geometry in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), '\r\n        INSER...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('\r\n        INSER...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        INSER...')
+#4 C:\laragon\www\geotranck-dev\app\Models\GestionSeguimientoGPS.php(81): CodeIgniter\Database\BaseConnection->query('\r\n        INSER...', Array)
+#5 C:\laragon\www\geotranck-dev\app\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->GuardarDatosRuta(Array)
+#6 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-06-15 20:14:24 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  geometry requires more points
+HINT:  &quot;LINESTRING(-68.1934848 -16.498688)&quot; &lt;-- parse error at position 37 within geometry
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\GestionSeguimientoGPS.php(81): CodeIgniter\Database\BaseConnection->query('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:14:24\' , \'2024-06-15 20:14:24\');
+        ', [...])
+ 2 APPPATH\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->GuardarDatosRuta([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-15 20:14:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  geometry requires more points
+HINT:  &quot;LINESTRING(-68.1934848 -16.498688)&quot; &lt;-- parse error at position 37 within geometry
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:14:24\' , \'2024-06-15 20:14:24\');
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:14:24\' , \'2024-06-15 20:14:24\');
+        ')
+ 3 APPPATH\Models\GestionSeguimientoGPS.php(81): CodeIgniter\Database\BaseConnection->query('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:14:24\' , \'2024-06-15 20:14:24\');
+        ', [...])
+ 4 APPPATH\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->GuardarDatosRuta([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-15 20:14:24 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  geometry requires more points
+HINT:  &quot;LINESTRING(-68.1934848 -16.498688)&quot; &lt;-- parse error at position 37 within geometry
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  geometry requires more points
+HINT:  &quot;LINESTRING(-68.1934848 -16.498688)&quot; &lt;-- parse error at position 37 within geometry', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), '
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:14:24\' , \'2024-06-15 20:14:24\');
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:14:24\' , \'2024-06-15 20:14:24\');
+        ')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:14:24\' , \'2024-06-15 20:14:24\');
+        ')
+ 5 APPPATH\Models\GestionSeguimientoGPS.php(81): CodeIgniter\Database\BaseConnection->query('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:14:24\' , \'2024-06-15 20:14:24\');
+        ', [...])
+ 6 APPPATH\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->GuardarDatosRuta([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-15 20:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-15 20:15:19 --> Error: Call to a member function getResultArray() on bool
+in APPPATH\Models\GestionSeguimientoGPS.php on line 61.
+ 1 APPPATH\Controllers\SeguimientoGPSController.php(50): App\Models\GestionSeguimientoGPS->Eliminar()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-15 20:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-15 20:17:13 --> Error: Call to a member function getResultArray() on bool
+in APPPATH\Models\GestionSeguimientoGPS.php on line 85.
+ 1 APPPATH\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->GuardarDatosRuta([...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-15 20:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-15 20:19:55 --> Error: Call to a member function getResultArray() on bool
+in APPPATH\Models\GestionSeguimientoGPS.php on line 85.
+ 1 APPPATH\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->GuardarDatosRuta([...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-15 20:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-15 20:21:24 --> Error: Call to a member function getResultArray() on bool
+in APPPATH\Models\GestionSeguimientoGPS.php on line 61.
+ 1 APPPATH\Controllers\SeguimientoGPSController.php(50): App\Models\GestionSeguimientoGPS->Eliminar()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-15 20:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:24:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-15 20:30:08 --> ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «where»
+LINE 3: ...1, '2024-06-15 20:30:08' , '2024-06-15 20:30:08') where id_u...
+                                                             ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), '\r\n        INSER...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('\r\n        INSER...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        INSER...')
+#4 C:\laragon\www\geotranck-dev\app\Models\GestionSeguimientoGPS.php(81): CodeIgniter\Database\BaseConnection->query('\r\n        INSER...', Array)
+#5 C:\laragon\www\geotranck-dev\app\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->GuardarDatosRuta(Array)
+#6 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-06-15 20:30:08 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «where»
+LINE 3: ...1, '2024-06-15 20:30:08' , '2024-06-15 20:30:08') where id_u...
+                                                             ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\GestionSeguimientoGPS.php(81): CodeIgniter\Database\BaseConnection->query('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:30:08\' , \'2024-06-15 20:30:08\') where id_usuario=25;
+        ', [...])
+ 2 APPPATH\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->GuardarDatosRuta([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-15 20:30:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «where»
+LINE 3: ...1, '2024-06-15 20:30:08' , '2024-06-15 20:30:08') where id_u...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:30:08\' , \'2024-06-15 20:30:08\') where id_usuario=25;
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:30:08\' , \'2024-06-15 20:30:08\') where id_usuario=25;
+        ')
+ 3 APPPATH\Models\GestionSeguimientoGPS.php(81): CodeIgniter\Database\BaseConnection->query('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:30:08\' , \'2024-06-15 20:30:08\') where id_usuario=25;
+        ', [...])
+ 4 APPPATH\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->GuardarDatosRuta([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-15 20:30:08 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «where»
+LINE 3: ...1, '2024-06-15 20:30:08' , '2024-06-15 20:30:08') where id_u...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «where»
+LINE 3: ...1, \'2024-06-15 20:30:08\' , \'2024-06-15 20:30:08\') where id_u...
+                                                             ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), '
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:30:08\' , \'2024-06-15 20:30:08\') where id_usuario=25;
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:30:08\' , \'2024-06-15 20:30:08\') where id_usuario=25;
+        ')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:30:08\' , \'2024-06-15 20:30:08\') where id_usuario=25;
+        ')
+ 5 APPPATH\Models\GestionSeguimientoGPS.php(81): CodeIgniter\Database\BaseConnection->query('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:30:08\' , \'2024-06-15 20:30:08\') where id_usuario=25;
+        ', [...])
+ 6 APPPATH\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->GuardarDatosRuta([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-15 20:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-15 20:30:52 --> ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «where»
+LINE 3: ...1, '2024-06-15 20:30:52' , '2024-06-15 20:30:52') where id_u...
+                                                             ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), '\r\n        INSER...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('\r\n        INSER...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        INSER...')
+#4 C:\laragon\www\geotranck-dev\app\Models\GestionSeguimientoGPS.php(81): CodeIgniter\Database\BaseConnection->query('\r\n        INSER...', Array)
+#5 C:\laragon\www\geotranck-dev\app\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->GuardarDatosRuta(Array)
+#6 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-06-15 20:30:52 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «where»
+LINE 3: ...1, '2024-06-15 20:30:52' , '2024-06-15 20:30:52') where id_u...
+                                                             ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\GestionSeguimientoGPS.php(81): CodeIgniter\Database\BaseConnection->query('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:30:52\' , \'2024-06-15 20:30:52\') where id_usuario=2;
+        ', [...])
+ 2 APPPATH\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->GuardarDatosRuta([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-15 20:30:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «where»
+LINE 3: ...1, '2024-06-15 20:30:52' , '2024-06-15 20:30:52') where id_u...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:30:52\' , \'2024-06-15 20:30:52\') where id_usuario=2;
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:30:52\' , \'2024-06-15 20:30:52\') where id_usuario=2;
+        ')
+ 3 APPPATH\Models\GestionSeguimientoGPS.php(81): CodeIgniter\Database\BaseConnection->query('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:30:52\' , \'2024-06-15 20:30:52\') where id_usuario=2;
+        ', [...])
+ 4 APPPATH\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->GuardarDatosRuta([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-15 20:30:52 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «where»
+LINE 3: ...1, '2024-06-15 20:30:52' , '2024-06-15 20:30:52') where id_u...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «where»
+LINE 3: ...1, \'2024-06-15 20:30:52\' , \'2024-06-15 20:30:52\') where id_u...
+                                                             ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), '
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:30:52\' , \'2024-06-15 20:30:52\') where id_usuario=2;
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:30:52\' , \'2024-06-15 20:30:52\') where id_usuario=2;
+        ')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:30:52\' , \'2024-06-15 20:30:52\') where id_usuario=2;
+        ')
+ 5 APPPATH\Models\GestionSeguimientoGPS.php(81): CodeIgniter\Database\BaseConnection->query('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:30:52\' , \'2024-06-15 20:30:52\') where id_usuario=2;
+        ', [...])
+ 6 APPPATH\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->GuardarDatosRuta([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-15 20:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-15 20:30:56 --> ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «where»
+LINE 3: ...1, '2024-06-15 20:30:56' , '2024-06-15 20:30:56') where id_u...
+                                                             ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), '\r\n        INSER...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('\r\n        INSER...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        INSER...')
+#4 C:\laragon\www\geotranck-dev\app\Models\GestionSeguimientoGPS.php(81): CodeIgniter\Database\BaseConnection->query('\r\n        INSER...', Array)
+#5 C:\laragon\www\geotranck-dev\app\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->GuardarDatosRuta(Array)
+#6 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-06-15 20:30:56 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «where»
+LINE 3: ...1, '2024-06-15 20:30:56' , '2024-06-15 20:30:56') where id_u...
+                                                             ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\GestionSeguimientoGPS.php(81): CodeIgniter\Database\BaseConnection->query('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:30:56\' , \'2024-06-15 20:30:56\') where id_usuario=2;
+        ', [...])
+ 2 APPPATH\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->GuardarDatosRuta([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-15 20:30:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «where»
+LINE 3: ...1, '2024-06-15 20:30:56' , '2024-06-15 20:30:56') where id_u...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:30:56\' , \'2024-06-15 20:30:56\') where id_usuario=2;
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:30:56\' , \'2024-06-15 20:30:56\') where id_usuario=2;
+        ')
+ 3 APPPATH\Models\GestionSeguimientoGPS.php(81): CodeIgniter\Database\BaseConnection->query('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:30:56\' , \'2024-06-15 20:30:56\') where id_usuario=2;
+        ', [...])
+ 4 APPPATH\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->GuardarDatosRuta([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-15 20:30:56 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «where»
+LINE 3: ...1, '2024-06-15 20:30:56' , '2024-06-15 20:30:56') where id_u...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «where»
+LINE 3: ...1, \'2024-06-15 20:30:56\' , \'2024-06-15 20:30:56\') where id_u...
+                                                             ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), '
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:30:56\' , \'2024-06-15 20:30:56\') where id_usuario=2;
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:30:56\' , \'2024-06-15 20:30:56\') where id_usuario=2;
+        ')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:30:56\' , \'2024-06-15 20:30:56\') where id_usuario=2;
+        ')
+ 5 APPPATH\Models\GestionSeguimientoGPS.php(81): CodeIgniter\Database\BaseConnection->query('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING(-68.1934848 -16.498688)\', 4326),  1, \'2024-06-15 20:30:56\' , \'2024-06-15 20:30:56\') where id_usuario=2;
+        ', [...])
+ 6 APPPATH\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->GuardarDatosRuta([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-15 20:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-15 20:33:09 --> ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «estado»
+LINE 3:                 WHERE id_usuario=2 estado = 1
+                                           ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'SELECT ST_X(ubi...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT ST_X(ubi...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ST_X(ubi...')
+#4 C:\laragon\www\geotranck-dev\app\Models\GestionSeguimientoGPS.php(42): CodeIgniter\Database\BaseConnection->query('SELECT ST_X(ubi...')
+#5 C:\laragon\www\geotranck-dev\app\Controllers\SeguimientoGPSController.php(33): App\Models\GestionSeguimientoGPS->extraerRutaGps()
+#6 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-06-15 20:33:09 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «estado»
+LINE 3:                 WHERE id_usuario=2 estado = 1
+                                           ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\GestionSeguimientoGPS.php(42): CodeIgniter\Database\BaseConnection->query('SELECT ST_X(ubicacionTipoReal) AS longitud, ST_Y(ubicacionTipoReal) AS latitud
+                FROM seguimientotiemporeal
+                WHERE id_usuario=2 estado = 1')
+ 2 APPPATH\Controllers\SeguimientoGPSController.php(33): App\Models\GestionSeguimientoGPS->extraerRutaGps()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-15 20:33:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «estado»
+LINE 3:                 WHERE id_usuario=2 estado = 1
+                                           ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT ST_X(ubicacionTipoReal) AS longitud, ST_Y(ubicacionTipoReal) AS latitud
+                FROM seguimientotiemporeal
+                WHERE id_usuario=2 estado = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ST_X(ubicacionTipoReal) AS longitud, ST_Y(ubicacionTipoReal) AS latitud
+                FROM seguimientotiemporeal
+                WHERE id_usuario=2 estado = 1')
+ 3 APPPATH\Models\GestionSeguimientoGPS.php(42): CodeIgniter\Database\BaseConnection->query('SELECT ST_X(ubicacionTipoReal) AS longitud, ST_Y(ubicacionTipoReal) AS latitud
+                FROM seguimientotiemporeal
+                WHERE id_usuario=2 estado = 1')
+ 4 APPPATH\Controllers\SeguimientoGPSController.php(33): App\Models\GestionSeguimientoGPS->extraerRutaGps()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-15 20:33:09 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «estado»
+LINE 3:                 WHERE id_usuario=2 estado = 1
+                                           ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «estado»
+LINE 3:                 WHERE id_usuario=2 estado = 1
+                                           ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'SELECT ST_X(ubicacionTipoReal) AS longitud, ST_Y(ubicacionTipoReal) AS latitud
+                FROM seguimientotiemporeal
+                WHERE id_usuario=2 estado = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT ST_X(ubicacionTipoReal) AS longitud, ST_Y(ubicacionTipoReal) AS latitud
+                FROM seguimientotiemporeal
+                WHERE id_usuario=2 estado = 1')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ST_X(ubicacionTipoReal) AS longitud, ST_Y(ubicacionTipoReal) AS latitud
+                FROM seguimientotiemporeal
+                WHERE id_usuario=2 estado = 1')
+ 5 APPPATH\Models\GestionSeguimientoGPS.php(42): CodeIgniter\Database\BaseConnection->query('SELECT ST_X(ubicacionTipoReal) AS longitud, ST_Y(ubicacionTipoReal) AS latitud
+                FROM seguimientotiemporeal
+                WHERE id_usuario=2 estado = 1')
+ 6 APPPATH\Controllers\SeguimientoGPSController.php(33): App\Models\GestionSeguimientoGPS->extraerRutaGps()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-15 20:33:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-15 20:33:14 --> ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «estado»
+LINE 3:                 WHERE id_usuario=2 estado = 1
+                                           ^ in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'SELECT ST_X(ubi...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT ST_X(ubi...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ST_X(ubi...')
+#4 C:\laragon\www\geotranck-dev\app\Models\GestionSeguimientoGPS.php(42): CodeIgniter\Database\BaseConnection->query('SELECT ST_X(ubi...')
+#5 C:\laragon\www\geotranck-dev\app\Controllers\SeguimientoGPSController.php(33): App\Models\GestionSeguimientoGPS->extraerRutaGps()
+#6 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-06-15 20:33:14 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «estado»
+LINE 3:                 WHERE id_usuario=2 estado = 1
+                                           ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\GestionSeguimientoGPS.php(42): CodeIgniter\Database\BaseConnection->query('SELECT ST_X(ubicacionTipoReal) AS longitud, ST_Y(ubicacionTipoReal) AS latitud
+                FROM seguimientotiemporeal
+                WHERE id_usuario=2 estado = 1')
+ 2 APPPATH\Controllers\SeguimientoGPSController.php(33): App\Models\GestionSeguimientoGPS->extraerRutaGps()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-15 20:33:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «estado»
+LINE 3:                 WHERE id_usuario=2 estado = 1
+                                           ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT ST_X(ubicacionTipoReal) AS longitud, ST_Y(ubicacionTipoReal) AS latitud
+                FROM seguimientotiemporeal
+                WHERE id_usuario=2 estado = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ST_X(ubicacionTipoReal) AS longitud, ST_Y(ubicacionTipoReal) AS latitud
+                FROM seguimientotiemporeal
+                WHERE id_usuario=2 estado = 1')
+ 3 APPPATH\Models\GestionSeguimientoGPS.php(42): CodeIgniter\Database\BaseConnection->query('SELECT ST_X(ubicacionTipoReal) AS longitud, ST_Y(ubicacionTipoReal) AS latitud
+                FROM seguimientotiemporeal
+                WHERE id_usuario=2 estado = 1')
+ 4 APPPATH\Controllers\SeguimientoGPSController.php(33): App\Models\GestionSeguimientoGPS->extraerRutaGps()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-15 20:33:14 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «estado»
+LINE 3:                 WHERE id_usuario=2 estado = 1
+                                           ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «estado»
+LINE 3:                 WHERE id_usuario=2 estado = 1
+                                           ^', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), 'SELECT ST_X(ubicacionTipoReal) AS longitud, ST_Y(ubicacionTipoReal) AS latitud
+                FROM seguimientotiemporeal
+                WHERE id_usuario=2 estado = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT ST_X(ubicacionTipoReal) AS longitud, ST_Y(ubicacionTipoReal) AS latitud
+                FROM seguimientotiemporeal
+                WHERE id_usuario=2 estado = 1')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ST_X(ubicacionTipoReal) AS longitud, ST_Y(ubicacionTipoReal) AS latitud
+                FROM seguimientotiemporeal
+                WHERE id_usuario=2 estado = 1')
+ 5 APPPATH\Models\GestionSeguimientoGPS.php(42): CodeIgniter\Database\BaseConnection->query('SELECT ST_X(ubicacionTipoReal) AS longitud, ST_Y(ubicacionTipoReal) AS latitud
+                FROM seguimientotiemporeal
+                WHERE id_usuario=2 estado = 1')
+ 6 APPPATH\Controllers\SeguimientoGPSController.php(33): App\Models\GestionSeguimientoGPS->extraerRutaGps()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-15 20:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-15 20:33:32 --> ErrorException: pg_query(): Query failed: ERROR:  parse error - invalid geometry
+HINT:  &quot;LINESTRING()&quot; &lt;-- parse error at position 13 within geometry in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), '\r\n        INSER...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('\r\n        INSER...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        INSER...')
+#4 C:\laragon\www\geotranck-dev\app\Models\GestionSeguimientoGPS.php(82): CodeIgniter\Database\BaseConnection->query('\r\n        INSER...', Array)
+#5 C:\laragon\www\geotranck-dev\app\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->GuardarDatosRuta(Array)
+#6 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-06-15 20:33:32 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  parse error - invalid geometry
+HINT:  &quot;LINESTRING()&quot; &lt;-- parse error at position 13 within geometry
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\GestionSeguimientoGPS.php(82): CodeIgniter\Database\BaseConnection->query('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:33:32\' , \'2024-06-15 20:33:32\');
+        ', [...])
+ 2 APPPATH\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->GuardarDatosRuta([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-15 20:33:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  parse error - invalid geometry
+HINT:  &quot;LINESTRING()&quot; &lt;-- parse error at position 13 within geometry
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:33:32\' , \'2024-06-15 20:33:32\');
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:33:32\' , \'2024-06-15 20:33:32\');
+        ')
+ 3 APPPATH\Models\GestionSeguimientoGPS.php(82): CodeIgniter\Database\BaseConnection->query('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:33:32\' , \'2024-06-15 20:33:32\');
+        ', [...])
+ 4 APPPATH\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->GuardarDatosRuta([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-15 20:33:32 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  parse error - invalid geometry
+HINT:  &quot;LINESTRING()&quot; &lt;-- parse error at position 13 within geometry
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  parse error - invalid geometry
+HINT:  &quot;LINESTRING()&quot; &lt;-- parse error at position 13 within geometry', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), '
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:33:32\' , \'2024-06-15 20:33:32\');
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:33:32\' , \'2024-06-15 20:33:32\');
+        ')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:33:32\' , \'2024-06-15 20:33:32\');
+        ')
+ 5 APPPATH\Models\GestionSeguimientoGPS.php(82): CodeIgniter\Database\BaseConnection->query('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:33:32\' , \'2024-06-15 20:33:32\');
+        ', [...])
+ 6 APPPATH\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->GuardarDatosRuta([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-15 20:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-15 20:33:36 --> ErrorException: pg_query(): Query failed: ERROR:  parse error - invalid geometry
+HINT:  &quot;LINESTRING()&quot; &lt;-- parse error at position 13 within geometry in C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 187)
+#1 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), '\r\n        INSER...')
+#2 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('\r\n        INSER...')
+#3 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        INSER...')
+#4 C:\laragon\www\geotranck-dev\app\Models\GestionSeguimientoGPS.php(82): CodeIgniter\Database\BaseConnection->query('\r\n        INSER...', Array)
+#5 C:\laragon\www\geotranck-dev\app\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->GuardarDatosRuta(Array)
+#6 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+#7 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+#8 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\geotranck-dev\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\geotranck-dev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-06-15 20:33:36 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  parse error - invalid geometry
+HINT:  &quot;LINESTRING()&quot; &lt;-- parse error at position 13 within geometry
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\GestionSeguimientoGPS.php(82): CodeIgniter\Database\BaseConnection->query('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:33:36\' , \'2024-06-15 20:33:36\');
+        ', [...])
+ 2 APPPATH\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->GuardarDatosRuta([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-15 20:33:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  parse error - invalid geometry
+HINT:  &quot;LINESTRING()&quot; &lt;-- parse error at position 13 within geometry
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:33:36\' , \'2024-06-15 20:33:36\');
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:33:36\' , \'2024-06-15 20:33:36\');
+        ')
+ 3 APPPATH\Models\GestionSeguimientoGPS.php(82): CodeIgniter\Database\BaseConnection->query('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:33:36\' , \'2024-06-15 20:33:36\');
+        ', [...])
+ 4 APPPATH\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->GuardarDatosRuta([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+CRITICAL - 2024-06-15 20:33:36 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  parse error - invalid geometry
+HINT:  &quot;LINESTRING()&quot; &lt;-- parse error at position 13 within geometry
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  parse error - invalid geometry
+HINT:  &quot;LINESTRING()&quot; &lt;-- parse error at position 13 within geometry', 'C:\\laragon\\www\\geotranck-dev\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 187)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(Object(PgSql\Connection), '
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:33:36\' , \'2024-06-15 20:33:36\');
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:33:36\' , \'2024-06-15 20:33:36\');
+        ')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:33:36\' , \'2024-06-15 20:33:36\');
+        ')
+ 5 APPPATH\Models\GestionSeguimientoGPS.php(82): CodeIgniter\Database\BaseConnection->query('
+        INSERT INTO rutasAutomovil (id_usuario, ubicacionTipoReal,estado, created_at, updated_at) values
+        ( 25 , ST_GeomFromText(\'LINESTRING()\', 4326),  1, \'2024-06-15 20:33:36\' , \'2024-06-15 20:33:36\');
+        ', [...])
+ 6 APPPATH\Controllers\SeguimientoGPSController.php(49): App\Models\GestionSeguimientoGPS->GuardarDatosRuta([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SeguimientoGPSController->guardarRuta()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeguimientoGPSController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-15 20:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:39:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 20:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-15 20:41:37 --> [DEPRECATED] usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in APPPATH\Controllers\GestionTransporteController.php on line 632.
+ 1 APPPATH\Controllers\GestionTransporteController.php(632): usort([...], Object(Closure))
+ 2 APPPATH\Controllers\GestionTransporteController.php(517): App\Controllers\GestionTransporteController->datatables('[{"id":"1","nombre":"Juan P\\u00e9rez","cargo":"Director","correoelectronico":"juan.perez@example.com","telefono":"712345678","direccion":"Calle 123","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"2","nombre":"Mar\\u00eda Garc\\u00eda","cargo":"Profesora","correoelectronico":"maria.garcia@example.com","telefono":"613456789","direccion":"Avenida 456","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"3","nombre":"Pedro Rodr\\u00edguez","cargo":"Secretario","correoelectronico":"pedro.rodriguez@example.com","telefono":"714567890","direccion":"Boulevard 789","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"4","nombre":"Luisa Mart\\u00ednez","cargo":"Conserje","correoelectronico":"luisa.martinez@example.com","telefono":"615678901","direccion":"Calle 987","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"5","nombre":"Carlos S\\u00e1nchez","cargo":"Administrativo","correoelectronico":"carlos.sanchez@example.com","telefono":"716789012","direccion":"Avenida 654","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"7","nombre":"Jorge Fern\\u00e1ndez","cargo":"Consejero","correoelectronico":"jorge.fernandez@example.com","telefono":"717890234","direccion":"Avenida 012","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"8","nombre":"Laura Torres","cargo":"Recepcionista","correoelectronico":"laura.torres@example.com","telefono":"618901234","direccion":"Boulevard 345","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"9","nombre":"Diego G\\u00f3mez","cargo":"Entrenador","correoelectronico":"diego.gomez@example.com","telefono":"719012345","direccion":"Calle 678","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"11","nombre":"Roberto Gonz\\u00e1lez","cargo":"Profesor","correoelectronico":"roberto.gonzalez@example.com","telefono":"712345678","direccion":"Calle 123","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"12","nombre":"Isabel Ram\\u00edrez","cargo":"Directora","correoelectronico":"isabel.ramirez@example.com","telefono":"613456789","direccion":"Avenida 456","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"13","nombre":"Fernando Ruiz","cargo":"Secretario","correoelectronico":"fernando.ruiz@example.com","telefono":"714567890","direccion":"Boulevard 789","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"14","nombre":"Silvia Jim\\u00e9nez","cargo":"Conserje","correoelectronico":"silvia.jimenez@example.com","telefono":"615678901","direccion":"Calle 987","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"15","nombre":"Miguel Rodr\\u00edguez","cargo":"Administrativo","correoelectronico":"miguel.rodriguez@example.com","telefono":"716789012","direccion":"Avenida 654","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"16","nombre":"Carmen Garc\\u00eda","cargo":"Enfermera","correoelectronico":"carmen.garcia@example.com","telefono":"617890123","direccion":"Calle 321","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"18","nombre":"Patricia Mart\\u00ednez","cargo":"Recepcionista","correoelectronico":"patricia.martinez@example.com","telefono":"618901234","direccion":"Boulevard 345","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"19","nombre":"Ricardo S\\u00e1nchez","cargo":"Entrenador","correoelectronico":"ricardo.sanchez@example.com","telefono":"719012345","direccion":"Calle 678","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"20","nombre":"Gloria Fern\\u00e1ndez","cargo":"Psic\\u00f3loga","correoelectronico":"gloria.fernandez@example.com","telefono":"619123456","direccion":"Avenida 567","estado":"1","created_at":"2024-05-24 04:27:39.450734"},{"id":"21","nombre":"Ana Perez","cargo":"Profesor","correoelectronico":"ana@perez.con","telefono":"756843388","direccion":"Calle A","estado":"1","created_at":"2024-05-24 00:55:04"},{"id":"10","nombre":"Maria","cargo":"Mercado","correoelectronico":"sofia.hernandez@example.com","telefono":"619123456","direccion":"Avenida 567","estado":"1","created_at":"2024-05-24 04:27:39.450734"}]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\GestionTransporteController->DatosTelefonoView()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GestionTransporteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-15 20:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 21:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 21:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 21:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 21:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 21:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-15 21:39:08 --> ParseError: syntax error, unexpected token "if", expecting ";"
+in APPPATH\Controllers\AdministradorController.php on line 41.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\geotranck-dev\\app\\Controllers\\AdministradorController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdministradorController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdministradorController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AdministradorController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-15 21:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 21:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 21:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 21:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 21:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 21:42:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 21:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 21:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 21:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 21:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 21:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 21:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-15 21:47:07 --> ErrorException: Undefined variable $datos
+in APPPATH\Views\2_Administrador\6_content_page_view.php on line 316.
+ 1 APPPATH\Views\2_Administrador\6_content_page_view.php(316): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\laragon\\www\\geotranck-dev\\app\\Views\\2_Administrador\\6_content_page_view.php', 316)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\geotranck-dev\\app\\Views\\2_Administrador\\6_content_page_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('2_Administrador/6_content_page_view.php', [], true)
+ 5 APPPATH\Controllers\AdministradorController.php(101): view('2_Administrador/6_content_page_view.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdministradorController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministradorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-15 21:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-15 21:47:40 --> ErrorException: Undefined variable $datosEstudiantePadre
+in APPPATH\Views\2_Administrador\6_content_page_view.php on line 316.
+ 1 APPPATH\Views\2_Administrador\6_content_page_view.php(316): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datosEstudiantePadre', 'C:\\laragon\\www\\geotranck-dev\\app\\Views\\2_Administrador\\6_content_page_view.php', 316)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\geotranck-dev\\app\\Views\\2_Administrador\\6_content_page_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('2_Administrador/6_content_page_view.php', [], true)
+ 5 APPPATH\Controllers\AdministradorController.php(101): view('2_Administrador/6_content_page_view.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdministradorController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministradorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-15 21:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-15 22:02:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "2_Administrador/6_content_page_vissew.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('2_Administrador/6_content_page_vissew.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('2_Administrador/6_content_page_vissew.php', [], true)
+ 3 APPPATH\Controllers\AdministradorController.php(101): view('2_Administrador/6_content_page_vissew.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdministradorController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministradorController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-15 22:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-15 22:07:03 --> ErrorException: Undefined variable $dataEstudiante
+in APPPATH\Views\2_Administrador\6_content_page_view.php on line 400.
+ 1 APPPATH\Views\2_Administrador\6_content_page_view.php(400): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataEstudiante', 'C:\\laragon\\www\\geotranck-dev\\app\\Views\\2_Administrador\\6_content_page_view.php', 400)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\geotranck-dev\\app\\Views\\2_Administrador\\6_content_page_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('2_Administrador/6_content_page_view.php', [], true)
+ 5 APPPATH\Controllers\AdministradorController.php(104): view('2_Administrador/6_content_page_view.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdministradorController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministradorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-15 22:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-15 22:08:23 --> ErrorException: Undefined array key "imagenestudiante"
+in APPPATH\Views\2_Administrador\6_content_page_view.php on line 405.
+ 1 APPPATH\Views\2_Administrador\6_content_page_view.php(405): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagenestudiante"', 'C:\\laragon\\www\\geotranck-dev\\app\\Views\\2_Administrador\\6_content_page_view.php', 405)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\geotranck-dev\\app\\Views\\2_Administrador\\6_content_page_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('2_Administrador/6_content_page_view.php', [], true)
+ 5 APPPATH\Controllers\AdministradorController.php(104): view('2_Administrador/6_content_page_view.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdministradorController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministradorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-15 22:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-15 22:13:42 --> ErrorException: Undefined array key "imagenestudiante"
+in APPPATH\Views\2_Administrador\6_content_page_view.php on line 405.
+ 1 APPPATH\Views\2_Administrador\6_content_page_view.php(405): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagenestudiante"', 'C:\\laragon\\www\\geotranck-dev\\app\\Views\\2_Administrador\\6_content_page_view.php', 405)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\geotranck-dev\\app\\Views\\2_Administrador\\6_content_page_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('2_Administrador/6_content_page_view.php', [], true)
+ 5 APPPATH\Controllers\AdministradorController.php(104): view('2_Administrador/6_content_page_view.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdministradorController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministradorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-15 22:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-15 22:14:21 --> ErrorException: Undefined array key "nom_estudiante"
+in APPPATH\Views\2_Administrador\6_content_page_view.php on line 405.
+ 1 APPPATH\Views\2_Administrador\6_content_page_view.php(405): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nom_estudiante"', 'C:\\laragon\\www\\geotranck-dev\\app\\Views\\2_Administrador\\6_content_page_view.php', 405)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\geotranck-dev\\app\\Views\\2_Administrador\\6_content_page_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('2_Administrador/6_content_page_view.php', [], true)
+ 5 APPPATH\Controllers\AdministradorController.php(104): view('2_Administrador/6_content_page_view.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdministradorController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministradorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-15 22:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-15 22:15:05 --> ErrorException: Undefined array key "curso"
+in APPPATH\Views\2_Administrador\6_content_page_view.php on line 408.
+ 1 APPPATH\Views\2_Administrador\6_content_page_view.php(408): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "curso"', 'C:\\laragon\\www\\geotranck-dev\\app\\Views\\2_Administrador\\6_content_page_view.php', 408)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\geotranck-dev\\app\\Views\\2_Administrador\\6_content_page_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('2_Administrador/6_content_page_view.php', [], true)
+ 5 APPPATH\Controllers\AdministradorController.php(104): view('2_Administrador/6_content_page_view.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdministradorController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministradorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-15 22:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:31:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:43:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 22:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-15 23:16:04 --> ErrorException: Undefined array key "imagenestudiante"
+in APPPATH\Views\2_Administrador\6_content_page_view.php on line 250.
+ 1 APPPATH\Views\2_Administrador\6_content_page_view.php(250): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagenestudiante"', 'C:\\laragon\\www\\geotranck-dev\\app\\Views\\2_Administrador\\6_content_page_view.php', 250)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\geotranck-dev\\app\\Views\\2_Administrador\\6_content_page_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('2_Administrador/6_content_page_view.php', [], true)
+ 5 APPPATH\Controllers\AdministradorController.php(104): view('2_Administrador/6_content_page_view.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdministradorController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministradorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\geotranck-dev\\public\\index.php')
+INFO - 2024-06-15 23:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 23:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
